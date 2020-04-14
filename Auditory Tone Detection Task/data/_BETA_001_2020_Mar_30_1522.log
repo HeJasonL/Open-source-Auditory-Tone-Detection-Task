@@ -1,0 +1,18 @@
+10.9632 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+11.6844 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1365e8a58>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x137e6d908>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.6845 	EXP 	window1: recordFrameIntervals = False
+11.8505 	EXP 	window1: recordFrameIntervals = True
+12.2671 	EXP 	window1: recordFrameIntervals = False
+13.2839 	EXP 	Sound  set volume 0.000
+13.4013 	EXP 	Created Delay = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Delay', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='Sound on now\n', units='height', win=Window(...), wrapWidth=1)
+13.4066 	EXP 	Created ISI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='Sound off now', units='height', win=Window(...), wrapWidth=1)
+13.4068 	EXP 	Sound  set volume 1.000
+13.4089 	EXP 	Sound  set volume 1.000
+13.4096 	EXP 	Sound  set volume 1.000
+13.4223 	EXP 	Delay: autoDraw = True
+13.9210 	EXP 	Delay: autoDraw = False
+14.1379 	EXP 	ISI: autoDraw = True
+14.9206 	EXP 	ISI: autoDraw = False
+15.1878 	EXP 	Delay: autoDraw = False
+15.1878 	EXP 	ISI: autoDraw = False
+15.4766 	EXP 	window1: mouseVisible = True

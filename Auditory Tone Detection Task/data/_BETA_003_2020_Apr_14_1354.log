@@ -1,0 +1,98 @@
+15.2339 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+16.3879 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x13726d828>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x137bac630>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.3879 	EXP 	window1: recordFrameIntervals = False
+16.5528 	EXP 	window1: recordFrameIntervals = True
+16.7362 	EXP 	window1: recordFrameIntervals = False
+19.1687 	EXP 	Created Welcome_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Welcome_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.2615 	EXP 	Created Instructions_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.3494 	EXP 	Sound  set volume 1.000
+19.3572 	EXP 	Created Delay = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Delay', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='\n+\n', units='height', win=Window(...), wrapWidth=1)
+19.3584 	EXP 	Created ISI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+19.3586 	EXP 	Sound  set volume 1.000
+19.3832 	EXP 	Sound  set volume 1.000
+19.3840 	EXP 	Sound  set volume 1.000
+19.4533 	EXP 	Created Interval1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='Interval1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='1', units='height', win=Window(...), wrapWidth=1)
+19.4624 	EXP 	Created Interval2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='Interval2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='2', units='height', win=Window(...), wrapWidth=1)
+19.4931 	EXP 	Created Question_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Question_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.5056 	EXP 	Created Feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Feedback_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+19.5269 	EXP 	Created Next_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Next_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Press SPACE to start the next trial', units='height', win=Window(...), wrapWidth=1)
+19.9888 	EXP 	Welcome_Text: autoDraw = True
+20.8221 	DATA 	Keypress: space
+20.8387 	EXP 	Welcome_Text: autoDraw = False
+20.8387 	EXP 	Instructions_Text: autoDraw = True
+21.3538 	EXP 	Imported conditions.xlsx as conditions, 5 conditions, 5 params
+21.3601 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+21.3605 	EXP 	New trial (rep=0, index=0): OrderedDict([('interval', 1), ('probe1', 1), ('probe2', 0), ('startProbe1', 0.2), ('startProbe2', 0.0)])
+21.3683 	DATA 	Keypress: space
+21.3885 	EXP 	Instructions_Text: autoDraw = False
+21.3885 	EXP 	Delay: autoDraw = True
+22.3717 	EXP 	Delay: autoDraw = False
+22.3888 	EXP 	Interval1: autoDraw = True
+22.6718 	EXP 	Interval1: autoDraw = False
+22.6889 	EXP 	ISI: autoDraw = True
+23.4716 	EXP 	ISI: autoDraw = False
+23.4885 	EXP 	Interval2: autoDraw = True
+23.7718 	EXP 	Interval2: autoDraw = False
+24.1045 	EXP 	Delay: autoDraw = False
+24.1045 	EXP 	ISI: autoDraw = False
+24.1045 	EXP 	Interval1: autoDraw = False
+24.1045 	EXP 	Interval2: autoDraw = False
+24.1045 	EXP 	Question_Text: autoDraw = True
+24.8821 	DATA 	Keypress: 1
+24.8884 	EXP 	Question_Text: autoDraw = False
+24.8884 	EXP 	Feedback_text: color = 'white (named)'
+24.8884 	EXP 	Feedback_text: text = 50
+24.8884 	EXP 	Feedback_text: color = '[0.  0.5 0. ] (rgb)'
+24.8884 	EXP 	Feedback_text: autoDraw = True
+26.1884 	EXP 	Feedback_text: autoDraw = False
+26.1884 	EXP 	Feedback_text: autoDraw = False
+26.1884 	EXP 	Next_Text: autoDraw = True
+27.3736 	EXP 	New trial (rep=0, index=1): OrderedDict([('interval', 2), ('probe1', 0), ('probe2', 1), ('startProbe1', 0.0), ('startProbe2', 0.2)])
+27.3776 	DATA 	Keypress: space
+27.3882 	EXP 	Next_Text: autoDraw = False
+27.3882 	EXP 	Delay: autoDraw = True
+28.3882 	EXP 	Delay: autoDraw = False
+28.4052 	EXP 	Interval1: autoDraw = True
+28.6885 	EXP 	Interval1: autoDraw = False
+28.7052 	EXP 	ISI: autoDraw = True
+29.4883 	EXP 	ISI: autoDraw = False
+29.5050 	EXP 	Interval2: autoDraw = True
+29.7885 	EXP 	Interval2: autoDraw = False
+30.1217 	EXP 	Delay: autoDraw = False
+30.1217 	EXP 	ISI: autoDraw = False
+30.1217 	EXP 	Interval1: autoDraw = False
+30.1217 	EXP 	Interval2: autoDraw = False
+30.1217 	EXP 	Question_Text: autoDraw = True
+33.0567 	DATA 	Keypress: 1
+33.0719 	EXP 	Question_Text: autoDraw = False
+33.0719 	EXP 	Feedback_text: color = 'white (named)'
+33.0719 	EXP 	Feedback_text: text = -1.997236376245042
+33.0719 	EXP 	Feedback_text: color = '[1. 0. 0.] (rgb)'
+33.0719 	EXP 	Feedback_text: autoDraw = True
+34.3382 	EXP 	Feedback_text: autoDraw = False
+34.3382 	EXP 	Feedback_text: autoDraw = False
+34.3382 	EXP 	Next_Text: autoDraw = True
+34.8904 	DATA 	Keypress: 2
+35.1568 	EXP 	New trial (rep=0, index=2): OrderedDict([('interval', 1), ('probe1', 1), ('probe2', 0), ('startProbe1', 0.2), ('startProbe2', 0.0)])
+35.1608 	DATA 	Keypress: space
+35.1717 	EXP 	Next_Text: autoDraw = False
+35.1717 	EXP 	Delay: autoDraw = True
+36.1715 	EXP 	Delay: autoDraw = False
+36.1882 	EXP 	Interval1: autoDraw = True
+36.4715 	EXP 	Interval1: autoDraw = False
+36.4882 	EXP 	ISI: autoDraw = True
+37.2715 	EXP 	ISI: autoDraw = False
+37.2883 	EXP 	Interval2: autoDraw = True
+37.5715 	EXP 	Interval2: autoDraw = False
+37.9050 	EXP 	Delay: autoDraw = False
+37.9050 	EXP 	ISI: autoDraw = False
+37.9050 	EXP 	Interval1: autoDraw = False
+37.9050 	EXP 	Interval2: autoDraw = False
+37.9050 	EXP 	Question_Text: autoDraw = True
+38.4552 	DATA 	Keypress: 1
+38.4723 	EXP 	Question_Text: autoDraw = False
+38.4723 	EXP 	Feedback_text: color = 'white (named)'
+38.4723 	EXP 	Feedback_text: text = 2.000006944118098
+38.4723 	EXP 	Feedback_text: color = '[0.  0.5 0. ] (rgb)'
+38.4723 	EXP 	Feedback_text: autoDraw = True
+40.2204 	EXP 	window1: mouseVisible = True
