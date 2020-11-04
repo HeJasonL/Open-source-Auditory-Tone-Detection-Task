@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2020.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2020.2.5">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
@@ -7,7 +7,7 @@
     <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
     <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['Participant'], expName, expInfo['date'])" valType="code"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
-    <Param name="Experiment info" updates="None" val="{'Participant': '', 'Session': '1', 'Tone Length': &quot;['Short', 'Long']&quot;, 'Condition': &quot;['Quiet', 'Simultaneous', 'Backward']&quot;, 'Calibration': '0.8912509381337447', 'Practice': &quot;['Yes', 'No']&quot;, 'Instructions': &quot;['Yes', 'No']&quot;}" valType="code"/>
+    <Param name="Experiment info" updates="None" val="{'Participant': '', 'Session': '1', 'Condition': &quot;['Quiet', 'Simultaneous', 'Backward']&quot;, 'Calibration': '0.8912509381337447', 'Practice': &quot;['Yes', 'No']&quot;, 'Instructions': &quot;['Yes', 'No']&quot;}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="HTML path" updates="None" val="html" valType="str"/>
@@ -25,11 +25,11 @@
     <Param name="Show mouse" updates="None" val="False" valType="bool"/>
     <Param name="Units" updates="None" val="height" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
-    <Param name="Window size (pixels)" updates="None" val="[1366, 768]" valType="code"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="code"/>
     <Param name="blendMode" updates="None" val="avg" valType="str"/>
     <Param name="color" updates="None" val="$[1,1,1]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
-    <Param name="expName" updates="None" val="toneDetectionPlatform_V1.7" valType="str"/>
+    <Param name="expName" updates="None" val="toneDetectionPlatform_V1.8" valType="str"/>
     <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
     <Param name="logging level" updates="None" val="debug" valType="code"/>
   </Settings>
@@ -40,8 +40,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="condition = trialList[trialNumber];&amp;#10;if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = presetToneDuration;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = 0;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="condition = trialList[trialNumber]&amp;#10;&amp;#10;if condition == '1':&amp;#10;    toneDuration = presetToneDuration&amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = 0" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="condition = trialList[trialNumber];&amp;#10;if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = 0.02;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = 0;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="condition = trialList[trialNumber]&amp;#10;&amp;#10;if condition == '1':&amp;#10;    toneDuration = 0.02&amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = 0" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -97,7 +97,7 @@
         <Param name="hamming" updates="constant" val="True" valType="bool"/>
         <Param name="name" updates="None" val="firstChoiceProbeTone" valType="code"/>
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="sound" updates="constant" val="1000" valType="str"/>
+        <Param name="sound" updates="constant" val="pure_tone_1000Hz.wav" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
@@ -239,8 +239,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = 0;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = presetToneDuration;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="if condition == '1':&amp;#10;    toneDuration = 0 &amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = presetToneDuration&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = 0;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = 0.02;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if condition == '1':&amp;#10;    toneDuration = 0 &amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = 0.02" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -251,6 +251,36 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="secondChoiceCode" valType="code"/>
       </CodeComponent>
+      <SoundComponent name="secondChoiceTone">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="secondChoiceTone" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="pure_tone_1000Hz.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
+      </SoundComponent>
+      <SoundComponent name="secondChoiceNoise">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="secondChoiceNoise" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="Noise_BP_600_1400.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.02" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.32" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value_for_noise" valType="code"/>
+      </SoundComponent>
       <TextComponent name="secondVisualStimulus">
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -275,36 +305,6 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
-      <SoundComponent name="secondChoiceNoise">
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="hamming" updates="constant" val="True" valType="bool"/>
-        <Param name="name" updates="None" val="secondChoiceNoise" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="sound" updates="constant" val="Noise_BP_600_1400.wav" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.02" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="0.32" valType="code"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-        <Param name="volume" updates="set every repeat" val="psychopy_input_value_for_noise" valType="code"/>
-      </SoundComponent>
-      <SoundComponent name="secondChoiceTone">
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="hamming" updates="constant" val="True" valType="bool"/>
-        <Param name="name" updates="None" val="secondChoiceTone" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="sound" updates="constant" val="1000" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
-      </SoundComponent>
       <ImageComponent name="secondChoiceLeftStimulus">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -386,8 +386,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="if ((trialNumber === 0)) {&amp;#10;    halfNTrials = Number.parseInt((trials.nTrials / 2));&amp;#10;    trialList = (([&quot;1&quot;] * halfNTrials) + ([&quot;2&quot;] * halfNTrials));&amp;#10;    np.random.shuffle(trialList);&amp;#10;    console.log(trialList);&amp;#10;}&amp;#10;calibration = Number.parseFloat(calibration);&amp;#10;desired_db = Number.parseFloat(level);&amp;#10;psychopy_input_value = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;if ((expInfo[&quot;Condition&quot;] === &quot;Quiet&quot;)) {&amp;#10;    console.log(&quot;Quiet condition selected&quot;);&amp;#10;    psychopy_input_value_for_noise = 0;&amp;#10;} else {&amp;#10;    noise_db = Number.parseInt(75);&amp;#10;    calibration = Number.parseFloat(calibration);&amp;#10;    psychopy_input_value_for_noise = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (noise_db / 20)));&amp;#10;}&amp;#10;console.log(&quot;desired dB on this loop was:&quot;, desired_db);&amp;#10;console.log(&quot;psychopy input value&quot;, psychopy_input_value);&amp;#10;console.log(&quot;calibration:&quot;, calibration);&amp;#10;console.log(&quot;psychopyvalue for noise:&quot;, psychopy_input_value_for_noise);&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="#tone&amp;#10;#randomly assign which interval the tone appears in &amp;#10;if trialNumber == 0:&amp;#10;    halfNTrials = int(trials.nTrials/2)&amp;#10;    trialList = ['1']*halfNTrials + ['2']*halfNTrials&amp;#10;    np.random.shuffle(trialList)&amp;#10;    print(trialList)&amp;#10; &amp;#10;#convert variable types to integer&amp;#10;calibration = float(calibration)&amp;#10;desired_db = float(level)&amp;#10;psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;#Noise&amp;#10;if expInfo['Condition'] == 'Quiet': #if the Condition is Quiet, turn off background noise &amp;#10;    print('Quiet condition selected')&amp;#10;    psychopy_input_value_for_noise = 0&amp;#10;else:&amp;#10;    #Note: 75 is being requested here to play noise at an average of 60 dB SPL (difference is due to frequency response of the headphones)&amp;#10;    # If you are concerned, you can test this using the headphone_calibration_check file - just change the tone being played to the noise tone&amp;#10;    noise_db = int(75) &amp;#10;    calibration = float(calibration)&amp;#10;    psychopy_input_value_for_noise = ((calibration)/(10**(117/20))*(10**(noise_db/20)))&amp;#10;&amp;#10;#print relevant information &amp;#10;print('desired dB on this loop was:', desired_db)&amp;#10;print('psychopy input value', psychopy_input_value)&amp;#10;print('calibration:', calibration)&amp;#10;print('psychopyvalue for noise:', psychopy_input_value_for_noise)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((trialNumber === 0)) {&amp;#10;    halfNTrials = Number.parseInt((trials.nTrials / 2));&amp;#10;    trialList = (([&quot;1&quot;] * halfNTrials) + ([&quot;2&quot;] * halfNTrials));&amp;#10;    np.random.shuffle(trialList);&amp;#10;    console.log(trialList);&amp;#10;}&amp;#10;desired_db = Number.parseFloat(level);&amp;#10;psychopy_input_value = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;if ((expInfo[&quot;Condition&quot;] === &quot;Quiet&quot;)) {&amp;#10;    psychopy_input_value_for_noise = 0;&amp;#10;} else {&amp;#10;    noise_db = Number.parseInt(75);&amp;#10;    calibration = Number.parseFloat(calibration);&amp;#10;    psychopy_input_value_for_noise = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (noise_db / 20)));&amp;#10;}&amp;#10;console.log(&quot;desired dB on this loop was:&quot;, desired_db);&amp;#10;console.log(&quot;psychopy input value&quot;, psychopy_input_value);&amp;#10;console.log(&quot;calibration:&quot;, calibration);&amp;#10;console.log(&quot;psychopyvalue for noise:&quot;, psychopy_input_value_for_noise);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="#tone&amp;#10;#randomly assign which interval the tone appears in &amp;#10;if trialNumber == 0:&amp;#10;    halfNTrials = int(trials.nTrials/2)&amp;#10;    trialList = ['1']*halfNTrials + ['2']*halfNTrials&amp;#10;    np.random.shuffle(trialList)&amp;#10;    print(trialList)&amp;#10; &amp;#10;#convert variable types to integer&amp;#10;desired_db = float(level)&amp;#10;psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;#Noise&amp;#10;if expInfo['Condition'] == 'Quiet': #if the Condition is Quiet, turn off background noise &amp;#10;    psychopy_input_value_for_noise = 0&amp;#10;else:&amp;#10;    #Note: 75 is being requested here to play noise at an average of 60 dB SPL (difference is due to frequency response of the headphones)&amp;#10;    # If you are concerned, you can test this using the headphone_calibration_check file - just change the tone being played to the noise tone&amp;#10;    noise_db = int(75) &amp;#10;    calibration = float(calibration)&amp;#10;    psychopy_input_value_for_noise = ((calibration)/(10**(117/20))*(10**(noise_db/20)))&amp;#10;&amp;#10;#print relevant information &amp;#10;print('desired dB on this loop was:', desired_db)&amp;#10;print('psychopy input value', psychopy_input_value)&amp;#10;print('calibration:', calibration)&amp;#10;print('psychopyvalue for noise:', psychopy_input_value_for_noise)&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -473,8 +473,8 @@
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End JS Routine" updates="constant" val="console.log(&quot;trialNumber:&quot;, trialNumber, &quot;tone was presented in interval: &quot;, condition, &quot;toneVolume was:&quot;, desired_db, &quot;participant was: &quot;, feedback);&amp;#10;trialNumber = (trialNumber + 1);&amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="print('trialNumber:', trialNumber, 'tone was presented in interval: ', condition, 'toneVolume was:', desired_db, 'participant was: ', feedback)&amp;#10;trialNumber = trialNumber + 1" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="trialNumber = (trialNumber + 1);&amp;#10;thisExp.addData(&quot;Trial&quot;, trialNumber);&amp;#10;thisExp.addData(&quot;Psychopy_input_value&quot;, psychopy_input_value);&amp;#10;thisExp.addData(&quot;Desired_dB&quot;, desired_db);&amp;#10;thisExp.addData(&quot;Condition&quot;, condition);&amp;#10;thisExp.addData(&quot;trialType&quot;, &quot;Test&quot;);&amp;#10;thisExp.addData(&quot;Response_time&quot;, decisionKey.rt);&amp;#10;thisExp.addData(&quot;Accuracy&quot;, decisionKey.corr);&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="trialNumber = trialNumber + 1&amp;#10;&amp;#10;#save additional variables to the data file &amp;#10;thisExp.addData('Trial', trialNumber)&amp;#10;thisExp.addData('Psychopy_input_value', psychopy_input_value)&amp;#10;thisExp.addData('Desired_dB', desired_db)&amp;#10;thisExp.addData('Condition', condition)&amp;#10;thisExp.addData('trialType', 'Test')&amp;#10;thisExp.addData('Response_time', decisionKey.rt)&amp;#10;thisExp.addData('Accuracy', decisionKey.corr)&amp;#10;" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="feedbackCode" valType="code"/>
       </CodeComponent>
@@ -534,7 +534,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="trialNumber = 0;&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="trialNumber = 0" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="trialNumber = 0&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -592,8 +592,8 @@
       <CodeComponent name="welcome_code">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="#Determine whether instructions should be run&amp;#10;if expInfo['Instructions'] == 'Yes':&amp;#10;    instructionsToggle = 1&amp;#10;if expInfo['Instructions'] == 'No':&amp;#10;        instructionsToggle = 0&amp;#10;&amp;#10;#Determine whether practice should be run&amp;#10;if expInfo['Practice'] == 'Yes':&amp;#10;    practiceToggle = 6&amp;#10;if expInfo['Practice'] == 'No':&amp;#10;        practiceToggle = 0&amp;#10;print(practiceToggle)&amp;#10;#Create calibration variable&amp;#10;calibration = expInfo['Calibration']&amp;#10;&amp;#10;#Set tone length based on tone length selected in initial GUI (or 'expInfo['Tone Length'])&amp;#10;if expInfo['Tone Length'] == 'Long':&amp;#10;    presetToneDuration = 0.2 #200ms&amp;#10;if expInfo['Tone Length'] == 'Short':&amp;#10;    presetToneDuration = 0.02 #20ms&amp;#10;&amp;#10;#Set noise tone onset times based on condition selected in initial GUI (or 'expInfo['Condition'])&amp;#10;if expInfo['Condition'] == 'Simultaneous': #if Condition is 'Simultaneous', make onset 200ms into the trial &amp;#10;    toneOnset = 0.22 #.22 rather than .20 to account account for the 20ms gap that exists before the noise (starting at 20ms into the trial) at the start of the trial&amp;#10;elif expInfo['Condition'] == 'Backward':  #else if Condition is 'Backward' : make Onset start at 0 (20ms before noise) &amp;#10;    toneOnset = 0 &amp;#10;else: #else, just start the tone in sync with the start of the noise (as per the 'Quiet' Condition)&amp;#10;    toneOnset = 0.02 &amp;#10; &amp;#10;&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin JS Experiment" updates="constant" val="if ((expInfo[&quot;Instructions&quot;] === &quot;Yes&quot;)) {&amp;#10;    instructionsToggle = 1;&amp;#10;}&amp;#10;if ((expInfo[&quot;Instructions&quot;] === &quot;No&quot;)) {&amp;#10;    instructionsToggle = 0;&amp;#10;}&amp;#10;if ((expInfo[&quot;Practice&quot;] === &quot;Yes&quot;)) {&amp;#10;    practiceToggle = 6;&amp;#10;}&amp;#10;if ((expInfo[&quot;Practice&quot;] === &quot;No&quot;)) {&amp;#10;    practiceToggle = 0;&amp;#10;}&amp;#10;console.log(practiceToggle);&amp;#10;calibration = expInfo[&quot;Calibration&quot;];&amp;#10;if ((expInfo[&quot;Tone Length&quot;] === &quot;Long&quot;)) {&amp;#10;    presetToneDuration = 0.2;&amp;#10;}&amp;#10;if ((expInfo[&quot;Tone Length&quot;] === &quot;Short&quot;)) {&amp;#10;    presetToneDuration = 0.02;&amp;#10;}&amp;#10;if ((expInfo[&quot;Condition&quot;] === &quot;Simultaneous&quot;)) {&amp;#10;    toneOnset = 0.22;&amp;#10;} else {&amp;#10;    if ((expInfo[&quot;Condition&quot;] === &quot;Backward&quot;)) {&amp;#10;        toneOnset = 0;&amp;#10;    } else {&amp;#10;        toneOnset = 0.02;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="#Determine whether instructions should be run&amp;#10;if expInfo['Instructions'] == 'Yes':&amp;#10;    instructionsToggle = 1&amp;#10;if expInfo['Instructions'] == 'No':&amp;#10;        instructionsToggle = 0&amp;#10;&amp;#10;#Determine whether practice should be run&amp;#10;if expInfo['Practice'] == 'Yes':&amp;#10;    practiceToggle = 1&amp;#10;if expInfo['Practice'] == 'No':&amp;#10;        practiceToggle = 0&amp;#10;&amp;#10;#Create calibration variable based on what was input in initial GUI expInfo['Calibration']&amp;#10;calibration = float(expInfo['Calibration'])&amp;#10;&amp;#10;#Set noise tone onset times based on condition selected in initial GUI (or 'expInfo['Condition'])&amp;#10;if expInfo['Condition'] == 'Simultaneous': #if Condition is 'Simultaneous', make onset 200ms into the trial &amp;#10;    toneOnset = 0.22 #.22 rather than .20 to account account for the 20ms gap that exists before the noise (starting at 20ms into the trial) at the start of the trial&amp;#10;elif expInfo['Condition'] == 'Backward':  #else if Condition is 'Backward' : make Onset start at 0 (20ms before noise) &amp;#10;    toneOnset = 0 &amp;#10;else: #else, just start the tone in sync with the start of the noise (as per the 'Quiet' Condition)&amp;#10;    toneOnset = 0.02 &amp;#10; &amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="if ((expInfo[&quot;Instructions&quot;] === &quot;Yes&quot;)) {&amp;#10;    instructionsToggle = 1;&amp;#10;}&amp;#10;if ((expInfo[&quot;Instructions&quot;] === &quot;No&quot;)) {&amp;#10;    instructionsToggle = 0;&amp;#10;}&amp;#10;if ((expInfo[&quot;Practice&quot;] === &quot;Yes&quot;)) {&amp;#10;    practiceToggle = 1;&amp;#10;}&amp;#10;if ((expInfo[&quot;Practice&quot;] === &quot;No&quot;)) {&amp;#10;    practiceToggle = 0;&amp;#10;}&amp;#10;calibration = Number.parseFloat(expInfo[&quot;Calibration&quot;]);&amp;#10;if ((expInfo[&quot;Condition&quot;] === &quot;Simultaneous&quot;)) {&amp;#10;    toneOnset = 0.22;&amp;#10;} else {&amp;#10;    if ((expInfo[&quot;Condition&quot;] === &quot;Backward&quot;)) {&amp;#10;        toneOnset = 0;&amp;#10;    } else {&amp;#10;        toneOnset = 0.02;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
@@ -1431,8 +1431,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="console.log((practiceTrials.nReps / 2));&amp;#10;if ((trialNumber === 0)) {&amp;#10;    halfNTrials = Number.parseInt((practiceTrials.nReps / 2));&amp;#10;    trialList = (([&quot;1&quot;] * halfNTrials) + ([&quot;2&quot;] * halfNTrials));&amp;#10;    np.random.shuffle(trialList);&amp;#10;    console.log(trialList);&amp;#10;}&amp;#10;desired_db = 80;&amp;#10;calibration = Number.parseFloat(calibration);&amp;#10;desired_db = Number.parseInt(desired_db);&amp;#10;psychopy_input_value = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;console.log(&quot;psychopy_input_value for practice:&quot;, psychopy_input_value);&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="#tone&amp;#10;print(practiceTrials.nReps/2)&amp;#10;&amp;#10;#randomly assign which interval the tone appears in &amp;#10;if trialNumber == 0:&amp;#10;    halfNTrials = int(practiceTrials.nReps/2)&amp;#10;    trialList = ['1']*halfNTrials + ['2']*halfNTrials&amp;#10;    np.random.shuffle(trialList)&amp;#10;    print(trialList)&amp;#10; &amp;#10;#set desired dB of the practice trials to 40&amp;#10;desired_db = 80&amp;#10;&amp;#10;#convert variable types to integer&amp;#10;calibration = float(calibration)&amp;#10;desired_db = int(desired_db)&amp;#10;&amp;#10;psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;&amp;#10;print('psychopy_input_value for practice:', psychopy_input_value)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="desired_db = Number.parseInt(80);&amp;#10;psychopy_input_value = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;if ((expInfo[&quot;Condition&quot;] === &quot;Quiet&quot;)) {&amp;#10;    psychopy_input_value_for_noise = 0;&amp;#10;} else {&amp;#10;    noise_db = Number.parseInt(75);&amp;#10;    calibration = Number.parseFloat(calibration);&amp;#10;    psychopy_input_value_for_noise = ((calibration / Math.pow(10, (117 / 20))) * Math.pow(10, (noise_db / 20)));&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="#set desired dB of the practice trials to 80 db SPL &amp;#10;desired_db = int(80)&amp;#10;psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;#Noise&amp;#10;if expInfo['Condition'] == 'Quiet': #if the Condition is Quiet, turn off background noise &amp;#10;    psychopy_input_value_for_noise = 0&amp;#10;else:&amp;#10;    #Note: 75 is being requested here to play noise at an average of 60 dB SPL (difference is due to frequency response of the headphones)&amp;#10;    # If you are concerned, you can test this using the headphone_calibration_check file - just change the tone being played to the noise tone&amp;#10;    noise_db = int(75) &amp;#10;    calibration = float(calibration)&amp;#10;    psychopy_input_value_for_noise = ((calibration)/(10**(117/20))*(10**(noise_db/20)))" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -1474,8 +1474,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="condition = trialList[trialNumber];&amp;#10;if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = 0.2;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = 0;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="condition = trialList[trialNumber]&amp;#10;&amp;#10;if condition == '1':&amp;#10;    toneDuration = 0.20&amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = 0" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((condition === 1)) {&amp;#10;    toneDuration = 0.2;&amp;#10;}&amp;#10;if ((condition === 2)) {&amp;#10;    toneDuration = 0;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if condition == 1:&amp;#10;    toneDuration = .20&amp;#10;&amp;#10;if condition == 2:&amp;#10;    toneDuration = 0" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -1486,6 +1486,36 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="firstChoiceCode_2" valType="code"/>
       </CodeComponent>
+      <SoundComponent name="firstChoiceProbeTone_2">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="firstChoiceProbeTone_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="pure_tone_1000Hz.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
+      </SoundComponent>
+      <SoundComponent name="firstChoice_Noise">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="firstChoice_Noise" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="Noise_BP_600_1400.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.02" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.32" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value_for_noise" valType="code"/>
+      </SoundComponent>
       <TextComponent name="firstVisualStimulus_2">
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -1510,21 +1540,6 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
-      <SoundComponent name="firstChoiceProbeTone_2">
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="hamming" updates="constant" val="True" valType="bool"/>
-        <Param name="name" updates="None" val="firstChoiceProbeTone_2" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="sound" updates="constant" val="1000" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
-      </SoundComponent>
       <ImageComponent name="firstChoiceLeftStimulus_2">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -1726,8 +1741,8 @@
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="thisExp.addData(&quot;Trial&quot;, practiceTrials.thisN);&amp;#10;thisExp.addData(&quot;Psychopy_input_value&quot;, psychopy_input_value);&amp;#10;thisExp.addData(&quot;Desired_dB&quot;, desired_db);&amp;#10;thisExp.addData(&quot;Condition&quot;, condition);&amp;#10;thisExp.addData(&quot;trialType&quot;, &quot;Practice&quot;);&amp;#10;thisExp.addData(&quot;Response_time&quot;, decisionKey_2.rt);&amp;#10;thisExp.addData(&quot;Accuracy&quot;, decisionKey_2.corr);&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="#save additional variables to the data file &amp;#10;thisExp.addData('Trial', practiceTrials.thisN)&amp;#10;thisExp.addData('Psychopy_input_value', psychopy_input_value)&amp;#10;thisExp.addData('Desired_dB', desired_db)&amp;#10;thisExp.addData('Condition', condition)&amp;#10;thisExp.addData('trialType', 'Practice')&amp;#10;thisExp.addData('Response_time', decisionKey_2.rt)&amp;#10;thisExp.addData('Accuracy', decisionKey_2.corr)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="feedbackCode_2" valType="code"/>
       </CodeComponent>
@@ -1838,8 +1853,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="if ((condition === &quot;1&quot;)) {&amp;#10;    toneDuration = 0;&amp;#10;} else {&amp;#10;    if ((condition === &quot;2&quot;)) {&amp;#10;        toneDuration = 0.2;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="if condition == '1':&amp;#10;    toneDuration = 0 &amp;#10;&amp;#10;elif condition == '2':&amp;#10;    toneDuration = 0.20&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((condition === 1)) {&amp;#10;    toneDuration = 0;&amp;#10;}&amp;#10;if ((condition === 2)) {&amp;#10;    toneDuration = 0.2;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if condition == 1:&amp;#10;    toneDuration = 0&amp;#10;&amp;#10;if condition == 2:&amp;#10;    toneDuration = 0.20" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -1850,6 +1865,36 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="secondChoiceCode_2" valType="code"/>
       </CodeComponent>
+      <SoundComponent name="secondChoiceTone_2">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="secondChoiceTone_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="pure_tone_1000Hz.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
+      </SoundComponent>
+      <SoundComponent name="secondChoice_Noise">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="hamming" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="secondChoice_Noise" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="sound" updates="constant" val="Noise_BP_600_1400.wav" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.02" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.32" valType="code"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+        <Param name="volume" updates="set every repeat" val="psychopy_input_value_for_noise" valType="code"/>
+      </SoundComponent>
       <TextComponent name="secondVisualStimulus_2">
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -1874,21 +1919,6 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
-      <SoundComponent name="secondChoiceTone_2">
-        <Param name="disabled" updates="None" val="False" valType="bool"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="hamming" updates="constant" val="True" valType="bool"/>
-        <Param name="name" updates="None" val="secondChoiceTone_2" valType="code"/>
-        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
-        <Param name="sound" updates="constant" val="1000" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="$toneOnset" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="$toneDuration" valType="code"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-        <Param name="volume" updates="set every repeat" val="psychopy_input_value" valType="code"/>
-      </SoundComponent>
       <ImageComponent name="secondChoiceLeftStimulus_2">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -2028,6 +2058,50 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
     </Routine>
+    <Routine name="testComplete">
+      <TextComponent name="text_11">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text_11" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank you for completing the task! &amp;#10;&amp;#10;Press ‘e’ to exit " valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_9">
+        <Param name="allowedKeys" updates="constant" val="'e'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_9" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="welcome"/>
@@ -2054,8 +2128,8 @@
     <Routine name="setUp"/>
     <LoopInitiator loopType="TrialHandler" name="practiceTrials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('condition', 1)]), OrderedDict([('condition', 2)]), OrderedDict([('condition', 1)]), OrderedDict([('condition', 2)]), OrderedDict([('condition', 1)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practiceConditionsFile.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
@@ -2069,8 +2143,20 @@
     <Routine name="practice_secondChoiceSpace_2"/>
     <Routine name="practice_decisionSpace"/>
     <Routine name="practice_feedbackSpace"/>
-    <Routine name="practiceComplete"/>
     <LoopTerminator name="practiceTrials"/>
+    <LoopInitiator loopType="TrialHandler" name="practiceCompleteLoop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="practiceToggle" valType="code"/>
+      <Param name="name" updates="None" val="practiceCompleteLoop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practiceComplete"/>
+    <LoopTerminator name="practiceCompleteLoop"/>
     <Routine name="beginTest"/>
     <Routine name="setUp"/>
     <LoopInitiator loopType="MultiStairHandler" name="trials">
@@ -2091,5 +2177,6 @@
     <Routine name="decisionSpace"/>
     <Routine name="feedbackSpace"/>
     <LoopTerminator name="trials"/>
+    <Routine name="testComplete"/>
   </Flow>
 </PsychoPy2experiment>

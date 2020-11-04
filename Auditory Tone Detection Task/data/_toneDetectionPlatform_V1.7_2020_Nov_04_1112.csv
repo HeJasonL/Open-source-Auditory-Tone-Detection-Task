@@ -1,0 +1,3 @@
+﻿instructions_loop.thisRepN,instructions_loop.thisTrialN,instructions_loop.thisN,instructions_loop.thisIndex,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,condition,welcomeText.started,welcomeText.stopped,welcome_resp.keys,welcome_resp.rt,welcome_resp.started,welcome_resp.stopped,firstITI.started,firstITI.stopped,Participant,Session,Tone Length,Condition,Calibration,Practice,Instructions,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,16.18306942900017,None,space,1.1020100900004763,16.18306942900017,None,,,,1,Short,Quiet,0.8912509381337447,Yes,No,2020_Nov_04_1112,toneDetectionPlatform_V1.7,2020.2.5,60.100100804978965,
+,,,,,,,,,,,,,,,17.3166588389995,None,,,,,,,,,,,,

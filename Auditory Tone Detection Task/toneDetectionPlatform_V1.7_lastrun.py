@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2020.2.4),
-    on November 03, 2020, at 13:55
+This experiment was created using PsychoPy3 Experiment Builder (v2020.2.5),
+    on Wed Nov  4 11:46:26 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -35,9 +35,9 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-psychopyVersion = '2020.2.4'
+psychopyVersion = '2020.2.5'
 expName = 'toneDetectionPlatform_V1.7'  # from the Builder filename that created this script
-expInfo = {'Participant': '', 'Session': '1', 'Tone Length': ['Short', 'Long'], 'Condition': ['Quiet', 'Simultaneous', 'Backward'], 'Calibration': '0.8912509381337447', 'Practice': ['Yes', 'No'], 'Instructions': ['Yes', 'No']}
+expInfo = {'Participant': '', 'Session': '1', 'Condition': ['Quiet', 'Simultaneous', 'Backward'], 'Calibration': '0.8912509381337447', 'Practice': ['Yes', 'No'], 'Instructions': ['No', 'Yes']}
 dlg = gui.DlgFromDict(dictionary=expInfo, sort_keys=False, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['Participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\W2032175\\Documents\\GitHub\\Open-source-Auditory-Tone-Detection-Task\\Auditory Tone Detection Task\\toneDetectionPlatform_V1.7_lastrun.py',
+    originPath="/Users/jasonhe/Documents/Documents - Jason's iCloud/Work/GitHub/Open-source Auditory Tone Detection (OSATD) Task/Auditory Tone Detection Task/toneDetectionPlatform_V1.7_lastrun.py",
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -65,7 +65,7 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Setup the Window
 win = visual.Window(
-    size=[1366, 768], fullscr=True, screen=0, 
+    size=[1920, 1080], fullscr=True, screen=0, 
     winType='pyglet', allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[1,1,1], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -98,18 +98,12 @@ if expInfo['Instructions'] == 'No':
 
 #Determine whether practice should be run
 if expInfo['Practice'] == 'Yes':
-    practiceToggle = 6
+    practiceToggle = 1
 if expInfo['Practice'] == 'No':
         practiceToggle = 0
-print(practiceToggle)
-#Create calibration variable
-calibration = expInfo['Calibration']
 
-#Set tone length based on tone length selected in initial GUI (or 'expInfo['Tone Length'])
-if expInfo['Tone Length'] == 'Long':
-    presetToneDuration = 0.2 #200ms
-if expInfo['Tone Length'] == 'Short':
-    presetToneDuration = 0.02 #20ms
+#Create calibration variable based on what was input in initial GUI expInfo['Calibration']
+calibration = float(expInfo['Calibration'])
 
 #Set noise tone onset times based on condition selected in initial GUI (or 'expInfo['Condition'])
 if expInfo['Condition'] == 'Simultaneous': #if Condition is 'Simultaneous', make onset 200ms into the trial 
@@ -379,16 +373,19 @@ text_6 = visual.TextStim(win=win, name='text_6',
 
 # Initialize components for Routine "practice_firstChoiceSpace"
 practice_firstChoiceSpaceClock = core.Clock()
+firstChoiceProbeTone_2 = sound.Sound('pure_tone_1000Hz.wav', secs=-1, stereo=True, hamming=True,
+    name='firstChoiceProbeTone_2')
+firstChoiceProbeTone_2.setVolume(1.0)
+firstChoice_Noise = sound.Sound('Noise_BP_600_1400.wav', secs=0.32, stereo=True, hamming=True,
+    name='firstChoice_Noise')
+firstChoice_Noise.setVolume(1.0)
 firstVisualStimulus_2 = visual.TextStim(win=win, name='firstVisualStimulus_2',
     text='1',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-1.0);
-firstChoiceProbeTone_2 = sound.Sound('1000', secs=-1, stereo=True, hamming=True,
-    name='firstChoiceProbeTone_2')
-firstChoiceProbeTone_2.setVolume(1.0)
+    depth=-3.0);
 firstChoiceLeftStimulus_2 = visual.ImageStim(
     win=win,
     name='firstChoiceLeftStimulus_2', 
@@ -396,7 +393,7 @@ firstChoiceLeftStimulus_2 = visual.ImageStim(
     ori=0, pos=(-0.5, 0), size=(0.4, 0.4),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-3.0)
+    texRes=128, interpolate=True, depth=-4.0)
 firstChoiceRightStimulus_2 = visual.ImageStim(
     win=win,
     name='firstChoiceRightStimulus_2', 
@@ -404,7 +401,7 @@ firstChoiceRightStimulus_2 = visual.ImageStim(
     ori=0, pos=(0.5, 0), size=(0.4, 0.4),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-4.0)
+    texRes=128, interpolate=True, depth=-5.0)
 
 # Initialize components for Routine "practice_ISI"
 practice_ISIClock = core.Clock()
@@ -434,16 +431,19 @@ leftStimulus_3 = visual.ImageStim(
 
 # Initialize components for Routine "practice_secondChoiceSpace_2"
 practice_secondChoiceSpace_2Clock = core.Clock()
+secondChoiceTone_2 = sound.Sound('pure_tone_1000Hz.wav', secs=-1, stereo=True, hamming=True,
+    name='secondChoiceTone_2')
+secondChoiceTone_2.setVolume(1.0)
+secondChoice_Noise = sound.Sound('Noise_BP_600_1400.wav', secs=0.32, stereo=True, hamming=True,
+    name='secondChoice_Noise')
+secondChoice_Noise.setVolume(1.0)
 secondVisualStimulus_2 = visual.TextStim(win=win, name='secondVisualStimulus_2',
     text='2',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-1.0);
-secondChoiceTone_2 = sound.Sound('1000', secs=-1, stereo=True, hamming=True,
-    name='secondChoiceTone_2')
-secondChoiceTone_2.setVolume(1.0)
+    depth=-3.0);
 secondChoiceLeftStimulus_2 = visual.ImageStim(
     win=win,
     name='secondChoiceLeftStimulus_2', 
@@ -451,7 +451,7 @@ secondChoiceLeftStimulus_2 = visual.ImageStim(
     ori=0, pos=(-0.5, 0), size=(0.4, 0.4),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-3.0)
+    texRes=128, interpolate=True, depth=-4.0)
 secondChoiceRightStimulus_2 = visual.ImageStim(
     win=win,
     name='secondChoiceRightStimulus_2', 
@@ -459,7 +459,7 @@ secondChoiceRightStimulus_2 = visual.ImageStim(
     ori=0, pos=(0.5, 0), size=(0.4, 0.4),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-4.0)
+    texRes=128, interpolate=True, depth=-5.0)
 
 # Initialize components for Routine "practice_decisionSpace"
 practice_decisionSpaceClock = core.Clock()
@@ -537,7 +537,7 @@ firstVisualStimulus = visual.TextStim(win=win, name='firstVisualStimulus',
 firstChoiceNoise = sound.Sound('Noise_BP_600_1400.wav', secs=0.32, stereo=True, hamming=True,
     name='firstChoiceNoise')
 firstChoiceNoise.setVolume(1.0)
-firstChoiceProbeTone = sound.Sound('1000', secs=-1, stereo=True, hamming=True,
+firstChoiceProbeTone = sound.Sound('pure_tone_1000Hz.wav', secs=-1, stereo=True, hamming=True,
     name='firstChoiceProbeTone')
 firstChoiceProbeTone.setVolume(1.0)
 firstChoiceLeftStimulus = visual.ImageStim(
@@ -585,19 +585,19 @@ leftStimulus = visual.ImageStim(
 
 # Initialize components for Routine "secondChoiceSpace"
 secondChoiceSpaceClock = core.Clock()
+secondChoiceTone = sound.Sound('pure_tone_1000Hz.wav', secs=-1, stereo=True, hamming=True,
+    name='secondChoiceTone')
+secondChoiceTone.setVolume(1.0)
+secondChoiceNoise = sound.Sound('Noise_BP_600_1400.wav', secs=0.32, stereo=True, hamming=True,
+    name='secondChoiceNoise')
+secondChoiceNoise.setVolume(1.0)
 secondVisualStimulus = visual.TextStim(win=win, name='secondVisualStimulus',
     text='2',
     font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-1.0);
-secondChoiceNoise = sound.Sound('Noise_BP_600_1400.wav', secs=0.32, stereo=True, hamming=True,
-    name='secondChoiceNoise')
-secondChoiceNoise.setVolume(1.0)
-secondChoiceTone = sound.Sound('1000', secs=-1, stereo=True, hamming=True,
-    name='secondChoiceTone')
-secondChoiceTone.setVolume(1.0)
+    depth=-3.0);
 secondChoiceLeftStimulus = visual.ImageStim(
     win=win,
     name='secondChoiceLeftStimulus', 
@@ -636,6 +636,17 @@ feedbackText = visual.TextStim(win=win, name='feedbackText',
     color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
+
+# Initialize components for Routine "testComplete"
+testCompleteClock = core.Clock()
+text_11 = visual.TextStim(win=win, name='text_11',
+    text='Thank you for completing the task! \n\nPress ‘e’ to exit ',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color='black', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+key_resp_9 = keyboard.Keyboard()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -1736,6 +1747,7 @@ continueRoutine = True
 routineTimer.add(5.000000)
 # update component parameters for each repeat
 trialNumber = 0
+
 # keep track of which components have finished
 setUpComponents = [firstITI]
 for thisComponent in setUpComponents:
@@ -1804,7 +1816,7 @@ thisExp.addData('firstITI.stopped', firstITI.tStopRefresh)
 # set up handler to look after randomisation of conditions etc
 practiceTrials = data.TrialHandler(nReps=practiceToggle, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=[None],
+    trialList=data.importConditions('practiceConditionsFile.xlsx'),
     seed=None, name='practiceTrials')
 thisExp.addLoop(practiceTrials)  # add the loop to the experiment
 thisPracticeTrial = practiceTrials.trialList[0]  # so we can initialise stimuli with some values
@@ -1824,30 +1836,20 @@ for thisPracticeTrial in practiceTrials:
     continueRoutine = True
     routineTimer.add(3.000000)
     # update component parameters for each repeat
-    #tone
-    print(practiceTrials.nReps/2)
-    
-    #randomly assign which interval the tone appears in 
-    if trialNumber == 0:
-        halfNTrials = int(practiceTrials.nReps/2)
-        trialList = ['1']*halfNTrials + ['2']*halfNTrials
-        np.random.shuffle(trialList)
-        print(trialList)
-     
-    #set desired dB of the practice trials to 40
-    desired_db = 80
-    
-    #convert variable types to integer
-    calibration = float(calibration)
-    desired_db = int(desired_db)
-    
+    #set desired dB of the practice trials to 80 db SPL 
+    desired_db = int(80)
     psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))
+    print('thisN', practiceTrials.thisN)
     
-    
-    print('psychopy_input_value for practice:', psychopy_input_value)
-    
-    
-    
+    #Noise
+    if expInfo['Condition'] == 'Quiet': #if the Condition is Quiet, turn off background noise 
+        psychopy_input_value_for_noise = 0
+    else:
+        #Note: 75 is being requested here to play noise at an average of 60 dB SPL (difference is due to frequency response of the headphones)
+        # If you are concerned, you can test this using the headphone_calibration_check file - just change the tone being played to the noise tone
+        noise_db = int(75) 
+        calibration = float(calibration)
+        psychopy_input_value_for_noise = ((calibration)/(10**(117/20))*(10**(noise_db/20)))
     # keep track of which components have finished
     practice_ITIComponents = [text_6]
     for thisComponent in practice_ITIComponents:
@@ -1916,17 +1918,17 @@ for thisPracticeTrial in practiceTrials:
     # ------Prepare to start Routine "practice_firstChoiceSpace"-------
     continueRoutine = True
     # update component parameters for each repeat
-    condition = trialList[trialNumber]
+    if condition == 1:
+        toneDuration = .20
     
-    if condition == '1':
-        toneDuration = 0.20
-    
-    elif condition == '2':
+    if condition == 2:
         toneDuration = 0
-    firstChoiceProbeTone_2.setSound('1000', secs=toneDuration, hamming=True)
+    firstChoiceProbeTone_2.setSound('pure_tone_1000Hz.wav', secs=toneDuration, hamming=True)
     firstChoiceProbeTone_2.setVolume(psychopy_input_value, log=False)
+    firstChoice_Noise.setSound('Noise_BP_600_1400.wav', secs=0.32, hamming=True)
+    firstChoice_Noise.setVolume(psychopy_input_value_for_noise, log=False)
     # keep track of which components have finished
-    practice_firstChoiceSpaceComponents = [firstVisualStimulus_2, firstChoiceProbeTone_2, firstChoiceLeftStimulus_2, firstChoiceRightStimulus_2]
+    practice_firstChoiceSpaceComponents = [firstChoiceProbeTone_2, firstChoice_Noise, firstVisualStimulus_2, firstChoiceLeftStimulus_2, firstChoiceRightStimulus_2]
     for thisComponent in practice_firstChoiceSpaceComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1948,6 +1950,36 @@ for thisPracticeTrial in practiceTrials:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        # start/stop firstChoiceProbeTone_2
+        if firstChoiceProbeTone_2.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
+            # keep track of start time/frame for later
+            firstChoiceProbeTone_2.frameNStart = frameN  # exact frame index
+            firstChoiceProbeTone_2.tStart = t  # local t and not account for scr refresh
+            firstChoiceProbeTone_2.tStartRefresh = tThisFlipGlobal  # on global time
+            firstChoiceProbeTone_2.play(when=win)  # sync with win flip
+        if firstChoiceProbeTone_2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > firstChoiceProbeTone_2.tStartRefresh + toneDuration-frameTolerance:
+                # keep track of stop time/frame for later
+                firstChoiceProbeTone_2.tStop = t  # not accounting for scr refresh
+                firstChoiceProbeTone_2.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(firstChoiceProbeTone_2, 'tStopRefresh')  # time at next scr refresh
+                firstChoiceProbeTone_2.stop()
+        # start/stop firstChoice_Noise
+        if firstChoice_Noise.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
+            # keep track of start time/frame for later
+            firstChoice_Noise.frameNStart = frameN  # exact frame index
+            firstChoice_Noise.tStart = t  # local t and not account for scr refresh
+            firstChoice_Noise.tStartRefresh = tThisFlipGlobal  # on global time
+            firstChoice_Noise.play(when=win)  # sync with win flip
+        if firstChoice_Noise.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > firstChoice_Noise.tStartRefresh + 0.32-frameTolerance:
+                # keep track of stop time/frame for later
+                firstChoice_Noise.tStop = t  # not accounting for scr refresh
+                firstChoice_Noise.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(firstChoice_Noise, 'tStopRefresh')  # time at next scr refresh
+                firstChoice_Noise.stop()
         
         # *firstVisualStimulus_2* updates
         if firstVisualStimulus_2.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -1965,21 +1997,6 @@ for thisPracticeTrial in practiceTrials:
                 firstVisualStimulus_2.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(firstVisualStimulus_2, 'tStopRefresh')  # time at next scr refresh
                 firstVisualStimulus_2.setAutoDraw(False)
-        # start/stop firstChoiceProbeTone_2
-        if firstChoiceProbeTone_2.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
-            # keep track of start time/frame for later
-            firstChoiceProbeTone_2.frameNStart = frameN  # exact frame index
-            firstChoiceProbeTone_2.tStart = t  # local t and not account for scr refresh
-            firstChoiceProbeTone_2.tStartRefresh = tThisFlipGlobal  # on global time
-            firstChoiceProbeTone_2.play(when=win)  # sync with win flip
-        if firstChoiceProbeTone_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > firstChoiceProbeTone_2.tStartRefresh + toneDuration-frameTolerance:
-                # keep track of stop time/frame for later
-                firstChoiceProbeTone_2.tStop = t  # not accounting for scr refresh
-                firstChoiceProbeTone_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(firstChoiceProbeTone_2, 'tStopRefresh')  # time at next scr refresh
-                firstChoiceProbeTone_2.stop()
         
         # *firstChoiceLeftStimulus_2* updates
         if firstChoiceLeftStimulus_2.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -2036,11 +2053,14 @@ for thisPracticeTrial in practiceTrials:
     for thisComponent in practice_firstChoiceSpaceComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    practiceTrials.addData('firstVisualStimulus_2.started', firstVisualStimulus_2.tStartRefresh)
-    practiceTrials.addData('firstVisualStimulus_2.stopped', firstVisualStimulus_2.tStopRefresh)
     firstChoiceProbeTone_2.stop()  # ensure sound has stopped at end of routine
     practiceTrials.addData('firstChoiceProbeTone_2.started', firstChoiceProbeTone_2.tStartRefresh)
     practiceTrials.addData('firstChoiceProbeTone_2.stopped', firstChoiceProbeTone_2.tStopRefresh)
+    firstChoice_Noise.stop()  # ensure sound has stopped at end of routine
+    practiceTrials.addData('firstChoice_Noise.started', firstChoice_Noise.tStartRefresh)
+    practiceTrials.addData('firstChoice_Noise.stopped', firstChoice_Noise.tStopRefresh)
+    practiceTrials.addData('firstVisualStimulus_2.started', firstVisualStimulus_2.tStartRefresh)
+    practiceTrials.addData('firstVisualStimulus_2.stopped', firstVisualStimulus_2.tStopRefresh)
     practiceTrials.addData('firstChoiceLeftStimulus_2.started', firstChoiceLeftStimulus_2.tStartRefresh)
     practiceTrials.addData('firstChoiceLeftStimulus_2.stopped', firstChoiceLeftStimulus_2.tStopRefresh)
     practiceTrials.addData('firstChoiceRightStimulus_2.started', firstChoiceRightStimulus_2.tStartRefresh)
@@ -2158,16 +2178,17 @@ for thisPracticeTrial in practiceTrials:
     # ------Prepare to start Routine "practice_secondChoiceSpace_2"-------
     continueRoutine = True
     # update component parameters for each repeat
-    if condition == '1':
-        toneDuration = 0 
+    if condition == 1:
+        toneDuration = 0
     
-    elif condition == '2':
+    if condition == 2:
         toneDuration = 0.20
-    
-    secondChoiceTone_2.setSound('1000', secs=toneDuration, hamming=True)
+    secondChoiceTone_2.setSound('pure_tone_1000Hz.wav', secs=toneDuration, hamming=True)
     secondChoiceTone_2.setVolume(psychopy_input_value, log=False)
+    secondChoice_Noise.setSound('Noise_BP_600_1400.wav', secs=0.32, hamming=True)
+    secondChoice_Noise.setVolume(psychopy_input_value_for_noise, log=False)
     # keep track of which components have finished
-    practice_secondChoiceSpace_2Components = [secondVisualStimulus_2, secondChoiceTone_2, secondChoiceLeftStimulus_2, secondChoiceRightStimulus_2]
+    practice_secondChoiceSpace_2Components = [secondChoiceTone_2, secondChoice_Noise, secondVisualStimulus_2, secondChoiceLeftStimulus_2, secondChoiceRightStimulus_2]
     for thisComponent in practice_secondChoiceSpace_2Components:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -2189,6 +2210,36 @@ for thisPracticeTrial in practiceTrials:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        # start/stop secondChoiceTone_2
+        if secondChoiceTone_2.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
+            # keep track of start time/frame for later
+            secondChoiceTone_2.frameNStart = frameN  # exact frame index
+            secondChoiceTone_2.tStart = t  # local t and not account for scr refresh
+            secondChoiceTone_2.tStartRefresh = tThisFlipGlobal  # on global time
+            secondChoiceTone_2.play(when=win)  # sync with win flip
+        if secondChoiceTone_2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > secondChoiceTone_2.tStartRefresh + toneDuration-frameTolerance:
+                # keep track of stop time/frame for later
+                secondChoiceTone_2.tStop = t  # not accounting for scr refresh
+                secondChoiceTone_2.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(secondChoiceTone_2, 'tStopRefresh')  # time at next scr refresh
+                secondChoiceTone_2.stop()
+        # start/stop secondChoice_Noise
+        if secondChoice_Noise.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
+            # keep track of start time/frame for later
+            secondChoice_Noise.frameNStart = frameN  # exact frame index
+            secondChoice_Noise.tStart = t  # local t and not account for scr refresh
+            secondChoice_Noise.tStartRefresh = tThisFlipGlobal  # on global time
+            secondChoice_Noise.play(when=win)  # sync with win flip
+        if secondChoice_Noise.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > secondChoice_Noise.tStartRefresh + 0.32-frameTolerance:
+                # keep track of stop time/frame for later
+                secondChoice_Noise.tStop = t  # not accounting for scr refresh
+                secondChoice_Noise.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(secondChoice_Noise, 'tStopRefresh')  # time at next scr refresh
+                secondChoice_Noise.stop()
         
         # *secondVisualStimulus_2* updates
         if secondVisualStimulus_2.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -2206,21 +2257,6 @@ for thisPracticeTrial in practiceTrials:
                 secondVisualStimulus_2.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(secondVisualStimulus_2, 'tStopRefresh')  # time at next scr refresh
                 secondVisualStimulus_2.setAutoDraw(False)
-        # start/stop secondChoiceTone_2
-        if secondChoiceTone_2.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
-            # keep track of start time/frame for later
-            secondChoiceTone_2.frameNStart = frameN  # exact frame index
-            secondChoiceTone_2.tStart = t  # local t and not account for scr refresh
-            secondChoiceTone_2.tStartRefresh = tThisFlipGlobal  # on global time
-            secondChoiceTone_2.play(when=win)  # sync with win flip
-        if secondChoiceTone_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > secondChoiceTone_2.tStartRefresh + toneDuration-frameTolerance:
-                # keep track of stop time/frame for later
-                secondChoiceTone_2.tStop = t  # not accounting for scr refresh
-                secondChoiceTone_2.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(secondChoiceTone_2, 'tStopRefresh')  # time at next scr refresh
-                secondChoiceTone_2.stop()
         
         # *secondChoiceLeftStimulus_2* updates
         if secondChoiceLeftStimulus_2.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -2277,11 +2313,14 @@ for thisPracticeTrial in practiceTrials:
     for thisComponent in practice_secondChoiceSpace_2Components:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    practiceTrials.addData('secondVisualStimulus_2.started', secondVisualStimulus_2.tStartRefresh)
-    practiceTrials.addData('secondVisualStimulus_2.stopped', secondVisualStimulus_2.tStopRefresh)
     secondChoiceTone_2.stop()  # ensure sound has stopped at end of routine
     practiceTrials.addData('secondChoiceTone_2.started', secondChoiceTone_2.tStartRefresh)
     practiceTrials.addData('secondChoiceTone_2.stopped', secondChoiceTone_2.tStopRefresh)
+    secondChoice_Noise.stop()  # ensure sound has stopped at end of routine
+    practiceTrials.addData('secondChoice_Noise.started', secondChoice_Noise.tStartRefresh)
+    practiceTrials.addData('secondChoice_Noise.stopped', secondChoice_Noise.tStopRefresh)
+    practiceTrials.addData('secondVisualStimulus_2.started', secondVisualStimulus_2.tStartRefresh)
+    practiceTrials.addData('secondVisualStimulus_2.stopped', secondVisualStimulus_2.tStopRefresh)
     practiceTrials.addData('secondChoiceLeftStimulus_2.started', secondChoiceLeftStimulus_2.tStartRefresh)
     practiceTrials.addData('secondChoiceLeftStimulus_2.stopped', secondChoiceLeftStimulus_2.tStopRefresh)
     practiceTrials.addData('secondChoiceRightStimulus_2.started', secondChoiceRightStimulus_2.tStartRefresh)
@@ -2486,8 +2525,41 @@ for thisPracticeTrial in practiceTrials:
     for thisComponent in practice_feedbackSpaceComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    #save additional variables to the data file 
+    thisExp.addData('Trial', practiceTrials.thisN)
+    thisExp.addData('Psychopy_input_value', psychopy_input_value)
+    thisExp.addData('Desired_dB', desired_db)
+    thisExp.addData('Condition', condition)
+    thisExp.addData('Response_time', decisionKey_2.rt)
+    thisExp.addData('Accuracy', decisionKey_2.corr)
+    thisExp.addData('trialType', 'Practice')
+    
+    
     practiceTrials.addData('feedbackText_2.started', feedbackText_2.tStartRefresh)
     practiceTrials.addData('feedbackText_2.stopped', feedbackText_2.tStopRefresh)
+    thisExp.nextEntry()
+    
+# completed practiceToggle repeats of 'practiceTrials'
+
+
+# set up handler to look after randomisation of conditions etc
+practiceCompleteLoop = data.TrialHandler(nReps=practiceToggle, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=[None],
+    seed=None, name='practiceCompleteLoop')
+thisExp.addLoop(practiceCompleteLoop)  # add the loop to the experiment
+thisPracticeCompleteLoop = practiceCompleteLoop.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisPracticeCompleteLoop.rgb)
+if thisPracticeCompleteLoop != None:
+    for paramName in thisPracticeCompleteLoop:
+        exec('{} = thisPracticeCompleteLoop[paramName]'.format(paramName))
+
+for thisPracticeCompleteLoop in practiceCompleteLoop:
+    currentLoop = practiceCompleteLoop
+    # abbreviate parameter names if possible (e.g. rgb = thisPracticeCompleteLoop.rgb)
+    if thisPracticeCompleteLoop != None:
+        for paramName in thisPracticeCompleteLoop:
+            exec('{} = thisPracticeCompleteLoop[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "practiceComplete"-------
     continueRoutine = True
@@ -2571,21 +2643,21 @@ for thisPracticeTrial in practiceTrials:
     for thisComponent in practiceCompleteComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    practiceTrials.addData('text_7.started', text_7.tStartRefresh)
-    practiceTrials.addData('text_7.stopped', text_7.tStopRefresh)
+    practiceCompleteLoop.addData('text_7.started', text_7.tStartRefresh)
+    practiceCompleteLoop.addData('text_7.stopped', text_7.tStopRefresh)
     # check responses
     if key_resp_7.keys in ['', [], None]:  # No response was made
         key_resp_7.keys = None
-    practiceTrials.addData('key_resp_7.keys',key_resp_7.keys)
+    practiceCompleteLoop.addData('key_resp_7.keys',key_resp_7.keys)
     if key_resp_7.keys != None:  # we had a response
-        practiceTrials.addData('key_resp_7.rt', key_resp_7.rt)
-    practiceTrials.addData('key_resp_7.started', key_resp_7.tStartRefresh)
-    practiceTrials.addData('key_resp_7.stopped', key_resp_7.tStopRefresh)
+        practiceCompleteLoop.addData('key_resp_7.rt', key_resp_7.rt)
+    practiceCompleteLoop.addData('key_resp_7.started', key_resp_7.tStartRefresh)
+    practiceCompleteLoop.addData('key_resp_7.stopped', key_resp_7.tStopRefresh)
     # the Routine "practiceComplete" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
-# completed practiceToggle repeats of 'practiceTrials'
+# completed practiceToggle repeats of 'practiceCompleteLoop'
 
 
 # ------Prepare to start Routine "beginTest"-------
@@ -2689,6 +2761,7 @@ continueRoutine = True
 routineTimer.add(5.000000)
 # update component parameters for each repeat
 trialNumber = 0
+
 # keep track of which components have finished
 setUpComponents = [firstITI]
 for thisComponent in setUpComponents:
@@ -2785,13 +2858,11 @@ for level, condition in trials:
         print(trialList)
      
     #convert variable types to integer
-    calibration = float(calibration)
     desired_db = float(level)
     psychopy_input_value = ((calibration)/(10**(117/20))*(10**(desired_db/20)))
     
     #Noise
     if expInfo['Condition'] == 'Quiet': #if the Condition is Quiet, turn off background noise 
-        print('Quiet condition selected')
         psychopy_input_value_for_noise = 0
     else:
         #Note: 75 is being requested here to play noise at an average of 60 dB SPL (difference is due to frequency response of the headphones)
@@ -2877,13 +2948,13 @@ for level, condition in trials:
     condition = trialList[trialNumber]
     
     if condition == '1':
-        toneDuration = presetToneDuration
+        toneDuration = 0.02
     
     elif condition == '2':
         toneDuration = 0
     firstChoiceNoise.setSound('Noise_BP_600_1400.wav', secs=0.32, hamming=True)
     firstChoiceNoise.setVolume(psychopy_input_value_for_noise, log=False)
-    firstChoiceProbeTone.setSound('1000', secs=toneDuration, hamming=True)
+    firstChoiceProbeTone.setSound('pure_tone_1000Hz.wav', secs=toneDuration, hamming=True)
     firstChoiceProbeTone.setVolume(psychopy_input_value, log=False)
     # keep track of which components have finished
     firstChoiceSpaceComponents = [firstVisualStimulus, firstChoiceNoise, firstChoiceProbeTone, firstChoiceLeftStimulus, firstChoiceRightStimulus]
@@ -3140,14 +3211,13 @@ for level, condition in trials:
         toneDuration = 0 
     
     elif condition == '2':
-        toneDuration = presetToneDuration
-    
+        toneDuration = 0.02
+    secondChoiceTone.setSound('pure_tone_1000Hz.wav', secs=toneDuration, hamming=True)
+    secondChoiceTone.setVolume(psychopy_input_value, log=False)
     secondChoiceNoise.setSound('Noise_BP_600_1400.wav', secs=0.32, hamming=True)
     secondChoiceNoise.setVolume(psychopy_input_value_for_noise, log=False)
-    secondChoiceTone.setSound('1000', secs=toneDuration, hamming=True)
-    secondChoiceTone.setVolume(psychopy_input_value, log=False)
     # keep track of which components have finished
-    secondChoiceSpaceComponents = [secondVisualStimulus, secondChoiceNoise, secondChoiceTone, secondChoiceLeftStimulus, secondChoiceRightStimulus]
+    secondChoiceSpaceComponents = [secondChoiceTone, secondChoiceNoise, secondVisualStimulus, secondChoiceLeftStimulus, secondChoiceRightStimulus]
     for thisComponent in secondChoiceSpaceComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -3169,6 +3239,36 @@ for level, condition in trials:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        # start/stop secondChoiceTone
+        if secondChoiceTone.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
+            # keep track of start time/frame for later
+            secondChoiceTone.frameNStart = frameN  # exact frame index
+            secondChoiceTone.tStart = t  # local t and not account for scr refresh
+            secondChoiceTone.tStartRefresh = tThisFlipGlobal  # on global time
+            secondChoiceTone.play(when=win)  # sync with win flip
+        if secondChoiceTone.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > secondChoiceTone.tStartRefresh + toneDuration-frameTolerance:
+                # keep track of stop time/frame for later
+                secondChoiceTone.tStop = t  # not accounting for scr refresh
+                secondChoiceTone.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(secondChoiceTone, 'tStopRefresh')  # time at next scr refresh
+                secondChoiceTone.stop()
+        # start/stop secondChoiceNoise
+        if secondChoiceNoise.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
+            # keep track of start time/frame for later
+            secondChoiceNoise.frameNStart = frameN  # exact frame index
+            secondChoiceNoise.tStart = t  # local t and not account for scr refresh
+            secondChoiceNoise.tStartRefresh = tThisFlipGlobal  # on global time
+            secondChoiceNoise.play(when=win)  # sync with win flip
+        if secondChoiceNoise.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > secondChoiceNoise.tStartRefresh + 0.32-frameTolerance:
+                # keep track of stop time/frame for later
+                secondChoiceNoise.tStop = t  # not accounting for scr refresh
+                secondChoiceNoise.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(secondChoiceNoise, 'tStopRefresh')  # time at next scr refresh
+                secondChoiceNoise.stop()
         
         # *secondVisualStimulus* updates
         if secondVisualStimulus.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -3186,36 +3286,6 @@ for level, condition in trials:
                 secondVisualStimulus.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(secondVisualStimulus, 'tStopRefresh')  # time at next scr refresh
                 secondVisualStimulus.setAutoDraw(False)
-        # start/stop secondChoiceNoise
-        if secondChoiceNoise.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
-            # keep track of start time/frame for later
-            secondChoiceNoise.frameNStart = frameN  # exact frame index
-            secondChoiceNoise.tStart = t  # local t and not account for scr refresh
-            secondChoiceNoise.tStartRefresh = tThisFlipGlobal  # on global time
-            secondChoiceNoise.play(when=win)  # sync with win flip
-        if secondChoiceNoise.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > secondChoiceNoise.tStartRefresh + 0.32-frameTolerance:
-                # keep track of stop time/frame for later
-                secondChoiceNoise.tStop = t  # not accounting for scr refresh
-                secondChoiceNoise.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(secondChoiceNoise, 'tStopRefresh')  # time at next scr refresh
-                secondChoiceNoise.stop()
-        # start/stop secondChoiceTone
-        if secondChoiceTone.status == NOT_STARTED and tThisFlip >= toneOnset-frameTolerance:
-            # keep track of start time/frame for later
-            secondChoiceTone.frameNStart = frameN  # exact frame index
-            secondChoiceTone.tStart = t  # local t and not account for scr refresh
-            secondChoiceTone.tStartRefresh = tThisFlipGlobal  # on global time
-            secondChoiceTone.play(when=win)  # sync with win flip
-        if secondChoiceTone.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > secondChoiceTone.tStartRefresh + toneDuration-frameTolerance:
-                # keep track of stop time/frame for later
-                secondChoiceTone.tStop = t  # not accounting for scr refresh
-                secondChoiceTone.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(secondChoiceTone, 'tStopRefresh')  # time at next scr refresh
-                secondChoiceTone.stop()
         
         # *secondChoiceLeftStimulus* updates
         if secondChoiceLeftStimulus.status == NOT_STARTED and tThisFlip >= 0.02-frameTolerance:
@@ -3272,14 +3342,14 @@ for level, condition in trials:
     for thisComponent in secondChoiceSpaceComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    trials.addOtherData('secondVisualStimulus.started', secondVisualStimulus.tStartRefresh)
-    trials.addOtherData('secondVisualStimulus.stopped', secondVisualStimulus.tStopRefresh)
-    secondChoiceNoise.stop()  # ensure sound has stopped at end of routine
-    trials.addOtherData('secondChoiceNoise.started', secondChoiceNoise.tStartRefresh)
-    trials.addOtherData('secondChoiceNoise.stopped', secondChoiceNoise.tStopRefresh)
     secondChoiceTone.stop()  # ensure sound has stopped at end of routine
     trials.addOtherData('secondChoiceTone.started', secondChoiceTone.tStartRefresh)
     trials.addOtherData('secondChoiceTone.stopped', secondChoiceTone.tStopRefresh)
+    secondChoiceNoise.stop()  # ensure sound has stopped at end of routine
+    trials.addOtherData('secondChoiceNoise.started', secondChoiceNoise.tStartRefresh)
+    trials.addOtherData('secondChoiceNoise.stopped', secondChoiceNoise.tStopRefresh)
+    trials.addOtherData('secondVisualStimulus.started', secondVisualStimulus.tStartRefresh)
+    trials.addOtherData('secondVisualStimulus.stopped', secondVisualStimulus.tStopRefresh)
     trials.addOtherData('secondChoiceLeftStimulus.started', secondChoiceLeftStimulus.tStartRefresh)
     trials.addOtherData('secondChoiceLeftStimulus.stopped', secondChoiceLeftStimulus.tStopRefresh)
     trials.addOtherData('secondChoiceRightStimulus.started', secondChoiceRightStimulus.tStartRefresh)
@@ -3482,14 +3552,118 @@ for level, condition in trials:
     for thisComponent in feedbackSpaceComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    print('trialNumber:', trialNumber, 'tone was presented in interval: ', condition, 'toneVolume was:', desired_db, 'participant was: ', feedback)
     trialNumber = trialNumber + 1
+    
+    #save additional variables to the data file 
+    thisExp.addData('Trial', trialNumber)
+    thisExp.addData('Psychopy_input_value', psychopy_input_value)
+    thisExp.addData('Desired_dB', desired_db)
+    thisExp.addData('Condition', condition)
+    thisExp.addData('Response_time', decisionKey.rt)
+    thisExp.addData('Accuracy', decisionKey.corr)
+    thisExp.addData('trialType', 'Test')
     trials.addOtherData('feedbackText.started', feedbackText.tStartRefresh)
     trials.addOtherData('feedbackText.stopped', feedbackText.tStopRefresh)
     thisExp.nextEntry()
     
 # all staircases completed
 
+
+# ------Prepare to start Routine "testComplete"-------
+continueRoutine = True
+# update component parameters for each repeat
+key_resp_9.keys = []
+key_resp_9.rt = []
+_key_resp_9_allKeys = []
+# keep track of which components have finished
+testCompleteComponents = [text_11, key_resp_9]
+for thisComponent in testCompleteComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+testCompleteClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "testComplete"-------
+while continueRoutine:
+    # get current time
+    t = testCompleteClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=testCompleteClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text_11* updates
+    if text_11.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        text_11.frameNStart = frameN  # exact frame index
+        text_11.tStart = t  # local t and not account for scr refresh
+        text_11.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(text_11, 'tStartRefresh')  # time at next scr refresh
+        text_11.setAutoDraw(True)
+    
+    # *key_resp_9* updates
+    waitOnFlip = False
+    if key_resp_9.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        key_resp_9.frameNStart = frameN  # exact frame index
+        key_resp_9.tStart = t  # local t and not account for scr refresh
+        key_resp_9.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp_9, 'tStartRefresh')  # time at next scr refresh
+        key_resp_9.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp_9.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp_9.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp_9.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp_9.getKeys(keyList=['e'], waitRelease=False)
+        _key_resp_9_allKeys.extend(theseKeys)
+        if len(_key_resp_9_allKeys):
+            key_resp_9.keys = _key_resp_9_allKeys[-1].name  # just the last key pressed
+            key_resp_9.rt = _key_resp_9_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in testCompleteComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "testComplete"-------
+for thisComponent in testCompleteComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('text_11.started', text_11.tStartRefresh)
+thisExp.addData('text_11.stopped', text_11.tStopRefresh)
+# check responses
+if key_resp_9.keys in ['', [], None]:  # No response was made
+    key_resp_9.keys = None
+thisExp.addData('key_resp_9.keys',key_resp_9.keys)
+if key_resp_9.keys != None:  # we had a response
+    thisExp.addData('key_resp_9.rt', key_resp_9.rt)
+thisExp.addData('key_resp_9.started', key_resp_9.tStartRefresh)
+thisExp.addData('key_resp_9.stopped', key_resp_9.tStopRefresh)
+thisExp.nextEntry()
+# the Routine "testComplete" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
 
 # Flip one final time so any remaining win.callOnFlip() 
 # and win.timeOnFlip() tasks get executed before quitting

@@ -1,0 +1,12 @@
+0.9913 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'pyo', 'pygame'] (in that order).
+13.7778 	INFO 	Loaded monitor calibration from ['2020_09_12 16:15']
+14.5353 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1402c59e8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x140ded828>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.5355 	EXP 	window1: mouseVisible = True
+14.5355 	EXP 	window1: recordFrameIntervals = False
+14.6973 	EXP 	window1: recordFrameIntervals = True
+14.8811 	DEBUG 	Screen (0) actual frame rate measured at 60.03
+14.8812 	EXP 	window1: recordFrameIntervals = False
+15.4962 	EXP 	window1: mouseVisible = True
+15.4967 	DEBUG 	Saving data for temp ExperimentHandler
+15.4976 	INFO 	saved data to /Users/jasonhe/Documents/Documents - Jason's iCloud/Work/GitHub/Open-source Auditory Tone Detection (OSATD) Task/Auditory Tone Detection Task/data/_temp_2020_Nov_03_1402.psydat
+15.4981 	INFO 	saved data to "/Users/jasonhe/Documents/Documents - Jason's iCloud/Work/GitHub/Open-source Auditory Tone Detection (OSATD) Task/Auditory Tone Detection Task/data/_temp_2020_Nov_03_1402.csv"
