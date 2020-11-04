@@ -1,0 +1,35 @@
+3.2313 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.9971 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.9974 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FBBAF62978>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FBBAFD4240>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.9975 	EXP 	window1: recordFrameIntervals = False
+11.1704 	EXP 	window1: recordFrameIntervals = True
+11.2375 	WARNING 	t of last frame was 27.17ms (=1/36)
+11.3038 	WARNING 	t of last frame was 26.55ms (=1/37)
+11.3704 	WARNING 	t of last frame was 26.38ms (=1/37)
+11.4371 	WARNING 	t of last frame was 26.56ms (=1/37)
+11.5041 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.8247 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.9602 	EXP 	Sound sound_1 set volume 1.000
+12.9687 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+12.9721 	EXP 	New trial (rep=0, index=0): None
+17.8154 	WARNING 	Got keycode {} but that code isn't yet known
+17.8154 	WARNING 	Keypress was given unknown key code (176)
+17.9869 	EXP 	New trial (rep=1, index=0): None
+18.2279 	WARNING 	Got keycode {} but that code isn't yet known
+18.2279 	WARNING 	Keypress was given unknown key code (174)
+21.0058 	EXP 	New trial (rep=2, index=0): None
+21.0082 	DATA 	Keypress: d
+22.3259 	EXP 	New trial (rep=3, index=0): None
+22.3295 	DATA 	Keypress: d
+25.7396 	EXP 	New trial (rep=4, index=0): None
+25.7422 	DATA 	Keypress: u
+28.5542 	EXP 	New trial (rep=5, index=0): None
+28.5580 	DATA 	Keypress: d
+32.3959 	DATA 	Keypress: escape
+32.6669 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,302 @@
+4.2892 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+17.8479 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.8501 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026CDEAD7B70>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026CDEB45438>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.8501 	EXP 	window1: recordFrameIntervals = False
+18.0215 	EXP 	window1: recordFrameIntervals = True
+18.0751 	WARNING 	t of last frame was 27.15ms (=1/36)
+18.1415 	WARNING 	t of last frame was 26.71ms (=1/37)
+18.2086 	WARNING 	t of last frame was 27.30ms (=1/36)
+18.2748 	WARNING 	t of last frame was 26.95ms (=1/37)
+18.3416 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.6894 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.5134 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='press space to start\n', units='height', win=Window(...), wrapWidth=1)
+20.5395 	EXP 	Sound sound_1 set volume 1.000
+20.5677 	EXP 	text: autoDraw = True
+20.5677 	EXP 	text: autoDraw = False
+21.8788 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+21.8824 	EXP 	New trial (rep=0, index=0): None
+21.8877 	DATA 	Keypress: space
+21.8903 	EXP 	text: autoDraw = False
+26.8948 	EXP 	New trial (rep=1, index=0): None
+31.9062 	EXP 	New trial (rep=2, index=0): None
+36.8808 	EXP 	New trial (rep=3, index=0): None
+41.8977 	EXP 	New trial (rep=4, index=0): None
+46.8840 	EXP 	New trial (rep=5, index=0): None
+51.8867 	EXP 	New trial (rep=6, index=0): None
+56.8878 	EXP 	New trial (rep=7, index=0): None
+61.8907 	EXP 	New trial (rep=8, index=0): None
+66.9048 	EXP 	New trial (rep=9, index=0): None
+71.8806 	EXP 	New trial (rep=10, index=0): None
+76.8956 	EXP 	New trial (rep=11, index=0): None
+81.8838 	EXP 	New trial (rep=12, index=0): None
+86.8862 	EXP 	New trial (rep=13, index=0): None
+91.8917 	EXP 	New trial (rep=14, index=0): None
+96.8896 	EXP 	New trial (rep=15, index=0): None
+101.4942 	WARNING 	Got keycode {} but that code isn't yet known
+101.4942 	WARNING 	Keypress was given unknown key code (176)
+101.6937 	WARNING 	Got keycode {} but that code isn't yet known
+101.6938 	WARNING 	Keypress was given unknown key code (176)
+101.9056 	EXP 	New trial (rep=16, index=0): None
+102.2550 	WARNING 	Got keycode {} but that code isn't yet known
+102.2550 	WARNING 	Keypress was given unknown key code (174)
+105.4763 	WARNING 	Got keycode {} but that code isn't yet known
+105.4764 	WARNING 	Keypress was given unknown key code (174)
+105.6589 	WARNING 	Got keycode {} but that code isn't yet known
+105.6590 	WARNING 	Keypress was given unknown key code (174)
+105.8459 	WARNING 	Got keycode {} but that code isn't yet known
+105.8460 	WARNING 	Keypress was given unknown key code (174)
+106.0178 	WARNING 	Got keycode {} but that code isn't yet known
+106.0178 	WARNING 	Keypress was given unknown key code (174)
+106.1906 	WARNING 	Got keycode {} but that code isn't yet known
+106.1906 	WARNING 	Keypress was given unknown key code (174)
+106.3507 	WARNING 	Got keycode {} but that code isn't yet known
+106.3507 	WARNING 	Keypress was given unknown key code (174)
+106.5251 	WARNING 	Got keycode {} but that code isn't yet known
+106.5251 	WARNING 	Keypress was given unknown key code (174)
+106.7257 	WARNING 	Got keycode {} but that code isn't yet known
+106.7257 	WARNING 	Keypress was given unknown key code (174)
+106.8987 	EXP 	New trial (rep=17, index=0): None
+111.8961 	EXP 	New trial (rep=18, index=0): None
+116.8843 	EXP 	New trial (rep=19, index=0): None
+118.4354 	WARNING 	Got keycode {} but that code isn't yet known
+118.4354 	WARNING 	Keypress was given unknown key code (176)
+118.6194 	WARNING 	Got keycode {} but that code isn't yet known
+118.6194 	WARNING 	Keypress was given unknown key code (176)
+118.8197 	WARNING 	Got keycode {} but that code isn't yet known
+118.8197 	WARNING 	Keypress was given unknown key code (176)
+119.1560 	WARNING 	Got keycode {} but that code isn't yet known
+119.1560 	WARNING 	Keypress was given unknown key code (176)
+120.3272 	WARNING 	Got keycode {} but that code isn't yet known
+120.3273 	WARNING 	Keypress was given unknown key code (174)
+121.4339 	WARNING 	Got keycode {} but that code isn't yet known
+121.4339 	WARNING 	Keypress was given unknown key code (174)
+121.8855 	EXP 	New trial (rep=20, index=0): None
+123.0083 	WARNING 	Got keycode {} but that code isn't yet known
+123.0083 	WARNING 	Keypress was given unknown key code (174)
+123.2885 	WARNING 	Got keycode {} but that code isn't yet known
+123.2885 	WARNING 	Keypress was given unknown key code (176)
+123.4613 	WARNING 	Got keycode {} but that code isn't yet known
+123.4614 	WARNING 	Keypress was given unknown key code (176)
+123.6212 	WARNING 	Got keycode {} but that code isn't yet known
+123.6212 	WARNING 	Keypress was given unknown key code (176)
+123.8225 	WARNING 	Got keycode {} but that code isn't yet known
+123.8225 	WARNING 	Keypress was given unknown key code (176)
+124.2488 	WARNING 	Got keycode {} but that code isn't yet known
+124.2488 	WARNING 	Keypress was given unknown key code (176)
+124.4218 	WARNING 	Got keycode {} but that code isn't yet known
+124.4218 	WARNING 	Keypress was given unknown key code (176)
+124.5694 	WARNING 	Got keycode {} but that code isn't yet known
+124.5694 	WARNING 	Keypress was given unknown key code (176)
+124.7301 	WARNING 	Got keycode {} but that code isn't yet known
+124.7303 	WARNING 	Keypress was given unknown key code (176)
+124.8891 	WARNING 	Got keycode {} but that code isn't yet known
+124.8891 	WARNING 	Keypress was given unknown key code (176)
+125.0653 	WARNING 	Got keycode {} but that code isn't yet known
+125.0654 	WARNING 	Keypress was given unknown key code (176)
+125.2361 	WARNING 	Got keycode {} but that code isn't yet known
+125.2361 	WARNING 	Keypress was given unknown key code (176)
+125.3825 	WARNING 	Got keycode {} but that code isn't yet known
+125.3825 	WARNING 	Keypress was given unknown key code (176)
+125.6901 	WARNING 	Got keycode {} but that code isn't yet known
+125.6901 	WARNING 	Keypress was given unknown key code (176)
+126.8889 	EXP 	New trial (rep=21, index=0): None
+129.8790 	DATA 	Mouse: Left button down, pos=(527,210)
+129.9865 	DATA 	Mouse:  Left button up, pos=(527,210)
+130.9890 	EXP 	New trial (rep=22, index=0): None
+130.9914 	DATA 	Keypress: u
+131.2852 	EXP 	New trial (rep=23, index=0): None
+131.2883 	DATA 	Keypress: u
+131.5621 	EXP 	New trial (rep=24, index=0): None
+131.5655 	DATA 	Keypress: u
+131.7735 	DATA 	Keypress: u
+131.8162 	EXP 	New trial (rep=25, index=0): None
+132.0304 	EXP 	New trial (rep=26, index=0): None
+132.0328 	DATA 	Keypress: u
+132.2165 	EXP 	New trial (rep=27, index=0): None
+132.2197 	DATA 	Keypress: u
+132.3467 	DATA 	Keypress: u
+132.3776 	EXP 	New trial (rep=28, index=0): None
+132.5496 	EXP 	New trial (rep=29, index=0): None
+132.5525 	DATA 	Keypress: u
+132.6681 	DATA 	Keypress: u
+132.6988 	EXP 	New trial (rep=30, index=0): None
+132.8447 	EXP 	New trial (rep=31, index=0): None
+132.8485 	DATA 	Keypress: u
+132.9912 	EXP 	New trial (rep=32, index=0): None
+132.9952 	DATA 	Keypress: u
+133.1217 	DATA 	Keypress: u
+133.1689 	EXP 	New trial (rep=33, index=0): None
+133.2996 	EXP 	New trial (rep=34, index=0): None
+133.3031 	DATA 	Keypress: u
+133.4466 	EXP 	New trial (rep=35, index=0): None
+133.4499 	DATA 	Keypress: u
+133.5923 	EXP 	New trial (rep=36, index=0): None
+133.5958 	DATA 	Keypress: u
+133.7616 	DATA 	Keypress: u
+133.7922 	EXP 	New trial (rep=37, index=0): None
+133.8952 	DATA 	Keypress: u
+133.9360 	EXP 	New trial (rep=38, index=0): None
+134.0546 	DATA 	Keypress: u
+134.1237 	EXP 	New trial (rep=39, index=0): None
+134.2163 	DATA 	Keypress: u
+134.2800 	EXP 	New trial (rep=40, index=0): None
+134.3747 	DATA 	Keypress: u
+134.4213 	EXP 	New trial (rep=41, index=0): None
+134.5726 	EXP 	New trial (rep=42, index=0): None
+134.5764 	DATA 	Keypress: u
+134.7299 	EXP 	New trial (rep=43, index=0): None
+134.7341 	DATA 	Keypress: u
+134.9029 	EXP 	New trial (rep=44, index=0): None
+134.9065 	DATA 	Keypress: u
+135.0627 	EXP 	New trial (rep=45, index=0): None
+135.0658 	DATA 	Keypress: u
+135.2366 	EXP 	New trial (rep=46, index=0): None
+135.2402 	DATA 	Keypress: u
+135.3481 	DATA 	Keypress: u
+135.3848 	EXP 	New trial (rep=47, index=0): None
+135.5079 	DATA 	Keypress: u
+135.5411 	EXP 	New trial (rep=48, index=0): None
+135.6688 	DATA 	Keypress: u
+135.7154 	EXP 	New trial (rep=49, index=0): None
+135.8316 	DATA 	Keypress: u
+135.8830 	EXP 	New trial (rep=50, index=0): None
+136.0281 	EXP 	New trial (rep=51, index=0): None
+136.0310 	DATA 	Keypress: u
+136.1944 	EXP 	New trial (rep=52, index=0): None
+136.1986 	DATA 	Keypress: u
+136.3221 	DATA 	Keypress: u
+136.3574 	EXP 	New trial (rep=53, index=0): None
+136.5163 	EXP 	New trial (rep=54, index=0): None
+136.5199 	DATA 	Keypress: u
+136.6423 	DATA 	Keypress: u
+136.6748 	EXP 	New trial (rep=55, index=0): None
+136.8463 	EXP 	New trial (rep=56, index=0): None
+136.8497 	DATA 	Keypress: u
+136.9927 	EXP 	New trial (rep=57, index=0): None
+136.9963 	DATA 	Keypress: u
+137.1526 	EXP 	New trial (rep=58, index=0): None
+137.1551 	DATA 	Keypress: u
+137.3245 	EXP 	New trial (rep=59, index=0): None
+137.3279 	DATA 	Keypress: u
+137.4849 	EXP 	New trial (rep=60, index=0): None
+137.4882 	DATA 	Keypress: u
+137.6667 	EXP 	New trial (rep=61, index=0): None
+137.6722 	DATA 	Keypress: u
+137.7994 	EXP 	New trial (rep=62, index=0): None
+137.8031 	DATA 	Keypress: u
+137.9334 	EXP 	New trial (rep=63, index=0): None
+137.9366 	DATA 	Keypress: u
+138.0706 	DATA 	Keypress: u
+138.1017 	EXP 	New trial (rep=64, index=0): None
+138.2617 	EXP 	New trial (rep=65, index=0): None
+138.2652 	DATA 	Keypress: u
+138.4082 	EXP 	New trial (rep=66, index=0): None
+138.4111 	DATA 	Keypress: u
+138.5510 	DATA 	Keypress: u
+138.6147 	EXP 	New trial (rep=67, index=0): None
+138.7308 	EXP 	New trial (rep=68, index=0): None
+138.7345 	DATA 	Keypress: u
+138.8707 	DATA 	Keypress: u
+138.9032 	EXP 	New trial (rep=69, index=0): None
+139.0611 	EXP 	New trial (rep=70, index=0): None
+139.0644 	DATA 	Keypress: u
+139.2589 	EXP 	New trial (rep=71, index=0): None
+139.2622 	DATA 	Keypress: u
+139.4225 	EXP 	New trial (rep=72, index=0): None
+139.4262 	DATA 	Keypress: u
+139.5990 	EXP 	New trial (rep=73, index=0): None
+139.6038 	DATA 	Keypress: u
+139.7256 	DATA 	Keypress: u
+139.7739 	EXP 	New trial (rep=74, index=0): None
+139.9083 	EXP 	New trial (rep=75, index=0): None
+139.9121 	DATA 	Keypress: u
+140.0637 	EXP 	New trial (rep=76, index=0): None
+140.0673 	DATA 	Keypress: u
+140.2240 	EXP 	New trial (rep=77, index=0): None
+140.2263 	DATA 	Keypress: u
+140.4737 	EXP 	New trial (rep=78, index=0): None
+140.4776 	DATA 	Keypress: u
+140.6189 	DATA 	Keypress: u
+140.6476 	EXP 	New trial (rep=79, index=0): None
+141.0872 	EXP 	New trial (rep=80, index=0): None
+141.0900 	DATA 	Keypress: u
+141.7496 	DATA 	Keypress: u
+141.7780 	EXP 	New trial (rep=81, index=0): None
+142.6054 	EXP 	New trial (rep=82, index=0): None
+142.6087 	DATA 	Keypress: u
+142.7786 	EXP 	New trial (rep=83, index=0): None
+142.7817 	DATA 	Keypress: u
+142.9547 	EXP 	New trial (rep=84, index=0): None
+142.9566 	DATA 	Keypress: u
+143.3527 	EXP 	New trial (rep=85, index=0): None
+143.3557 	DATA 	Keypress: u
+143.8320 	DATA 	Keypress: u
+143.8578 	EXP 	New trial (rep=86, index=0): None
+144.3923 	EXP 	New trial (rep=87, index=0): None
+144.3954 	DATA 	Keypress: u
+145.2879 	EXP 	New trial (rep=88, index=0): None
+145.2914 	DATA 	Keypress: u
+146.1010 	EXP 	New trial (rep=89, index=0): None
+146.1042 	DATA 	Keypress: u
+146.5263 	EXP 	New trial (rep=90, index=0): None
+146.5292 	DATA 	Keypress: u
+147.4607 	DATA 	Keypress: u
+147.5028 	EXP 	New trial (rep=91, index=0): None
+147.9273 	EXP 	New trial (rep=92, index=0): None
+147.9306 	DATA 	Keypress: u
+149.3391 	WARNING 	Got keycode {} but that code isn't yet known
+149.3392 	WARNING 	Keypress was given unknown key code (176)
+150.5391 	WARNING 	Got keycode {} but that code isn't yet known
+150.5392 	WARNING 	Keypress was given unknown key code (176)
+151.1922 	WARNING 	Got keycode {} but that code isn't yet known
+151.1922 	WARNING 	Keypress was given unknown key code (176)
+151.9401 	WARNING 	Got keycode {} but that code isn't yet known
+151.9401 	WARNING 	Keypress was given unknown key code (176)
+152.2462 	WARNING 	Got keycode {} but that code isn't yet known
+152.2462 	WARNING 	Keypress was given unknown key code (176)
+152.9589 	EXP 	New trial (rep=93, index=0): None
+153.0183 	EXP 	New trial (rep=94, index=0): None
+153.0224 	DATA 	Keypress: u
+153.6484 	EXP 	New trial (rep=95, index=0): None
+153.6520 	DATA 	Keypress: u
+154.6766 	EXP 	New trial (rep=96, index=0): None
+154.6786 	DATA 	Keypress: u
+155.3149 	EXP 	New trial (rep=97, index=0): None
+155.3175 	DATA 	Keypress: u
+155.8228 	EXP 	New trial (rep=98, index=0): None
+155.8251 	DATA 	Keypress: u
+155.9564 	EXP 	New trial (rep=99, index=0): None
+155.9592 	DATA 	Keypress: u
+156.1161 	EXP 	New trial (rep=100, index=0): None
+156.1186 	DATA 	Keypress: u
+156.2891 	EXP 	New trial (rep=101, index=0): None
+156.2921 	DATA 	Keypress: u
+156.4230 	EXP 	New trial (rep=102, index=0): None
+156.4260 	DATA 	Keypress: u
+156.5566 	EXP 	New trial (rep=103, index=0): None
+156.5589 	DATA 	Keypress: u
+159.4885 	WARNING 	Got keycode {} but that code isn't yet known
+159.4885 	WARNING 	Keypress was given unknown key code (176)
+159.9025 	WARNING 	Got keycode {} but that code isn't yet known
+159.9025 	WARNING 	Keypress was given unknown key code (174)
+161.5808 	EXP 	New trial (rep=104, index=0): None
+165.8662 	DATA 	Keypress: x
+166.0006 	DATA 	Keypress: lalt
+166.4800 	WARNING 	Got keycode {} but that code isn't yet known
+166.4801 	WARNING 	Keypress was given unknown key code (174)
+166.5856 	EXP 	New trial (rep=105, index=0): None
+166.9972 	WARNING 	Got keycode {} but that code isn't yet known
+166.9972 	WARNING 	Keypress was given unknown key code (176)
+171.5993 	EXP 	New trial (rep=106, index=0): None
+175.4201 	DATA 	Mouse: Left button down, pos=(724,400)
+175.5355 	DATA 	Mouse:  Left button up, pos=(724,400)
+176.3896 	DATA 	Keypress: space
+176.6135 	EXP 	New trial (rep=107, index=0): None
+177.2041 	DATA 	Keypress: escape
+177.4300 	EXP 	window1: mouseVisible = True

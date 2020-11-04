@@ -1,0 +1,144 @@
+6.7064 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+20.6344 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.6348 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B455071160>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B4550C79E8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.6348 	EXP 	window1: recordFrameIntervals = False
+20.8074 	EXP 	window1: recordFrameIntervals = True
+20.8609 	WARNING 	t of last frame was 26.82ms (=1/37)
+20.9275 	WARNING 	t of last frame was 26.46ms (=1/37)
+20.9942 	WARNING 	t of last frame was 26.85ms (=1/37)
+21.0608 	WARNING 	t of last frame was 26.56ms (=1/37)
+21.1275 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+21.2927 	DATA 	Mouse: Left button down, pos=(444,528)
+21.5291 	DATA 	Mouse:  Left button up, pos=(444,528)
+21.8762 	DATA 	Keypress: space
+22.4749 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.7100 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='press space to start\n', units='height', win=Window(...), wrapWidth=1)
+22.7355 	EXP 	Sound sound_1 set volume 1.000
+22.7458 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.7606 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text="'Does your db SPL meter read 113 db SPL?'", units='height', win=Window(...), wrapWidth=1)
+22.7884 	EXP 	text: autoDraw = True
+22.7884 	EXP 	text: autoDraw = False
+23.3732 	DATA 	Mouse: Left button down, pos=(444,528)
+23.5056 	DATA 	Mouse:  Left button up, pos=(444,528)
+24.1464 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (5).
+24.1548 	DATA 	Keypress: space
+24.1596 	EXP 	text: autoDraw = False
+24.1596 	EXP 	text_2: text = 0.5
+24.1596 	EXP 	text_2: autoDraw = True
+24.1596 	EXP 	text_3: autoDraw = True
+25.1232 	DATA 	Keypress: u
+25.1292 	EXP 	text_2: autoDraw = False
+25.1292 	EXP 	text_3: autoDraw = False
+25.1292 	EXP 	text_2: text = 1
+25.1292 	EXP 	text_2: autoDraw = True
+25.1292 	EXP 	text_3: autoDraw = True
+26.2108 	DATA 	Keypress: d
+26.2134 	EXP 	text_2: autoDraw = False
+26.2134 	EXP 	text_3: autoDraw = False
+26.2134 	EXP 	text_2: text = 0.15848931924611132
+26.2134 	EXP 	text_2: autoDraw = True
+26.2134 	EXP 	text_3: autoDraw = True
+26.8505 	DATA 	Keypress: d
+26.8530 	EXP 	text_2: autoDraw = False
+26.8530 	EXP 	text_3: autoDraw = False
+26.8530 	EXP 	text_2: text = 0.02511886431509579
+26.8530 	EXP 	text_2: autoDraw = True
+26.8530 	EXP 	text_3: autoDraw = True
+29.1387 	DATA 	Keypress: d
+29.1440 	EXP 	text_2: autoDraw = False
+29.1440 	EXP 	text_3: autoDraw = False
+29.1440 	EXP 	text_2: text = 0.00398107170553497
+29.1440 	EXP 	text_2: autoDraw = True
+29.1440 	EXP 	text_3: autoDraw = True
+30.0203 	DATA 	Keypress: d
+30.0242 	EXP 	text_2: autoDraw = False
+30.0242 	EXP 	text_3: autoDraw = False
+30.0242 	EXP 	text_2: text = 0.0006309573444801928
+30.0242 	EXP 	text_2: autoDraw = True
+30.0242 	EXP 	text_3: autoDraw = True
+30.6632 	DATA 	Keypress: d
+30.6659 	EXP 	text_2: autoDraw = False
+30.6659 	EXP 	text_3: autoDraw = False
+30.6659 	EXP 	text_2: text = 9.999999999999991e-05
+30.6659 	EXP 	text_2: autoDraw = True
+30.6659 	EXP 	text_3: autoDraw = True
+32.1672 	DATA 	Keypress: u
+32.1715 	EXP 	text_2: autoDraw = False
+32.1715 	EXP 	text_3: autoDraw = False
+32.1715 	EXP 	text_2: text = 0.0002511886431509578
+32.1715 	EXP 	text_2: autoDraw = True
+32.1715 	EXP 	text_3: autoDraw = True
+32.3409 	DATA 	Keypress: u
+32.3453 	EXP 	text_2: autoDraw = False
+32.3453 	EXP 	text_3: autoDraw = False
+32.3453 	EXP 	text_2: text = 0.0006309573444801927
+32.3453 	EXP 	text_2: autoDraw = True
+32.3453 	EXP 	text_3: autoDraw = True
+32.3622 	DATA 	Mouse: Left button down, pos=(444,528)
+32.4887 	DATA 	Keypress: u
+32.4931 	EXP 	text_2: autoDraw = False
+32.4931 	EXP 	text_3: autoDraw = False
+32.4931 	EXP 	text_2: text = 0.001584893192461112
+32.4931 	EXP 	text_2: autoDraw = True
+32.4931 	EXP 	text_3: autoDraw = True
+32.6023 	DATA 	Mouse:  Left button up, pos=(444,528)
+32.6430 	DATA 	Keypress: u
+32.6786 	EXP 	text_2: autoDraw = False
+32.6786 	EXP 	text_3: autoDraw = False
+32.6786 	EXP 	text_2: text = 0.003981071705534968
+32.6786 	EXP 	text_2: autoDraw = True
+32.6786 	EXP 	text_3: autoDraw = True
+32.8329 	DATA 	Keypress: u
+32.8384 	EXP 	text_2: autoDraw = False
+32.8384 	EXP 	text_3: autoDraw = False
+32.8384 	EXP 	text_2: text = 0.00999999999999999
+32.8384 	EXP 	text_2: autoDraw = True
+32.8384 	EXP 	text_3: autoDraw = True
+32.8964 	DATA 	Mouse: Left button down, pos=(444,528)
+33.0700 	DATA 	Mouse:  Left button up, pos=(444,528)
+33.0702 	DATA 	Mouse: Left button down, pos=(444,528)
+33.1407 	DATA 	Keypress: u
+33.1458 	EXP 	text_2: autoDraw = False
+33.1458 	EXP 	text_3: autoDraw = False
+33.1458 	EXP 	text_2: text = 0.025118864315095777
+33.1458 	EXP 	text_2: autoDraw = True
+33.1458 	EXP 	text_3: autoDraw = True
+33.5409 	DATA 	Keypress: u
+33.5458 	EXP 	text_2: autoDraw = False
+33.5458 	EXP 	text_3: autoDraw = False
+33.5458 	EXP 	text_2: text = 0.06309573444801926
+33.5458 	EXP 	text_2: autoDraw = True
+33.5458 	EXP 	text_3: autoDraw = True
+33.9112 	DATA 	Keypress: u
+33.9458 	EXP 	text_2: autoDraw = False
+33.9458 	EXP 	text_3: autoDraw = False
+33.9458 	EXP 	text_2: text = 0.15848931924611118
+33.9458 	EXP 	text_2: autoDraw = True
+33.9458 	EXP 	text_3: autoDraw = True
+34.4162 	DATA 	Mouse:  Left button up, pos=(444,531)
+34.6928 	DATA 	Keypress: u
+34.6964 	EXP 	text_2: autoDraw = False
+34.6964 	EXP 	text_3: autoDraw = False
+34.6964 	EXP 	text_2: text = 0.3981071705534968
+34.6964 	EXP 	text_2: autoDraw = True
+34.6964 	EXP 	text_3: autoDraw = True
+35.0891 	DATA 	Keypress: u
+35.0939 	EXP 	text_2: autoDraw = False
+35.0939 	EXP 	text_3: autoDraw = False
+35.0939 	EXP 	text_2: text = 0.9999999999999989
+35.0939 	EXP 	text_2: autoDraw = True
+35.0939 	EXP 	text_3: autoDraw = True
+35.4335 	DATA 	Keypress: u
+35.4394 	EXP 	text_2: autoDraw = False
+35.4394 	EXP 	text_3: autoDraw = False
+35.4394 	EXP 	text_2: text = 1
+35.4394 	EXP 	text_2: autoDraw = True
+35.4394 	EXP 	text_3: autoDraw = True
+36.3499 	DATA 	Keypress: escape
+36.5623 	EXP 	window1: mouseVisible = True

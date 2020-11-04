@@ -1,0 +1,146 @@
+2.4163 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.1563 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022ABB9525C0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022ABB7E0588>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.1565 	EXP 	window1: mouseVisible = True
+10.1565 	EXP 	window1: recordFrameIntervals = False
+10.3225 	EXP 	window1: recordFrameIntervals = True
+10.5062 	EXP 	window1: recordFrameIntervals = False
+10.7178 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Press space to continue', units='height', win=Window(...), wrapWidth=1)
+10.7487 	EXP 	Created title_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='title_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Headphone Calibration Check', units='height', win=Window(...), wrapWidth=1)
+10.7736 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.7809 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.7985 	EXP 	Sound sound_1 set volume 1.000
+10.8309 	EXP 	press_space: autoDraw = True
+10.8309 	EXP 	title_text: autoDraw = True
+11.5437 	EXP 	Imported desired_db.xlsx as conditions, 16 conditions, 1 params
+11.5440 	EXP 	Created sequence: sequential, trialTypes=16, nReps=1, seed=None
+11.5443 	EXP 	New trial (rep=0, index=0): OrderedDict([('desired_db', 30)])
+11.5527 	DATA 	Keypress: space
+11.5553 	EXP 	press_space: autoDraw = False
+11.5553 	EXP 	title_text: autoDraw = False
+11.5553 	EXP 	text: text = 30
+11.5553 	EXP 	text_2: autoDraw = True
+11.5553 	EXP 	text: autoDraw = True
+12.1635 	EXP 	New trial (rep=0, index=1): OrderedDict([('desired_db', 35)])
+12.1709 	DATA 	Keypress: space
+12.1745 	EXP 	text_2: autoDraw = False
+12.1745 	EXP 	text: autoDraw = False
+12.1745 	EXP 	text: text = 35
+12.1745 	EXP 	text_2: autoDraw = True
+12.1745 	EXP 	text: autoDraw = True
+12.4801 	EXP 	New trial (rep=0, index=2): OrderedDict([('desired_db', 40)])
+12.4871 	DATA 	Keypress: space
+12.4918 	EXP 	text_2: autoDraw = False
+12.4918 	EXP 	text: autoDraw = False
+12.4918 	EXP 	text: text = 40
+12.4918 	EXP 	text_2: autoDraw = True
+12.4918 	EXP 	text: autoDraw = True
+12.6632 	EXP 	New trial (rep=0, index=3): OrderedDict([('desired_db', 45)])
+12.6682 	DATA 	Keypress: space
+12.6749 	EXP 	text_2: autoDraw = False
+12.6749 	EXP 	text: autoDraw = False
+12.6749 	EXP 	text: text = 45
+12.6749 	EXP 	text_2: autoDraw = True
+12.6749 	EXP 	text: autoDraw = True
+12.8467 	EXP 	New trial (rep=0, index=4): OrderedDict([('desired_db', 50)])
+12.8513 	DATA 	Keypress: space
+12.8583 	EXP 	text_2: autoDraw = False
+12.8583 	EXP 	text: autoDraw = False
+12.8583 	EXP 	text: text = 50
+12.8583 	EXP 	text_2: autoDraw = True
+12.8583 	EXP 	text: autoDraw = True
+13.0466 	EXP 	New trial (rep=0, index=5): OrderedDict([('desired_db', 55)])
+13.0514 	DATA 	Keypress: space
+13.0585 	EXP 	text_2: autoDraw = False
+13.0585 	EXP 	text: autoDraw = False
+13.0585 	EXP 	text: text = 55
+13.0585 	EXP 	text_2: autoDraw = True
+13.0585 	EXP 	text: autoDraw = True
+13.2299 	EXP 	New trial (rep=0, index=6): OrderedDict([('desired_db', 60)])
+13.2372 	DATA 	Keypress: space
+13.2423 	EXP 	text_2: autoDraw = False
+13.2423 	EXP 	text: autoDraw = False
+13.2423 	EXP 	text: text = 60
+13.2423 	EXP 	text_2: autoDraw = True
+13.2423 	EXP 	text: autoDraw = True
+13.4133 	EXP 	New trial (rep=0, index=7): OrderedDict([('desired_db', 65)])
+13.4186 	DATA 	Keypress: space
+13.4255 	EXP 	text_2: autoDraw = False
+13.4255 	EXP 	text: autoDraw = False
+13.4255 	EXP 	text: text = 65
+13.4255 	EXP 	text_2: autoDraw = True
+13.4255 	EXP 	text: autoDraw = True
+13.5971 	EXP 	New trial (rep=0, index=8): OrderedDict([('desired_db', 70)])
+13.6046 	DATA 	Keypress: space
+13.6091 	EXP 	text_2: autoDraw = False
+13.6091 	EXP 	text: autoDraw = False
+13.6091 	EXP 	text: text = 70
+13.6091 	EXP 	text_2: autoDraw = True
+13.6091 	EXP 	text: autoDraw = True
+13.8147 	EXP 	New trial (rep=0, index=9): OrderedDict([('desired_db', 75)])
+13.8194 	DATA 	Keypress: space
+13.8261 	EXP 	text_2: autoDraw = False
+13.8261 	EXP 	text: autoDraw = False
+13.8261 	EXP 	text: text = 75
+13.8261 	EXP 	text_2: autoDraw = True
+13.8261 	EXP 	text: autoDraw = True
+14.0151 	EXP 	New trial (rep=0, index=10): OrderedDict([('desired_db', 80)])
+14.0221 	DATA 	Keypress: space
+14.0261 	EXP 	text_2: autoDraw = False
+14.0261 	EXP 	text: autoDraw = False
+14.0261 	EXP 	text: text = 80
+14.0261 	EXP 	text_2: autoDraw = True
+14.0261 	EXP 	text: autoDraw = True
+14.1815 	EXP 	New trial (rep=0, index=11): OrderedDict([('desired_db', 85)])
+14.1871 	DATA 	Keypress: space
+14.1930 	EXP 	text_2: autoDraw = False
+14.1930 	EXP 	text: autoDraw = False
+14.1930 	EXP 	text: text = 85
+14.1930 	EXP 	text_2: autoDraw = True
+14.1930 	EXP 	text: autoDraw = True
+14.3655 	EXP 	New trial (rep=0, index=12): OrderedDict([('desired_db', 90)])
+14.3726 	DATA 	Keypress: space
+14.3765 	EXP 	text_2: autoDraw = False
+14.3765 	EXP 	text: autoDraw = False
+14.3765 	EXP 	text: text = 90
+14.3765 	EXP 	text_2: autoDraw = True
+14.3765 	EXP 	text: autoDraw = True
+14.5478 	EXP 	New trial (rep=0, index=13): OrderedDict([('desired_db', 95)])
+14.5532 	DATA 	Keypress: space
+14.5603 	EXP 	text_2: autoDraw = False
+14.5603 	EXP 	text: autoDraw = False
+14.5603 	EXP 	text: text = 95
+14.5603 	EXP 	text_2: autoDraw = True
+14.5603 	EXP 	text: autoDraw = True
+14.7657 	EXP 	New trial (rep=0, index=14): OrderedDict([('desired_db', 100)])
+14.7730 	DATA 	Keypress: space
+14.7769 	EXP 	text_2: autoDraw = False
+14.7769 	EXP 	text: autoDraw = False
+14.7769 	EXP 	text: text = 100
+14.7769 	EXP 	text_2: autoDraw = True
+14.7769 	EXP 	text: autoDraw = True
+16.2163 	EXP 	New trial (rep=0, index=15): OrderedDict([('desired_db', 113)])
+16.2212 	DATA 	Keypress: space
+16.2286 	EXP 	text_2: autoDraw = False
+16.2286 	EXP 	text: autoDraw = False
+16.2286 	EXP 	text: text = 113
+16.2286 	EXP 	text_2: autoDraw = True
+16.2286 	EXP 	text: autoDraw = True
+20.2206 	DATA 	Keypress: escape
+20.4789 	EXP 	window1: mouseVisible = True
+2.9355 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+26.7195 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E1819835C0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E181810588>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+26.7196 	EXP 	window1: mouseVisible = True
+26.7196 	EXP 	window1: recordFrameIntervals = False
+26.8869 	EXP 	window1: recordFrameIntervals = True
+27.0694 	EXP 	window1: recordFrameIntervals = False
+27.3189 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Press space to continue', units='height', win=Window(...), wrapWidth=1)
+27.3492 	EXP 	Created title_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='title_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Headphone Calibration Check', units='height', win=Window(...), wrapWidth=1)
+27.3757 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+27.3824 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+27.4005 	EXP 	Sound sound_1 set volume 1.000
+27.4330 	EXP 	press_space: autoDraw = True
+27.4330 	EXP 	title_text: autoDraw = True
+28.2371 	EXP 	Imported desired_db.xlsx as conditions, 16 conditions, 1 params
+28.2374 	EXP 	Created sequence: sequential, trialTypes=16, nReps=1, seed=None
+28.2376 	EXP 	New trial (rep=0, index=0): OrderedDict([('desired_db', 30)])
+28.3504 	EXP 	window1: mouseVisible = True

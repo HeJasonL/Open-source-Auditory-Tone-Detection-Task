@@ -1,0 +1,140 @@
+3.2668 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.9176 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.9178 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022E1ADC4080>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022E1AE28908>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.9179 	EXP 	window1: recordFrameIntervals = False
+16.0911 	EXP 	window1: recordFrameIntervals = True
+16.1575 	WARNING 	t of last frame was 26.96ms (=1/37)
+16.2245 	WARNING 	t of last frame was 27.13ms (=1/36)
+16.2907 	WARNING 	t of last frame was 26.85ms (=1/37)
+16.3573 	WARNING 	t of last frame was 26.67ms (=1/37)
+16.4244 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+17.7450 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.9904 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.0047 	EXP 	Sound sound_1 set volume 1.000
+18.0219 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text="'Does your db SPL meter read 113 db SPL?'", units='height', win=Window(...), wrapWidth=1)
+18.0269 	EXP 	Created level_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='level_text', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+18.0589 	EXP 	text: autoDraw = True
+18.8022 	DATA 	Mouse: Left button down, pos=(816,340)
+18.9223 	DATA 	Mouse:  Left button up, pos=(816,340)
+19.3091 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (5).
+19.3215 	DATA 	Keypress: space
+19.3240 	EXP 	text: autoDraw = False
+19.3240 	EXP 	level_text: text = 0.1
+19.3240 	EXP 	question_text: autoDraw = True
+19.3240 	EXP 	level_text: autoDraw = True
+24.6882 	DATA 	Keypress: u
+24.6908 	EXP 	question_text: autoDraw = False
+24.6908 	EXP 	level_text: autoDraw = False
+24.6908 	EXP 	level_text: text = 0.6309573444801934
+24.6908 	EXP 	question_text: autoDraw = True
+24.6908 	EXP 	level_text: autoDraw = True
+27.9020 	DATA 	Keypress: u
+27.9080 	EXP 	question_text: autoDraw = False
+27.9080 	EXP 	level_text: autoDraw = False
+27.9080 	EXP 	level_text: text = 1
+27.9080 	EXP 	question_text: autoDraw = True
+27.9080 	EXP 	level_text: autoDraw = True
+29.4079 	DATA 	Keypress: d
+29.4434 	EXP 	question_text: autoDraw = False
+29.4434 	EXP 	level_text: autoDraw = False
+29.4434 	EXP 	level_text: text = 0.15848931924611132
+29.4434 	EXP 	question_text: autoDraw = True
+29.4434 	EXP 	level_text: autoDraw = True
+31.1460 	DATA 	Keypress: u
+31.1501 	EXP 	question_text: autoDraw = False
+31.1501 	EXP 	level_text: autoDraw = False
+31.1501 	EXP 	level_text: text = 0.39810717055349715
+31.1501 	EXP 	question_text: autoDraw = True
+31.1501 	EXP 	level_text: autoDraw = True
+32.8130 	DATA 	Keypress: u
+32.8170 	EXP 	question_text: autoDraw = False
+32.8170 	EXP 	level_text: autoDraw = False
+32.8170 	EXP 	level_text: text = 0.9999999999999998
+32.8170 	EXP 	question_text: autoDraw = True
+32.8170 	EXP 	level_text: autoDraw = True
+34.8011 	DATA 	Keypress: d
+34.8055 	EXP 	question_text: autoDraw = False
+34.8055 	EXP 	level_text: autoDraw = False
+34.8055 	EXP 	level_text: text = 0.39810717055349715
+34.8055 	EXP 	question_text: autoDraw = True
+34.8055 	EXP 	level_text: autoDraw = True
+35.9739 	DATA 	Keypress: u
+35.9779 	EXP 	question_text: autoDraw = False
+35.9779 	EXP 	level_text: autoDraw = False
+35.9779 	EXP 	level_text: text = 0.6309573444801931
+35.9779 	EXP 	question_text: autoDraw = True
+35.9779 	EXP 	level_text: autoDraw = True
+39.1034 	DATA 	Keypress: u
+39.1277 	EXP 	question_text: autoDraw = False
+39.1277 	EXP 	level_text: autoDraw = False
+39.1277 	EXP 	level_text: text = 0.9999999999999999
+39.1277 	EXP 	question_text: autoDraw = True
+39.1277 	EXP 	level_text: autoDraw = True
+40.2679 	DATA 	Keypress: d
+40.2726 	EXP 	question_text: autoDraw = False
+40.2726 	EXP 	level_text: autoDraw = False
+40.2726 	EXP 	level_text: text = 0.6309573444801931
+40.2726 	EXP 	question_text: autoDraw = True
+40.2726 	EXP 	level_text: autoDraw = True
+41.4143 	DATA 	Keypress: u
+41.4332 	EXP 	question_text: autoDraw = False
+41.4332 	EXP 	level_text: autoDraw = False
+41.4332 	EXP 	level_text: text = 0.9999999999999999
+41.4332 	EXP 	question_text: autoDraw = True
+41.4332 	EXP 	level_text: autoDraw = True
+42.6583 	DATA 	Keypress: d
+42.6617 	EXP 	question_text: autoDraw = False
+42.6617 	EXP 	level_text: autoDraw = False
+42.6617 	EXP 	level_text: text = 0.6309573444801931
+42.6617 	EXP 	question_text: autoDraw = True
+42.6617 	EXP 	level_text: autoDraw = True
+43.6161 	DATA 	Keypress: u
+43.6205 	EXP 	question_text: autoDraw = False
+43.6205 	EXP 	level_text: autoDraw = False
+43.6205 	EXP 	level_text: text = 0.9999999999999999
+43.6205 	EXP 	question_text: autoDraw = True
+43.6205 	EXP 	level_text: autoDraw = True
+44.7257 	DATA 	Keypress: d
+44.7402 	EXP 	question_text: autoDraw = False
+44.7402 	EXP 	level_text: autoDraw = False
+44.7402 	EXP 	level_text: text = 0.6309573444801931
+44.7402 	EXP 	question_text: autoDraw = True
+44.7402 	EXP 	level_text: autoDraw = True
+46.2172 	DATA 	Keypress: u
+46.2218 	EXP 	question_text: autoDraw = False
+46.2218 	EXP 	level_text: autoDraw = False
+46.2218 	EXP 	level_text: text = 0.9999999999999999
+46.2218 	EXP 	question_text: autoDraw = True
+46.2218 	EXP 	level_text: autoDraw = True
+47.7652 	DATA 	Keypress: d
+47.7691 	EXP 	question_text: autoDraw = False
+47.7691 	EXP 	level_text: autoDraw = False
+47.7691 	EXP 	level_text: text = 0.6309573444801931
+47.7691 	EXP 	question_text: autoDraw = True
+47.7691 	EXP 	level_text: autoDraw = True
+49.6179 	DATA 	Keypress: u
+49.6230 	EXP 	question_text: autoDraw = False
+49.6230 	EXP 	level_text: autoDraw = False
+49.6230 	EXP 	level_text: text = 0.9999999999999999
+49.6230 	EXP 	question_text: autoDraw = True
+49.6230 	EXP 	level_text: autoDraw = True
+51.8335 	DATA 	Keypress: d
+51.8374 	EXP 	question_text: autoDraw = False
+51.8374 	EXP 	level_text: autoDraw = False
+51.8374 	EXP 	level_text: text = 0.6309573444801931
+51.8374 	EXP 	question_text: autoDraw = True
+51.8374 	EXP 	level_text: autoDraw = True
+54.5794 	DATA 	Keypress: u
+54.5846 	EXP 	question_text: autoDraw = False
+54.5846 	EXP 	level_text: autoDraw = False
+54.5846 	EXP 	level_text: text = 0.9999999999999999
+54.5846 	EXP 	question_text: autoDraw = True
+54.5846 	EXP 	level_text: autoDraw = True
+56.8701 	DATA 	Keypress: escape
+57.1311 	EXP 	window1: mouseVisible = True

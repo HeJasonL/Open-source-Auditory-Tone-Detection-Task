@@ -1,0 +1,67 @@
+3.2902 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+20.4299 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.4302 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000183B408EB38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000183B4106400>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.4302 	EXP 	window1: recordFrameIntervals = False
+20.6031 	EXP 	window1: recordFrameIntervals = True
+20.6563 	WARNING 	t of last frame was 26.79ms (=1/37)
+20.7232 	WARNING 	t of last frame was 27.15ms (=1/36)
+20.7897 	WARNING 	t of last frame was 26.91ms (=1/37)
+20.8564 	WARNING 	t of last frame was 26.92ms (=1/37)
+20.9230 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+22.2704 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.4811 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='press space to start\n', units='height', win=Window(...), wrapWidth=1)
+22.4946 	EXP 	Sound sound_1 set volume 1.000
+22.5220 	EXP 	text: autoDraw = True
+22.5220 	EXP 	text: autoDraw = False
+23.6152 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+23.6190 	EXP 	New trial (rep=0, index=0): None
+23.6215 	DATA 	Keypress: space
+23.6237 	EXP 	text: autoDraw = False
+27.3570 	EXP 	New trial (rep=1, index=0): None
+27.3594 	DATA 	Keypress: d
+28.6547 	EXP 	New trial (rep=2, index=0): None
+28.6574 	DATA 	Keypress: d
+29.2101 	EXP 	New trial (rep=3, index=0): None
+29.2128 	DATA 	Keypress: d
+29.6106 	DATA 	Keypress: d
+29.6370 	EXP 	New trial (rep=4, index=0): None
+30.0642 	EXP 	New trial (rep=5, index=0): None
+30.0673 	DATA 	Keypress: d
+30.3967 	EXP 	New trial (rep=6, index=0): None
+30.4004 	DATA 	Keypress: d
+30.6647 	EXP 	New trial (rep=7, index=0): None
+30.6680 	DATA 	Keypress: d
+30.8641 	EXP 	New trial (rep=8, index=0): None
+30.8667 	DATA 	Keypress: d
+31.0647 	EXP 	New trial (rep=9, index=0): None
+31.0680 	DATA 	Keypress: d
+31.6365 	EXP 	New trial (rep=10, index=0): None
+31.6395 	DATA 	Keypress: d
+32.2912 	EXP 	New trial (rep=11, index=0): None
+32.2943 	DATA 	Keypress: d
+32.8379 	DATA 	Keypress: d
+32.8801 	EXP 	New trial (rep=12, index=0): None
+33.2800 	EXP 	New trial (rep=13, index=0): None
+33.2824 	DATA 	Keypress: d
+33.8119 	EXP 	New trial (rep=14, index=0): None
+33.8156 	DATA 	Keypress: d
+34.9994 	EXP 	New trial (rep=15, index=0): None
+35.0018 	DATA 	Keypress: d
+35.6394 	EXP 	New trial (rep=16, index=0): None
+35.6432 	DATA 	Keypress: d
+37.8799 	EXP 	New trial (rep=17, index=0): None
+37.8828 	DATA 	Keypress: d
+38.5208 	EXP 	New trial (rep=18, index=0): None
+38.5236 	DATA 	Keypress: d
+39.7340 	EXP 	New trial (rep=19, index=0): None
+39.7368 	DATA 	Keypress: d
+44.0699 	EXP 	New trial (rep=20, index=0): None
+44.0733 	DATA 	Keypress: d
+47.3096 	DATA 	Keypress: escape
+47.5526 	EXP 	window1: mouseVisible = True

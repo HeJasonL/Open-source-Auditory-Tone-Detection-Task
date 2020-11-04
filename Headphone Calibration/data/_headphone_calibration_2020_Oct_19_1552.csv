@@ -1,0 +1,3 @@
+﻿trials.thisTrialN,trials.stepSize,trials.intensity,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text.started,text.stopped,sound_1.started,sound_1.stopped,trials.response,key_resp.rt,key_resp.started,key_resp.stopped,question_text.started,question_text.stopped,level_text.started,level_text.stopped,participant,input,session,date,expName,psychopyVersion,frameRate,
+,,,space,1.2088962999987416,27.49276180000743,None,,,,,,,,,,,,,,0.2,001,2020_Oct_19_1552,headphone_calibration,2020.1.3,None,
+,,,,,,,27.49276180000743,None,67.3569426666984,None,0,2.607330599974375,67.35711560002528,None,67.35711560002528,None,67.35711560002528,None,,,,,,,,

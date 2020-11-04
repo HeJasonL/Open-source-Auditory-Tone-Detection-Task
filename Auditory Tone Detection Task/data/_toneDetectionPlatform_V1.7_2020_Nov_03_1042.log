@@ -1,0 +1,902 @@
+3.0418 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+19.1774 	INFO 	Loaded monitor calibration from ['2020_10_15 13:31']
+20.9527 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A2E7EA6630>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A2E7CF7EB8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.9528 	EXP 	window1: mouseVisible = True
+20.9528 	EXP 	window1: recordFrameIntervals = False
+21.1191 	EXP 	window1: recordFrameIntervals = True
+21.3028 	DEBUG 	Screen (0) actual frame rate measured at 59.95
+21.3028 	EXP 	window1: recordFrameIntervals = False
+21.5884 	EXP 	Created welcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='welcomeText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.6271 	EXP 	Created instructionsLightBulb1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb1', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.6620 	EXP 	Created instructionsLightBulb2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.6824 	EXP 	Created instructionsText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructionsText', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.6879 	EXP 	Created pressSpace = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='pressSpace', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text='PRESS SPACE to continue', units='height', win=Window(...), wrapWidth=1)
+21.7117 	EXP 	Created instructionsLightBulb1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb1_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.7360 	EXP 	Created instructionsLightBulb2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2_2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.7403 	EXP 	Created instructionsText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructionsText_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text='In each trial, the light bulbs will blink', units='height', win=Window(...), wrapWidth=1)
+21.7428 	EXP 	Created pressSpace_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='pressSpace_2', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text='PRESS SPACE to continue', units='height', win=Window(...), wrapWidth=1)
+21.7662 	EXP 	Created instructionsLightBulb1_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb1_3', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.7905 	EXP 	Created instructionsLightBulb2_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2_3', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.7969 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.7997 	EXP 	Created pressSpace_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='pressSpace_3', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text='Press SPACE to see light bulb 1 blink', units='height', win=Window(...), wrapWidth=1)
+21.8253 	EXP 	Created instructionsLightBulb1_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb1_4', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.8502 	EXP 	Created instructionsLightBulb2_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2_4', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.8863 	EXP 	Created instructionsLightBulb1_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb1_5', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.9251 	EXP 	Created instructionsLightBulb2_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2_5', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.9628 	EXP 	Created instructionsLightBulb2_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='instructionsLightBulb2_6', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+21.9696 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9720 	EXP 	Created pressSpace_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='pressSpace_4', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text='Press SPACE to continue', units='height', win=Window(...), wrapWidth=1)
+21.9814 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9875 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text='press SPACEBAR to hear this sound', units='height', win=Window(...), wrapWidth=1)
+22.0132 	EXP 	Created lightBulbOFF = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='lightBulbOFF', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+22.0385 	EXP 	Created lightBulbON = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='lightBulbON', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+22.0577 	EXP 	Sound sound_1 set volume 1.000
+22.0831 	EXP 	Created instructions_8_firstLine = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions_8_firstLine', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.0905 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.0982 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0, pos=array([ 0.  , -0.02]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.1012 	EXP 	Created instructions_8_pressP = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions_8_pressP', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([0., 0., 0.]), text="press 'p' to begin the practice trials!", units='height', win=Window(...), wrapWidth=1)
+22.1093 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+', units='height', win=Window(...), wrapWidth=1)
+22.1115 	EXP 	Created firstVisualStimulus_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='firstVisualStimulus_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='1', units='height', win=Window(...), wrapWidth=1)
+22.1115 	EXP 	Sound firstChoiceProbeTone_2 set volume 1.000
+22.1378 	EXP 	Created firstChoiceLeftStimulus_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='firstChoiceLeftStimulus_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.1656 	EXP 	Created firstChoiceRightStimulus_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='firstChoiceRightStimulus_2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.1698 	EXP 	Created ISIVisualStimulus_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISIVisualStimulus_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='ISI', units='height', win=Window(...), wrapWidth=1)
+22.1963 	EXP 	Created rightStimulus_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='rightStimulus_3', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.2226 	EXP 	Created leftStimulus_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='leftStimulus_3', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.2251 	EXP 	Created secondVisualStimulus_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='secondVisualStimulus_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='2', units='height', win=Window(...), wrapWidth=1)
+22.2252 	EXP 	Sound secondChoiceTone_2 set volume 1.000
+22.2511 	EXP 	Created secondChoiceLeftStimulus_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='secondChoiceLeftStimulus_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.2774 	EXP 	Created secondChoiceRightStimulus_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='secondChoiceRightStimulus_2', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.2947 	EXP 	Created decisionTextProbe_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='decisionTextProbe_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2995 	EXP 	Created feedbackText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedbackText_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.3155 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3350 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3366 	EXP 	Created firstITI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='firstITI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+', units='height', win=Window(...), wrapWidth=1)
+22.3378 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='+', units='height', win=Window(...), wrapWidth=1)
+22.3394 	EXP 	Created firstVisualStimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='firstVisualStimulus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='1', units='height', win=Window(...), wrapWidth=1)
+22.3613 	EXP 	Sound firstChoiceNoise set volume 1.000
+22.3613 	EXP 	Sound firstChoiceProbeTone set volume 1.000
+22.3869 	EXP 	Created firstChoiceLeftStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='firstChoiceLeftStimulus', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.4123 	EXP 	Created firstChoiceRightStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='firstChoiceRightStimulus', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.4148 	EXP 	Created ISIVisualStimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISIVisualStimulus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='ISI', units='height', win=Window(...), wrapWidth=1)
+22.4419 	EXP 	Created rightStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='rightStimulus', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.4694 	EXP 	Created leftStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='leftStimulus', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.4716 	EXP 	Created secondVisualStimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='secondVisualStimulus', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='2', units='height', win=Window(...), wrapWidth=1)
+22.4951 	EXP 	Sound secondChoiceNoise set volume 1.000
+22.4952 	EXP 	Sound secondChoiceTone set volume 1.000
+22.5222 	EXP 	Created secondChoiceLeftStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='lightBulb_OFF.png', interpolate=True, mask=None, maskParams=None, name='secondChoiceLeftStimulus', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.5480 	EXP 	Created secondChoiceRightStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='lightBulb_ON.png', interpolate=True, mask=None, maskParams=None, name='secondChoiceRightStimulus', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), size=array([0.4, 0.4]), texRes=128, units='height', win=Window(...))
+22.5533 	EXP 	Created decisionTextProbe = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='decisionTextProbe', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.5564 	EXP 	Created feedbackText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedbackText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+22.5864 	EXP 	welcomeText: autoDraw = True
+23.2248 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+23.2250 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+23.2278 	DATA 	Keypress: space
+23.2377 	EXP 	welcomeText: autoDraw = False
+23.2377 	EXP 	text_10: autoDraw = True
+23.9940 	DATA 	Keypress: b
+24.0052 	EXP 	text_10: autoDraw = False
+24.0052 	EXP 	firstITI: autoDraw = True
+29.0938 	DEBUG 	Read Excel file with pandas: questConditionsFile.xlsx
+29.0952 	DEBUG 	Clearing unnamed columns from questConditionsFile.xlsx
+29.0958 	EXP 	Imported questConditionsFile.xlsx as conditions, 1 conditions, 11 params
+29.7357 	DEBUG 	Using C:\Program Files\PsychoPy3\lib\site-packages\psychopy\data\staircase.py as origin file
+29.7401 	DEBUG 	Using C:\Program Files\PsychoPy3\lib\site-packages\psychopy\data\staircase.py as origin file
+29.7461 	EXP 	firstITI: autoDraw = False
+29.7461 	EXP 	text: autoDraw = True
+30.0227 	EXP 	text: autoDraw = False
+30.0985 	EXP 	firstVisualStimulus: autoDraw = True
+30.0985 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+30.0985 	EXP 	firstChoiceRightStimulus: autoDraw = True
+30.4661 	EXP 	firstVisualStimulus: autoDraw = False
+30.4661 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+30.4661 	EXP 	firstChoiceRightStimulus: autoDraw = False
+30.4661 	EXP 	firstVisualStimulus: autoDraw = False
+30.4661 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+30.4661 	EXP 	firstChoiceRightStimulus: autoDraw = False
+30.4661 	EXP 	ISIVisualStimulus: autoDraw = True
+30.4661 	EXP 	rightStimulus: autoDraw = True
+30.4661 	EXP 	leftStimulus: autoDraw = True
+31.4602 	EXP 	ISIVisualStimulus: autoDraw = False
+31.4602 	EXP 	rightStimulus: autoDraw = False
+31.4602 	EXP 	leftStimulus: autoDraw = False
+31.5184 	EXP 	secondVisualStimulus: autoDraw = True
+31.5184 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+31.5184 	EXP 	secondChoiceRightStimulus: autoDraw = True
+31.8461 	EXP 	secondVisualStimulus: autoDraw = False
+31.8461 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+31.8461 	EXP 	secondChoiceRightStimulus: autoDraw = False
+31.8461 	EXP 	secondVisualStimulus: autoDraw = False
+31.8461 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+31.8461 	EXP 	secondChoiceRightStimulus: autoDraw = False
+31.8461 	EXP 	decisionTextProbe: autoDraw = True
+32.7057 	DATA 	Keypress: 1
+32.7137 	EXP 	decisionTextProbe: autoDraw = False
+32.7137 	EXP 	feedbackText: text = 'Incorrect'
+32.7137 	EXP 	feedbackText: autoDraw = True
+33.7145 	EXP 	feedbackText: autoDraw = False
+33.7145 	EXP 	feedbackText: autoDraw = False
+33.7145 	EXP 	text: autoDraw = True
+34.7323 	EXP 	text: autoDraw = False
+34.7323 	EXP 	text: autoDraw = False
+34.7491 	EXP 	firstVisualStimulus: autoDraw = True
+34.7491 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+34.7491 	EXP 	firstChoiceRightStimulus: autoDraw = True
+35.0830 	EXP 	firstVisualStimulus: autoDraw = False
+35.0830 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+35.0830 	EXP 	firstChoiceRightStimulus: autoDraw = False
+35.0830 	EXP 	firstVisualStimulus: autoDraw = False
+35.0830 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+35.0830 	EXP 	firstChoiceRightStimulus: autoDraw = False
+35.0830 	EXP 	ISIVisualStimulus: autoDraw = True
+35.0830 	EXP 	rightStimulus: autoDraw = True
+35.0830 	EXP 	leftStimulus: autoDraw = True
+36.0971 	EXP 	ISIVisualStimulus: autoDraw = False
+36.0971 	EXP 	rightStimulus: autoDraw = False
+36.0971 	EXP 	leftStimulus: autoDraw = False
+36.0971 	EXP 	ISIVisualStimulus: autoDraw = False
+36.0971 	EXP 	rightStimulus: autoDraw = False
+36.0971 	EXP 	leftStimulus: autoDraw = False
+36.1160 	EXP 	secondVisualStimulus: autoDraw = True
+36.1160 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+36.1160 	EXP 	secondChoiceRightStimulus: autoDraw = True
+36.4507 	EXP 	secondVisualStimulus: autoDraw = False
+36.4507 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+36.4507 	EXP 	secondChoiceRightStimulus: autoDraw = False
+36.4507 	EXP 	secondVisualStimulus: autoDraw = False
+36.4507 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+36.4507 	EXP 	secondChoiceRightStimulus: autoDraw = False
+36.4507 	EXP 	decisionTextProbe: autoDraw = True
+36.7301 	DATA 	Keypress: 1
+36.7344 	EXP 	decisionTextProbe: autoDraw = False
+36.7344 	EXP 	feedbackText: text = 'Correct'
+36.7344 	EXP 	feedbackText: autoDraw = True
+37.7356 	EXP 	feedbackText: autoDraw = False
+37.7356 	EXP 	feedbackText: autoDraw = False
+37.7356 	EXP 	text: autoDraw = True
+38.7504 	EXP 	text: autoDraw = False
+38.7504 	EXP 	text: autoDraw = False
+38.7687 	EXP 	firstVisualStimulus: autoDraw = True
+38.7687 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+38.7687 	EXP 	firstChoiceRightStimulus: autoDraw = True
+39.1036 	EXP 	firstVisualStimulus: autoDraw = False
+39.1036 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+39.1036 	EXP 	firstChoiceRightStimulus: autoDraw = False
+39.1036 	EXP 	firstVisualStimulus: autoDraw = False
+39.1036 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+39.1036 	EXP 	firstChoiceRightStimulus: autoDraw = False
+39.1036 	EXP 	ISIVisualStimulus: autoDraw = True
+39.1036 	EXP 	rightStimulus: autoDraw = True
+39.1036 	EXP 	leftStimulus: autoDraw = True
+40.1158 	EXP 	ISIVisualStimulus: autoDraw = False
+40.1158 	EXP 	rightStimulus: autoDraw = False
+40.1158 	EXP 	leftStimulus: autoDraw = False
+40.1158 	EXP 	ISIVisualStimulus: autoDraw = False
+40.1158 	EXP 	rightStimulus: autoDraw = False
+40.1158 	EXP 	leftStimulus: autoDraw = False
+40.1368 	EXP 	secondVisualStimulus: autoDraw = True
+40.1368 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+40.1368 	EXP 	secondChoiceRightStimulus: autoDraw = True
+40.4715 	EXP 	secondVisualStimulus: autoDraw = False
+40.4715 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+40.4715 	EXP 	secondChoiceRightStimulus: autoDraw = False
+40.4715 	EXP 	secondVisualStimulus: autoDraw = False
+40.4715 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+40.4715 	EXP 	secondChoiceRightStimulus: autoDraw = False
+40.4715 	EXP 	decisionTextProbe: autoDraw = True
+40.7618 	DATA 	Keypress: 1
+40.7718 	EXP 	decisionTextProbe: autoDraw = False
+40.7718 	EXP 	feedbackText: text = 'Correct'
+40.7718 	EXP 	feedbackText: autoDraw = True
+41.7726 	EXP 	feedbackText: autoDraw = False
+41.7726 	EXP 	feedbackText: autoDraw = False
+41.7726 	EXP 	text: autoDraw = True
+42.7871 	EXP 	text: autoDraw = False
+42.7871 	EXP 	text: autoDraw = False
+42.8060 	EXP 	firstVisualStimulus: autoDraw = True
+42.8060 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+42.8060 	EXP 	firstChoiceRightStimulus: autoDraw = True
+43.1409 	EXP 	firstVisualStimulus: autoDraw = False
+43.1409 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+43.1409 	EXP 	firstChoiceRightStimulus: autoDraw = False
+43.1409 	EXP 	firstVisualStimulus: autoDraw = False
+43.1409 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+43.1409 	EXP 	firstChoiceRightStimulus: autoDraw = False
+43.1409 	EXP 	ISIVisualStimulus: autoDraw = True
+43.1409 	EXP 	rightStimulus: autoDraw = True
+43.1409 	EXP 	leftStimulus: autoDraw = True
+44.1552 	EXP 	ISIVisualStimulus: autoDraw = False
+44.1552 	EXP 	rightStimulus: autoDraw = False
+44.1552 	EXP 	leftStimulus: autoDraw = False
+44.1552 	EXP 	ISIVisualStimulus: autoDraw = False
+44.1552 	EXP 	rightStimulus: autoDraw = False
+44.1552 	EXP 	leftStimulus: autoDraw = False
+44.1742 	EXP 	secondVisualStimulus: autoDraw = True
+44.1742 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+44.1742 	EXP 	secondChoiceRightStimulus: autoDraw = True
+44.5091 	EXP 	secondVisualStimulus: autoDraw = False
+44.5091 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+44.5091 	EXP 	secondChoiceRightStimulus: autoDraw = False
+44.5091 	EXP 	secondVisualStimulus: autoDraw = False
+44.5091 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+44.5091 	EXP 	secondChoiceRightStimulus: autoDraw = False
+44.5091 	EXP 	decisionTextProbe: autoDraw = True
+44.9494 	DATA 	Keypress: 2
+44.9595 	EXP 	decisionTextProbe: autoDraw = False
+44.9595 	EXP 	feedbackText: text = 'Correct'
+44.9595 	EXP 	feedbackText: autoDraw = True
+45.9602 	EXP 	feedbackText: autoDraw = False
+45.9602 	EXP 	feedbackText: autoDraw = False
+45.9602 	EXP 	text: autoDraw = True
+46.9737 	EXP 	text: autoDraw = False
+46.9737 	EXP 	text: autoDraw = False
+46.9737 	EXP 	firstVisualStimulus: autoDraw = True
+46.9737 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+46.9737 	EXP 	firstChoiceRightStimulus: autoDraw = True
+47.2951 	EXP 	firstVisualStimulus: autoDraw = False
+47.2951 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+47.2951 	EXP 	firstChoiceRightStimulus: autoDraw = False
+47.3117 	EXP 	firstVisualStimulus: autoDraw = False
+47.3117 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+47.3117 	EXP 	firstChoiceRightStimulus: autoDraw = False
+47.3117 	EXP 	ISIVisualStimulus: autoDraw = True
+47.3117 	EXP 	rightStimulus: autoDraw = True
+47.3117 	EXP 	leftStimulus: autoDraw = True
+48.3252 	EXP 	ISIVisualStimulus: autoDraw = False
+48.3252 	EXP 	rightStimulus: autoDraw = False
+48.3252 	EXP 	leftStimulus: autoDraw = False
+48.3252 	EXP 	ISIVisualStimulus: autoDraw = False
+48.3252 	EXP 	rightStimulus: autoDraw = False
+48.3252 	EXP 	leftStimulus: autoDraw = False
+48.3451 	EXP 	secondVisualStimulus: autoDraw = True
+48.3451 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+48.3451 	EXP 	secondChoiceRightStimulus: autoDraw = True
+48.6798 	EXP 	secondVisualStimulus: autoDraw = False
+48.6798 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+48.6798 	EXP 	secondChoiceRightStimulus: autoDraw = False
+48.6798 	EXP 	secondVisualStimulus: autoDraw = False
+48.6798 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+48.6798 	EXP 	secondChoiceRightStimulus: autoDraw = False
+48.6798 	EXP 	decisionTextProbe: autoDraw = True
+50.8711 	DATA 	Keypress: 2
+50.8820 	EXP 	decisionTextProbe: autoDraw = False
+50.8820 	EXP 	feedbackText: text = 'Correct'
+50.8820 	EXP 	feedbackText: autoDraw = True
+51.8830 	EXP 	feedbackText: autoDraw = False
+51.8830 	EXP 	feedbackText: autoDraw = False
+51.8830 	EXP 	text: autoDraw = True
+52.8968 	EXP 	text: autoDraw = False
+52.8968 	EXP 	text: autoDraw = False
+52.9162 	EXP 	firstVisualStimulus: autoDraw = True
+52.9162 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+52.9162 	EXP 	firstChoiceRightStimulus: autoDraw = True
+53.2507 	EXP 	firstVisualStimulus: autoDraw = False
+53.2507 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+53.2507 	EXP 	firstChoiceRightStimulus: autoDraw = False
+53.2507 	EXP 	firstVisualStimulus: autoDraw = False
+53.2507 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+53.2507 	EXP 	firstChoiceRightStimulus: autoDraw = False
+53.2507 	EXP 	ISIVisualStimulus: autoDraw = True
+53.2507 	EXP 	rightStimulus: autoDraw = True
+53.2507 	EXP 	leftStimulus: autoDraw = True
+54.2657 	EXP 	ISIVisualStimulus: autoDraw = False
+54.2657 	EXP 	rightStimulus: autoDraw = False
+54.2657 	EXP 	leftStimulus: autoDraw = False
+54.2657 	EXP 	ISIVisualStimulus: autoDraw = False
+54.2657 	EXP 	rightStimulus: autoDraw = False
+54.2657 	EXP 	leftStimulus: autoDraw = False
+54.2843 	EXP 	secondVisualStimulus: autoDraw = True
+54.2843 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+54.2843 	EXP 	secondChoiceRightStimulus: autoDraw = True
+54.6192 	EXP 	secondVisualStimulus: autoDraw = False
+54.6192 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+54.6192 	EXP 	secondChoiceRightStimulus: autoDraw = False
+54.6192 	EXP 	secondVisualStimulus: autoDraw = False
+54.6192 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+54.6192 	EXP 	secondChoiceRightStimulus: autoDraw = False
+54.6192 	EXP 	decisionTextProbe: autoDraw = True
+55.1275 	DATA 	Keypress: 1
+55.1361 	EXP 	decisionTextProbe: autoDraw = False
+55.1361 	EXP 	feedbackText: text = 'Incorrect'
+55.1361 	EXP 	feedbackText: autoDraw = True
+56.1371 	EXP 	feedbackText: autoDraw = False
+56.1371 	EXP 	feedbackText: autoDraw = False
+56.1371 	EXP 	text: autoDraw = True
+57.1509 	EXP 	text: autoDraw = False
+57.1509 	EXP 	text: autoDraw = False
+57.1705 	EXP 	firstVisualStimulus: autoDraw = True
+57.1705 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+57.1705 	EXP 	firstChoiceRightStimulus: autoDraw = True
+57.5052 	EXP 	firstVisualStimulus: autoDraw = False
+57.5052 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+57.5052 	EXP 	firstChoiceRightStimulus: autoDraw = False
+57.5052 	EXP 	firstVisualStimulus: autoDraw = False
+57.5052 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+57.5052 	EXP 	firstChoiceRightStimulus: autoDraw = False
+57.5052 	EXP 	ISIVisualStimulus: autoDraw = True
+57.5052 	EXP 	rightStimulus: autoDraw = True
+57.5052 	EXP 	leftStimulus: autoDraw = True
+58.5187 	EXP 	ISIVisualStimulus: autoDraw = False
+58.5187 	EXP 	rightStimulus: autoDraw = False
+58.5187 	EXP 	leftStimulus: autoDraw = False
+58.5187 	EXP 	ISIVisualStimulus: autoDraw = False
+58.5187 	EXP 	rightStimulus: autoDraw = False
+58.5187 	EXP 	leftStimulus: autoDraw = False
+58.5386 	EXP 	secondVisualStimulus: autoDraw = True
+58.5386 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+58.5386 	EXP 	secondChoiceRightStimulus: autoDraw = True
+58.8733 	EXP 	secondVisualStimulus: autoDraw = False
+58.8733 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+58.8733 	EXP 	secondChoiceRightStimulus: autoDraw = False
+58.8733 	EXP 	secondVisualStimulus: autoDraw = False
+58.8733 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+58.8733 	EXP 	secondChoiceRightStimulus: autoDraw = False
+58.8733 	EXP 	decisionTextProbe: autoDraw = True
+59.6670 	DATA 	Keypress: 2
+59.6740 	EXP 	decisionTextProbe: autoDraw = False
+59.6740 	EXP 	feedbackText: text = 'Correct'
+59.6740 	EXP 	feedbackText: autoDraw = True
+60.6751 	EXP 	feedbackText: autoDraw = False
+60.6751 	EXP 	feedbackText: autoDraw = False
+60.6751 	EXP 	text: autoDraw = True
+61.6883 	EXP 	text: autoDraw = False
+61.6883 	EXP 	text: autoDraw = False
+61.7083 	EXP 	firstVisualStimulus: autoDraw = True
+61.7083 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+61.7083 	EXP 	firstChoiceRightStimulus: autoDraw = True
+62.0432 	EXP 	firstVisualStimulus: autoDraw = False
+62.0432 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+62.0432 	EXP 	firstChoiceRightStimulus: autoDraw = False
+62.0432 	EXP 	firstVisualStimulus: autoDraw = False
+62.0432 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+62.0432 	EXP 	firstChoiceRightStimulus: autoDraw = False
+62.0432 	EXP 	ISIVisualStimulus: autoDraw = True
+62.0432 	EXP 	rightStimulus: autoDraw = True
+62.0432 	EXP 	leftStimulus: autoDraw = True
+63.0558 	EXP 	ISIVisualStimulus: autoDraw = False
+63.0558 	EXP 	rightStimulus: autoDraw = False
+63.0558 	EXP 	leftStimulus: autoDraw = False
+63.0558 	EXP 	ISIVisualStimulus: autoDraw = False
+63.0558 	EXP 	rightStimulus: autoDraw = False
+63.0558 	EXP 	leftStimulus: autoDraw = False
+63.0764 	EXP 	secondVisualStimulus: autoDraw = True
+63.0764 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+63.0764 	EXP 	secondChoiceRightStimulus: autoDraw = True
+63.4113 	EXP 	secondVisualStimulus: autoDraw = False
+63.4113 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+63.4113 	EXP 	secondChoiceRightStimulus: autoDraw = False
+63.4113 	EXP 	secondVisualStimulus: autoDraw = False
+63.4113 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+63.4113 	EXP 	secondChoiceRightStimulus: autoDraw = False
+63.4113 	EXP 	decisionTextProbe: autoDraw = True
+63.8167 	DATA 	Keypress: 1
+63.8282 	EXP 	decisionTextProbe: autoDraw = False
+63.8282 	EXP 	feedbackText: text = 'Correct'
+63.8282 	EXP 	feedbackText: autoDraw = True
+64.8293 	EXP 	feedbackText: autoDraw = False
+64.8293 	EXP 	feedbackText: autoDraw = False
+64.8293 	EXP 	text: autoDraw = True
+65.8417 	EXP 	text: autoDraw = False
+65.8417 	EXP 	text: autoDraw = False
+65.8623 	EXP 	firstVisualStimulus: autoDraw = True
+65.8623 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+65.8623 	EXP 	firstChoiceRightStimulus: autoDraw = True
+66.1973 	EXP 	firstVisualStimulus: autoDraw = False
+66.1973 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+66.1973 	EXP 	firstChoiceRightStimulus: autoDraw = False
+66.1973 	EXP 	firstVisualStimulus: autoDraw = False
+66.1973 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+66.1973 	EXP 	firstChoiceRightStimulus: autoDraw = False
+66.1973 	EXP 	ISIVisualStimulus: autoDraw = True
+66.1973 	EXP 	rightStimulus: autoDraw = True
+66.1973 	EXP 	leftStimulus: autoDraw = True
+67.2099 	EXP 	ISIVisualStimulus: autoDraw = False
+67.2099 	EXP 	rightStimulus: autoDraw = False
+67.2099 	EXP 	leftStimulus: autoDraw = False
+67.2099 	EXP 	ISIVisualStimulus: autoDraw = False
+67.2099 	EXP 	rightStimulus: autoDraw = False
+67.2099 	EXP 	leftStimulus: autoDraw = False
+67.2302 	EXP 	secondVisualStimulus: autoDraw = True
+67.2302 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+67.2302 	EXP 	secondChoiceRightStimulus: autoDraw = True
+67.5652 	EXP 	secondVisualStimulus: autoDraw = False
+67.5652 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+67.5652 	EXP 	secondChoiceRightStimulus: autoDraw = False
+67.5652 	EXP 	secondVisualStimulus: autoDraw = False
+67.5652 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+67.5652 	EXP 	secondChoiceRightStimulus: autoDraw = False
+67.5652 	EXP 	decisionTextProbe: autoDraw = True
+67.8059 	DATA 	Keypress: 1
+67.8156 	EXP 	decisionTextProbe: autoDraw = False
+67.8156 	EXP 	feedbackText: text = 'Correct'
+67.8156 	EXP 	feedbackText: autoDraw = True
+68.8164 	EXP 	feedbackText: autoDraw = False
+68.8164 	EXP 	feedbackText: autoDraw = False
+68.8164 	EXP 	text: autoDraw = True
+69.8294 	EXP 	text: autoDraw = False
+69.8294 	EXP 	text: autoDraw = False
+69.8356 	EXP 	firstVisualStimulus: autoDraw = True
+69.8356 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+69.8356 	EXP 	firstChoiceRightStimulus: autoDraw = True
+70.1677 	EXP 	firstVisualStimulus: autoDraw = False
+70.1677 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+70.1677 	EXP 	firstChoiceRightStimulus: autoDraw = False
+70.1677 	EXP 	firstVisualStimulus: autoDraw = False
+70.1677 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+70.1677 	EXP 	firstChoiceRightStimulus: autoDraw = False
+70.1677 	EXP 	ISIVisualStimulus: autoDraw = True
+70.1677 	EXP 	rightStimulus: autoDraw = True
+70.1677 	EXP 	leftStimulus: autoDraw = True
+71.1806 	EXP 	ISIVisualStimulus: autoDraw = False
+71.1806 	EXP 	rightStimulus: autoDraw = False
+71.1806 	EXP 	leftStimulus: autoDraw = False
+71.1806 	EXP 	ISIVisualStimulus: autoDraw = False
+71.1806 	EXP 	rightStimulus: autoDraw = False
+71.1806 	EXP 	leftStimulus: autoDraw = False
+71.1871 	EXP 	secondVisualStimulus: autoDraw = True
+71.1871 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+71.1871 	EXP 	secondChoiceRightStimulus: autoDraw = True
+71.5194 	EXP 	secondVisualStimulus: autoDraw = False
+71.5194 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+71.5194 	EXP 	secondChoiceRightStimulus: autoDraw = False
+71.5194 	EXP 	secondVisualStimulus: autoDraw = False
+71.5194 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+71.5194 	EXP 	secondChoiceRightStimulus: autoDraw = False
+71.5194 	EXP 	decisionTextProbe: autoDraw = True
+71.6929 	DATA 	Keypress: 1
+71.7028 	EXP 	decisionTextProbe: autoDraw = False
+71.7028 	EXP 	feedbackText: text = 'Correct'
+71.7028 	EXP 	feedbackText: autoDraw = True
+72.7036 	EXP 	feedbackText: autoDraw = False
+72.7036 	EXP 	feedbackText: autoDraw = False
+72.7036 	EXP 	text: autoDraw = True
+73.7173 	EXP 	text: autoDraw = False
+73.7173 	EXP 	text: autoDraw = False
+73.7371 	EXP 	firstVisualStimulus: autoDraw = True
+73.7371 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+73.7371 	EXP 	firstChoiceRightStimulus: autoDraw = True
+74.0719 	EXP 	firstVisualStimulus: autoDraw = False
+74.0719 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+74.0719 	EXP 	firstChoiceRightStimulus: autoDraw = False
+74.0719 	EXP 	firstVisualStimulus: autoDraw = False
+74.0719 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+74.0719 	EXP 	firstChoiceRightStimulus: autoDraw = False
+74.0719 	EXP 	ISIVisualStimulus: autoDraw = True
+74.0719 	EXP 	rightStimulus: autoDraw = True
+74.0719 	EXP 	leftStimulus: autoDraw = True
+75.0852 	EXP 	ISIVisualStimulus: autoDraw = False
+75.0852 	EXP 	rightStimulus: autoDraw = False
+75.0852 	EXP 	leftStimulus: autoDraw = False
+75.0852 	EXP 	ISIVisualStimulus: autoDraw = False
+75.0852 	EXP 	rightStimulus: autoDraw = False
+75.0852 	EXP 	leftStimulus: autoDraw = False
+75.1050 	EXP 	secondVisualStimulus: autoDraw = True
+75.1050 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+75.1050 	EXP 	secondChoiceRightStimulus: autoDraw = True
+75.4402 	EXP 	secondVisualStimulus: autoDraw = False
+75.4402 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+75.4402 	EXP 	secondChoiceRightStimulus: autoDraw = False
+75.4402 	EXP 	secondVisualStimulus: autoDraw = False
+75.4402 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+75.4402 	EXP 	secondChoiceRightStimulus: autoDraw = False
+75.4402 	EXP 	decisionTextProbe: autoDraw = True
+75.6971 	DATA 	Keypress: 1
+75.7068 	EXP 	decisionTextProbe: autoDraw = False
+75.7068 	EXP 	feedbackText: text = 'Correct'
+75.7068 	EXP 	feedbackText: autoDraw = True
+76.7079 	EXP 	feedbackText: autoDraw = False
+76.7079 	EXP 	feedbackText: autoDraw = False
+76.7079 	EXP 	text: autoDraw = True
+77.7214 	EXP 	text: autoDraw = False
+77.7214 	EXP 	text: autoDraw = False
+77.7411 	EXP 	firstVisualStimulus: autoDraw = True
+77.7411 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+77.7411 	EXP 	firstChoiceRightStimulus: autoDraw = True
+78.0760 	EXP 	firstVisualStimulus: autoDraw = False
+78.0760 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+78.0760 	EXP 	firstChoiceRightStimulus: autoDraw = False
+78.0760 	EXP 	firstVisualStimulus: autoDraw = False
+78.0760 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+78.0760 	EXP 	firstChoiceRightStimulus: autoDraw = False
+78.0760 	EXP 	ISIVisualStimulus: autoDraw = True
+78.0760 	EXP 	rightStimulus: autoDraw = True
+78.0760 	EXP 	leftStimulus: autoDraw = True
+79.0919 	EXP 	ISIVisualStimulus: autoDraw = False
+79.0919 	EXP 	rightStimulus: autoDraw = False
+79.0919 	EXP 	leftStimulus: autoDraw = False
+79.0919 	EXP 	ISIVisualStimulus: autoDraw = False
+79.0919 	EXP 	rightStimulus: autoDraw = False
+79.0919 	EXP 	leftStimulus: autoDraw = False
+79.1102 	EXP 	secondVisualStimulus: autoDraw = True
+79.1102 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+79.1102 	EXP 	secondChoiceRightStimulus: autoDraw = True
+79.4439 	EXP 	secondVisualStimulus: autoDraw = False
+79.4439 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+79.4439 	EXP 	secondChoiceRightStimulus: autoDraw = False
+79.4439 	EXP 	secondVisualStimulus: autoDraw = False
+79.4439 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+79.4439 	EXP 	secondChoiceRightStimulus: autoDraw = False
+79.4439 	EXP 	decisionTextProbe: autoDraw = True
+79.7173 	DATA 	Keypress: 1
+79.7275 	EXP 	decisionTextProbe: autoDraw = False
+79.7275 	EXP 	feedbackText: text = 'Correct'
+79.7275 	EXP 	feedbackText: autoDraw = True
+80.7284 	EXP 	feedbackText: autoDraw = False
+80.7284 	EXP 	feedbackText: autoDraw = False
+80.7284 	EXP 	text: autoDraw = True
+81.7420 	EXP 	text: autoDraw = False
+81.7420 	EXP 	text: autoDraw = False
+81.7420 	EXP 	firstVisualStimulus: autoDraw = True
+81.7420 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+81.7420 	EXP 	firstChoiceRightStimulus: autoDraw = True
+82.0632 	EXP 	firstVisualStimulus: autoDraw = False
+82.0632 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+82.0632 	EXP 	firstChoiceRightStimulus: autoDraw = False
+82.0800 	EXP 	firstVisualStimulus: autoDraw = False
+82.0800 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+82.0800 	EXP 	firstChoiceRightStimulus: autoDraw = False
+82.0800 	EXP 	ISIVisualStimulus: autoDraw = True
+82.0800 	EXP 	rightStimulus: autoDraw = True
+82.0800 	EXP 	leftStimulus: autoDraw = True
+83.0943 	EXP 	ISIVisualStimulus: autoDraw = False
+83.0943 	EXP 	rightStimulus: autoDraw = False
+83.0943 	EXP 	leftStimulus: autoDraw = False
+83.0943 	EXP 	ISIVisualStimulus: autoDraw = False
+83.0943 	EXP 	rightStimulus: autoDraw = False
+83.0943 	EXP 	leftStimulus: autoDraw = False
+83.1132 	EXP 	secondVisualStimulus: autoDraw = True
+83.1132 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+83.1132 	EXP 	secondChoiceRightStimulus: autoDraw = True
+83.4480 	EXP 	secondVisualStimulus: autoDraw = False
+83.4480 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+83.4480 	EXP 	secondChoiceRightStimulus: autoDraw = False
+83.4480 	EXP 	secondVisualStimulus: autoDraw = False
+83.4480 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+83.4480 	EXP 	secondChoiceRightStimulus: autoDraw = False
+83.4480 	EXP 	decisionTextProbe: autoDraw = True
+84.2712 	DATA 	Keypress: 2
+84.2820 	EXP 	decisionTextProbe: autoDraw = False
+84.2820 	EXP 	feedbackText: text = 'Correct'
+84.2820 	EXP 	feedbackText: autoDraw = True
+85.2830 	EXP 	feedbackText: autoDraw = False
+85.2830 	EXP 	feedbackText: autoDraw = False
+85.2830 	EXP 	text: autoDraw = True
+86.2959 	EXP 	text: autoDraw = False
+86.2959 	EXP 	text: autoDraw = False
+86.3163 	EXP 	firstVisualStimulus: autoDraw = True
+86.3163 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+86.3163 	EXP 	firstChoiceRightStimulus: autoDraw = True
+86.6511 	EXP 	firstVisualStimulus: autoDraw = False
+86.6511 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+86.6511 	EXP 	firstChoiceRightStimulus: autoDraw = False
+86.6511 	EXP 	firstVisualStimulus: autoDraw = False
+86.6511 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+86.6511 	EXP 	firstChoiceRightStimulus: autoDraw = False
+86.6511 	EXP 	ISIVisualStimulus: autoDraw = True
+86.6511 	EXP 	rightStimulus: autoDraw = True
+86.6511 	EXP 	leftStimulus: autoDraw = True
+87.6639 	EXP 	ISIVisualStimulus: autoDraw = False
+87.6639 	EXP 	rightStimulus: autoDraw = False
+87.6639 	EXP 	leftStimulus: autoDraw = False
+87.6639 	EXP 	ISIVisualStimulus: autoDraw = False
+87.6639 	EXP 	rightStimulus: autoDraw = False
+87.6639 	EXP 	leftStimulus: autoDraw = False
+87.6842 	EXP 	secondVisualStimulus: autoDraw = True
+87.6842 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+87.6842 	EXP 	secondChoiceRightStimulus: autoDraw = True
+88.0189 	EXP 	secondVisualStimulus: autoDraw = False
+88.0189 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+88.0189 	EXP 	secondChoiceRightStimulus: autoDraw = False
+88.0189 	EXP 	secondVisualStimulus: autoDraw = False
+88.0189 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+88.0189 	EXP 	secondChoiceRightStimulus: autoDraw = False
+88.0189 	EXP 	decisionTextProbe: autoDraw = True
+88.2592 	DATA 	Keypress: 1
+88.2694 	EXP 	decisionTextProbe: autoDraw = False
+88.2694 	EXP 	feedbackText: text = 'Correct'
+88.2694 	EXP 	feedbackText: autoDraw = True
+89.2704 	EXP 	feedbackText: autoDraw = False
+89.2704 	EXP 	feedbackText: autoDraw = False
+89.2704 	EXP 	text: autoDraw = True
+90.2836 	EXP 	text: autoDraw = False
+90.2836 	EXP 	text: autoDraw = False
+90.3036 	EXP 	firstVisualStimulus: autoDraw = True
+90.3036 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+90.3036 	EXP 	firstChoiceRightStimulus: autoDraw = True
+90.6387 	EXP 	firstVisualStimulus: autoDraw = False
+90.6387 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+90.6387 	EXP 	firstChoiceRightStimulus: autoDraw = False
+90.6387 	EXP 	firstVisualStimulus: autoDraw = False
+90.6387 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+90.6387 	EXP 	firstChoiceRightStimulus: autoDraw = False
+90.6387 	EXP 	ISIVisualStimulus: autoDraw = True
+90.6387 	EXP 	rightStimulus: autoDraw = True
+90.6387 	EXP 	leftStimulus: autoDraw = True
+91.6514 	DATA 	Mouse: Left button down, pos=(618,560)
+91.6550 	EXP 	ISIVisualStimulus: autoDraw = False
+91.6550 	EXP 	rightStimulus: autoDraw = False
+91.6550 	EXP 	leftStimulus: autoDraw = False
+91.6730 	EXP 	secondVisualStimulus: autoDraw = True
+91.6730 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+91.6730 	EXP 	secondChoiceRightStimulus: autoDraw = True
+91.8591 	DATA 	Mouse:  Left button up, pos=(618,560)
+92.0062 	EXP 	secondVisualStimulus: autoDraw = False
+92.0062 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+92.0062 	EXP 	secondChoiceRightStimulus: autoDraw = False
+92.0062 	EXP 	secondVisualStimulus: autoDraw = False
+92.0062 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+92.0062 	EXP 	secondChoiceRightStimulus: autoDraw = False
+92.0062 	EXP 	decisionTextProbe: autoDraw = True
+92.2792 	DATA 	Keypress: 1
+92.2901 	EXP 	decisionTextProbe: autoDraw = False
+92.2901 	EXP 	feedbackText: text = 'Correct'
+92.2901 	EXP 	feedbackText: autoDraw = True
+93.2909 	EXP 	feedbackText: autoDraw = False
+93.2909 	EXP 	feedbackText: autoDraw = False
+93.2909 	EXP 	text: autoDraw = True
+94.3041 	EXP 	text: autoDraw = False
+94.3041 	EXP 	text: autoDraw = False
+94.3242 	EXP 	firstVisualStimulus: autoDraw = True
+94.3242 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+94.3242 	EXP 	firstChoiceRightStimulus: autoDraw = True
+94.6592 	EXP 	firstVisualStimulus: autoDraw = False
+94.6592 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+94.6592 	EXP 	firstChoiceRightStimulus: autoDraw = False
+94.6592 	EXP 	firstVisualStimulus: autoDraw = False
+94.6592 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+94.6592 	EXP 	firstChoiceRightStimulus: autoDraw = False
+94.6592 	EXP 	ISIVisualStimulus: autoDraw = True
+94.6592 	EXP 	rightStimulus: autoDraw = True
+94.6592 	EXP 	leftStimulus: autoDraw = True
+95.6717 	EXP 	ISIVisualStimulus: autoDraw = False
+95.6717 	EXP 	rightStimulus: autoDraw = False
+95.6717 	EXP 	leftStimulus: autoDraw = False
+95.6717 	EXP 	ISIVisualStimulus: autoDraw = False
+95.6717 	EXP 	rightStimulus: autoDraw = False
+95.6717 	EXP 	leftStimulus: autoDraw = False
+95.6924 	EXP 	secondVisualStimulus: autoDraw = True
+95.6924 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+95.6924 	EXP 	secondChoiceRightStimulus: autoDraw = True
+96.0271 	EXP 	secondVisualStimulus: autoDraw = False
+96.0271 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+96.0271 	EXP 	secondChoiceRightStimulus: autoDraw = False
+96.0271 	EXP 	secondVisualStimulus: autoDraw = False
+96.0271 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+96.0271 	EXP 	secondChoiceRightStimulus: autoDraw = False
+96.0271 	EXP 	decisionTextProbe: autoDraw = True
+96.3674 	DATA 	Keypress: 2
+96.3774 	EXP 	decisionTextProbe: autoDraw = False
+96.3774 	EXP 	feedbackText: text = 'Correct'
+96.3774 	EXP 	feedbackText: autoDraw = True
+97.3785 	EXP 	feedbackText: autoDraw = False
+97.3785 	EXP 	feedbackText: autoDraw = False
+97.3785 	EXP 	text: autoDraw = True
+98.3912 	EXP 	text: autoDraw = False
+98.3912 	EXP 	text: autoDraw = False
+98.3979 	EXP 	firstVisualStimulus: autoDraw = True
+98.3979 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+98.3979 	EXP 	firstChoiceRightStimulus: autoDraw = True
+98.7298 	EXP 	firstVisualStimulus: autoDraw = False
+98.7298 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+98.7298 	EXP 	firstChoiceRightStimulus: autoDraw = False
+98.7298 	EXP 	firstVisualStimulus: autoDraw = False
+98.7298 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+98.7298 	EXP 	firstChoiceRightStimulus: autoDraw = False
+98.7298 	EXP 	ISIVisualStimulus: autoDraw = True
+98.7298 	EXP 	rightStimulus: autoDraw = True
+98.7298 	EXP 	leftStimulus: autoDraw = True
+99.7439 	EXP 	ISIVisualStimulus: autoDraw = False
+99.7439 	EXP 	rightStimulus: autoDraw = False
+99.7439 	EXP 	leftStimulus: autoDraw = False
+99.7439 	EXP 	ISIVisualStimulus: autoDraw = False
+99.7439 	EXP 	rightStimulus: autoDraw = False
+99.7439 	EXP 	leftStimulus: autoDraw = False
+99.7629 	EXP 	secondVisualStimulus: autoDraw = True
+99.7629 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+99.7629 	EXP 	secondChoiceRightStimulus: autoDraw = True
+100.0980 	EXP 	secondVisualStimulus: autoDraw = False
+100.0980 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+100.0980 	EXP 	secondChoiceRightStimulus: autoDraw = False
+100.0980 	EXP 	secondVisualStimulus: autoDraw = False
+100.0980 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+100.0980 	EXP 	secondChoiceRightStimulus: autoDraw = False
+100.0980 	EXP 	decisionTextProbe: autoDraw = True
+101.6077 	DATA 	Keypress: 1
+101.6158 	EXP 	decisionTextProbe: autoDraw = False
+101.6158 	EXP 	feedbackText: text = 'Incorrect'
+101.6158 	EXP 	feedbackText: autoDraw = True
+102.6171 	EXP 	feedbackText: autoDraw = False
+102.6171 	EXP 	feedbackText: autoDraw = False
+102.6171 	EXP 	text: autoDraw = True
+103.6301 	EXP 	text: autoDraw = False
+103.6301 	EXP 	text: autoDraw = False
+103.6502 	EXP 	firstVisualStimulus: autoDraw = True
+103.6502 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+103.6502 	EXP 	firstChoiceRightStimulus: autoDraw = True
+103.9851 	EXP 	firstVisualStimulus: autoDraw = False
+103.9851 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+103.9851 	EXP 	firstChoiceRightStimulus: autoDraw = False
+103.9851 	EXP 	firstVisualStimulus: autoDraw = False
+103.9851 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+103.9851 	EXP 	firstChoiceRightStimulus: autoDraw = False
+103.9851 	EXP 	ISIVisualStimulus: autoDraw = True
+103.9851 	EXP 	rightStimulus: autoDraw = True
+103.9851 	EXP 	leftStimulus: autoDraw = True
+104.8417 	DATA 	Mouse: Left button down, pos=(569,538)
+104.9981 	EXP 	ISIVisualStimulus: autoDraw = False
+104.9981 	EXP 	rightStimulus: autoDraw = False
+104.9981 	EXP 	leftStimulus: autoDraw = False
+104.9981 	EXP 	ISIVisualStimulus: autoDraw = False
+104.9981 	EXP 	rightStimulus: autoDraw = False
+104.9981 	EXP 	leftStimulus: autoDraw = False
+105.0182 	EXP 	secondVisualStimulus: autoDraw = True
+105.0182 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+105.0182 	EXP 	secondChoiceRightStimulus: autoDraw = True
+105.0546 	DATA 	Mouse:  Left button up, pos=(569,538)
+105.3530 	EXP 	secondVisualStimulus: autoDraw = False
+105.3530 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+105.3530 	EXP 	secondChoiceRightStimulus: autoDraw = False
+105.3530 	EXP 	secondVisualStimulus: autoDraw = False
+105.3530 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+105.3530 	EXP 	secondChoiceRightStimulus: autoDraw = False
+105.3530 	EXP 	decisionTextProbe: autoDraw = True
+105.8972 	DATA 	Keypress: 2
+105.9034 	EXP 	decisionTextProbe: autoDraw = False
+105.9034 	EXP 	feedbackText: text = 'Correct'
+105.9034 	EXP 	feedbackText: autoDraw = True
+106.9047 	EXP 	feedbackText: autoDraw = False
+106.9047 	EXP 	feedbackText: autoDraw = False
+106.9047 	EXP 	text: autoDraw = True
+107.9191 	EXP 	text: autoDraw = False
+107.9191 	EXP 	text: autoDraw = False
+107.9380 	EXP 	firstVisualStimulus: autoDraw = True
+107.9380 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+107.9380 	EXP 	firstChoiceRightStimulus: autoDraw = True
+108.2726 	EXP 	firstVisualStimulus: autoDraw = False
+108.2726 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+108.2726 	EXP 	firstChoiceRightStimulus: autoDraw = False
+108.2726 	EXP 	firstVisualStimulus: autoDraw = False
+108.2726 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+108.2726 	EXP 	firstChoiceRightStimulus: autoDraw = False
+108.2726 	EXP 	ISIVisualStimulus: autoDraw = True
+108.2726 	EXP 	rightStimulus: autoDraw = True
+108.2726 	EXP 	leftStimulus: autoDraw = True
+109.2855 	EXP 	ISIVisualStimulus: autoDraw = False
+109.2855 	EXP 	rightStimulus: autoDraw = False
+109.2855 	EXP 	leftStimulus: autoDraw = False
+109.2855 	EXP 	ISIVisualStimulus: autoDraw = False
+109.2855 	EXP 	rightStimulus: autoDraw = False
+109.2855 	EXP 	leftStimulus: autoDraw = False
+109.3058 	EXP 	secondVisualStimulus: autoDraw = True
+109.3058 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+109.3058 	EXP 	secondChoiceRightStimulus: autoDraw = True
+109.6405 	EXP 	secondVisualStimulus: autoDraw = False
+109.6405 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+109.6405 	EXP 	secondChoiceRightStimulus: autoDraw = False
+109.6405 	EXP 	secondVisualStimulus: autoDraw = False
+109.6405 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+109.6405 	EXP 	secondChoiceRightStimulus: autoDraw = False
+109.6405 	EXP 	decisionTextProbe: autoDraw = True
+109.9158 	DATA 	Keypress: 1
+109.9241 	EXP 	decisionTextProbe: autoDraw = False
+109.9241 	EXP 	feedbackText: text = 'Incorrect'
+109.9241 	EXP 	feedbackText: autoDraw = True
+110.9253 	EXP 	feedbackText: autoDraw = False
+110.9253 	EXP 	feedbackText: autoDraw = False
+110.9253 	EXP 	text: autoDraw = True
+111.9383 	EXP 	text: autoDraw = False
+111.9383 	EXP 	text: autoDraw = False
+111.9587 	EXP 	firstVisualStimulus: autoDraw = True
+111.9587 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+111.9587 	EXP 	firstChoiceRightStimulus: autoDraw = True
+112.2932 	EXP 	firstVisualStimulus: autoDraw = False
+112.2932 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+112.2932 	EXP 	firstChoiceRightStimulus: autoDraw = False
+112.2932 	EXP 	firstVisualStimulus: autoDraw = False
+112.2932 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+112.2932 	EXP 	firstChoiceRightStimulus: autoDraw = False
+112.2932 	EXP 	ISIVisualStimulus: autoDraw = True
+112.2932 	EXP 	rightStimulus: autoDraw = True
+112.2932 	EXP 	leftStimulus: autoDraw = True
+113.3121 	EXP 	ISIVisualStimulus: autoDraw = False
+113.3121 	EXP 	rightStimulus: autoDraw = False
+113.3121 	EXP 	leftStimulus: autoDraw = False
+113.3121 	EXP 	ISIVisualStimulus: autoDraw = False
+113.3121 	EXP 	rightStimulus: autoDraw = False
+113.3121 	EXP 	leftStimulus: autoDraw = False
+113.3275 	EXP 	secondVisualStimulus: autoDraw = True
+113.3275 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+113.3275 	EXP 	secondChoiceRightStimulus: autoDraw = True
+113.6613 	EXP 	secondVisualStimulus: autoDraw = False
+113.6613 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+113.6613 	EXP 	secondChoiceRightStimulus: autoDraw = False
+113.6613 	EXP 	secondVisualStimulus: autoDraw = False
+113.6613 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+113.6613 	EXP 	secondChoiceRightStimulus: autoDraw = False
+113.6613 	EXP 	decisionTextProbe: autoDraw = True
+113.8991 	DATA 	Keypress: 1
+113.9281 	EXP 	decisionTextProbe: autoDraw = False
+113.9281 	EXP 	feedbackText: text = 'Correct'
+113.9281 	EXP 	feedbackText: autoDraw = True
+114.9294 	EXP 	feedbackText: autoDraw = False
+114.9294 	EXP 	feedbackText: autoDraw = False
+114.9294 	EXP 	text: autoDraw = True
+115.9414 	EXP 	text: autoDraw = False
+115.9414 	EXP 	text: autoDraw = False
+115.9625 	EXP 	firstVisualStimulus: autoDraw = True
+115.9625 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+115.9625 	EXP 	firstChoiceRightStimulus: autoDraw = True
+116.2974 	EXP 	firstVisualStimulus: autoDraw = False
+116.2974 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+116.2974 	EXP 	firstChoiceRightStimulus: autoDraw = False
+116.2974 	EXP 	firstVisualStimulus: autoDraw = False
+116.2974 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+116.2974 	EXP 	firstChoiceRightStimulus: autoDraw = False
+116.2974 	EXP 	ISIVisualStimulus: autoDraw = True
+116.2974 	EXP 	rightStimulus: autoDraw = True
+116.2974 	EXP 	leftStimulus: autoDraw = True
+117.3097 	EXP 	ISIVisualStimulus: autoDraw = False
+117.3097 	EXP 	rightStimulus: autoDraw = False
+117.3097 	EXP 	leftStimulus: autoDraw = False
+117.3097 	EXP 	ISIVisualStimulus: autoDraw = False
+117.3097 	EXP 	rightStimulus: autoDraw = False
+117.3097 	EXP 	leftStimulus: autoDraw = False
+117.3097 	EXP 	secondVisualStimulus: autoDraw = True
+117.3097 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+117.3097 	EXP 	secondChoiceRightStimulus: autoDraw = True
+117.6322 	EXP 	secondVisualStimulus: autoDraw = False
+117.6322 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+117.6322 	EXP 	secondChoiceRightStimulus: autoDraw = False
+117.6487 	EXP 	secondVisualStimulus: autoDraw = False
+117.6487 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+117.6487 	EXP 	secondChoiceRightStimulus: autoDraw = False
+117.6487 	EXP 	decisionTextProbe: autoDraw = True
+118.1058 	DATA 	Keypress: 1
+118.1158 	EXP 	decisionTextProbe: autoDraw = False
+118.1158 	EXP 	feedbackText: text = 'Correct'
+118.1158 	EXP 	feedbackText: autoDraw = True
+119.1168 	EXP 	feedbackText: autoDraw = False
+119.1168 	EXP 	feedbackText: autoDraw = False
+119.1168 	EXP 	text: autoDraw = True
+120.1310 	EXP 	text: autoDraw = False
+120.1310 	EXP 	text: autoDraw = False
+120.1500 	EXP 	firstVisualStimulus: autoDraw = True
+120.1500 	EXP 	firstChoiceLeftStimulus: autoDraw = True
+120.1500 	EXP 	firstChoiceRightStimulus: autoDraw = True
+120.4848 	EXP 	firstVisualStimulus: autoDraw = False
+120.4848 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+120.4848 	EXP 	firstChoiceRightStimulus: autoDraw = False
+120.4848 	EXP 	firstVisualStimulus: autoDraw = False
+120.4848 	EXP 	firstChoiceLeftStimulus: autoDraw = False
+120.4848 	EXP 	firstChoiceRightStimulus: autoDraw = False
+120.4848 	EXP 	ISIVisualStimulus: autoDraw = True
+120.4848 	EXP 	rightStimulus: autoDraw = True
+120.4848 	EXP 	leftStimulus: autoDraw = True
+121.4983 	EXP 	ISIVisualStimulus: autoDraw = False
+121.4983 	EXP 	rightStimulus: autoDraw = False
+121.4983 	EXP 	leftStimulus: autoDraw = False
+121.4983 	EXP 	ISIVisualStimulus: autoDraw = False
+121.4983 	EXP 	rightStimulus: autoDraw = False
+121.4983 	EXP 	leftStimulus: autoDraw = False
+121.5179 	EXP 	secondVisualStimulus: autoDraw = True
+121.5179 	EXP 	secondChoiceLeftStimulus: autoDraw = True
+121.5179 	EXP 	secondChoiceRightStimulus: autoDraw = True
+121.8529 	EXP 	secondVisualStimulus: autoDraw = False
+121.8529 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+121.8529 	EXP 	secondChoiceRightStimulus: autoDraw = False
+121.8529 	EXP 	secondVisualStimulus: autoDraw = False
+121.8529 	EXP 	secondChoiceLeftStimulus: autoDraw = False
+121.8529 	EXP 	secondChoiceRightStimulus: autoDraw = False
+121.8529 	EXP 	decisionTextProbe: autoDraw = True
+122.1618 	DATA 	Keypress: 1
+122.1698 	EXP 	decisionTextProbe: autoDraw = False
+122.1698 	EXP 	feedbackText: text = 'Incorrect'
+122.1698 	EXP 	feedbackText: autoDraw = True
+123.1708 	EXP 	feedbackText: autoDraw = False
+123.1708 	EXP 	feedbackText: autoDraw = False
+123.1708 	EXP 	text: autoDraw = True
+123.3231 	DATA 	Keypress: escape
+123.6173 	EXP 	window1: mouseVisible = True
+123.6174 	DEBUG 	Saving data for toneDetectionPlatform_V1.7 ExperimentHandler
+123.6316 	INFO 	saved data to C:\Users\W2032175\Documents\GitHub\Open-source-Auditory-Tone-Detection-Task\Auditory Tone Detection Task\data/_toneDetectionPlatform_V1.7_2020_Nov_03_1042.psydat
+123.6416 	INFO 	saved data to 'C:\\Users\\W2032175\\Documents\\GitHub\\Open-source-Auditory-Tone-Detection-Task\\Auditory Tone Detection Task\\data/_toneDetectionPlatform_V1.7_2020_Nov_03_1042.csv'

@@ -1,0 +1,162 @@
+1.9146 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.1510 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A56EDD1438>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A56ED61400>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.1512 	EXP 	window1: mouseVisible = True
+14.1512 	EXP 	window1: recordFrameIntervals = False
+14.3168 	EXP 	window1: recordFrameIntervals = True
+14.5000 	EXP 	window1: recordFrameIntervals = False
+14.7248 	EXP 	Created press_space = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='press_space', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Press space to continue', units='height', win=Window(...), wrapWidth=1)
+14.7487 	EXP 	Created title_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='title_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Headphone Calibration Check', units='height', win=Window(...), wrapWidth=1)
+14.7714 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.7767 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+15.2730 	EXP 	Sound sound_1 set volume 1.000
+15.3034 	EXP 	press_space: autoDraw = True
+15.3034 	EXP 	title_text: autoDraw = True
+15.8140 	EXP 	Imported desired_db.xlsx as conditions, 15 conditions, 1 params
+15.8143 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+15.8144 	EXP 	New trial (rep=0, index=0): OrderedDict([('desired_db', 30)])
+15.8211 	DATA 	Keypress: space
+15.8228 	EXP 	press_space: autoDraw = False
+15.8228 	EXP 	title_text: autoDraw = False
+15.8228 	EXP 	text: text = 30
+15.8228 	EXP 	text_2: autoDraw = True
+15.8228 	EXP 	text: autoDraw = True
+17.4826 	WARNING 	Got keycode {} but that code isn't yet known
+17.4826 	WARNING 	Keypress was given unknown key code (176)
+18.4668 	DATA 	Keypress: space
+18.4840 	EXP 	New trial (rep=0, index=1): OrderedDict([('desired_db', 35)])
+18.4960 	EXP 	text_2: autoDraw = False
+18.4960 	EXP 	text: autoDraw = False
+18.4960 	EXP 	text: text = 35
+18.4960 	EXP 	text_2: autoDraw = True
+18.4960 	EXP 	text: autoDraw = True
+18.8661 	DATA 	Keypress: space
+18.8834 	EXP 	New trial (rep=0, index=2): OrderedDict([('desired_db', 40)])
+18.8957 	EXP 	text_2: autoDraw = False
+18.8957 	EXP 	text: autoDraw = False
+18.8957 	EXP 	text: text = 40
+18.8957 	EXP 	text_2: autoDraw = True
+18.8957 	EXP 	text: autoDraw = True
+19.0330 	EXP 	New trial (rep=0, index=3): OrderedDict([('desired_db', 45)])
+19.0379 	DATA 	Keypress: space
+19.0457 	EXP 	text_2: autoDraw = False
+19.0457 	EXP 	text: autoDraw = False
+19.0457 	EXP 	text: text = 45
+19.0457 	EXP 	text_2: autoDraw = True
+19.0457 	EXP 	text: autoDraw = True
+19.1501 	EXP 	New trial (rep=0, index=4): OrderedDict([('desired_db', 50)])
+19.1544 	DATA 	Keypress: space
+19.1622 	EXP 	text_2: autoDraw = False
+19.1622 	EXP 	text: autoDraw = False
+19.1622 	EXP 	text: text = 50
+19.1622 	EXP 	text_2: autoDraw = True
+19.1622 	EXP 	text: autoDraw = True
+19.2827 	EXP 	New trial (rep=0, index=5): OrderedDict([('desired_db', 55)])
+19.2878 	DATA 	Keypress: space
+19.2954 	EXP 	text_2: autoDraw = False
+19.2954 	EXP 	text: autoDraw = False
+19.2954 	EXP 	text: text = 55
+19.2954 	EXP 	text_2: autoDraw = True
+19.2954 	EXP 	text: autoDraw = True
+19.4160 	EXP 	New trial (rep=0, index=6): OrderedDict([('desired_db', 60)])
+19.4233 	DATA 	Keypress: space
+19.4285 	EXP 	text_2: autoDraw = False
+19.4285 	EXP 	text: autoDraw = False
+19.4285 	EXP 	text: text = 60
+19.4285 	EXP 	text_2: autoDraw = True
+19.4285 	EXP 	text: autoDraw = True
+19.6640 	WARNING 	Got keycode {} but that code isn't yet known
+19.6640 	WARNING 	Keypress was given unknown key code (176)
+19.8132 	WARNING 	Got keycode {} but that code isn't yet known
+19.8132 	WARNING 	Keypress was given unknown key code (176)
+19.9627 	WARNING 	Got keycode {} but that code isn't yet known
+19.9628 	WARNING 	Keypress was given unknown key code (176)
+20.0964 	WARNING 	Got keycode {} but that code isn't yet known
+20.0964 	WARNING 	Keypress was given unknown key code (176)
+20.2299 	WARNING 	Got keycode {} but that code isn't yet known
+20.2299 	WARNING 	Keypress was given unknown key code (176)
+20.3623 	WARNING 	Got keycode {} but that code isn't yet known
+20.3623 	WARNING 	Keypress was given unknown key code (176)
+20.4809 	WARNING 	Got keycode {} but that code isn't yet known
+20.4809 	WARNING 	Keypress was given unknown key code (176)
+20.6292 	WARNING 	Got keycode {} but that code isn't yet known
+20.6292 	WARNING 	Keypress was given unknown key code (176)
+20.7648 	WARNING 	Got keycode {} but that code isn't yet known
+20.7648 	WARNING 	Keypress was given unknown key code (176)
+20.9123 	WARNING 	Got keycode {} but that code isn't yet known
+20.9123 	WARNING 	Keypress was given unknown key code (176)
+21.0450 	WARNING 	Got keycode {} but that code isn't yet known
+21.0451 	WARNING 	Keypress was given unknown key code (176)
+21.1791 	WARNING 	Got keycode {} but that code isn't yet known
+21.1791 	WARNING 	Keypress was given unknown key code (176)
+21.4459 	WARNING 	Got keycode {} but that code isn't yet known
+21.4459 	WARNING 	Keypress was given unknown key code (176)
+21.5786 	WARNING 	Got keycode {} but that code isn't yet known
+21.5786 	WARNING 	Keypress was given unknown key code (176)
+21.7283 	WARNING 	Got keycode {} but that code isn't yet known
+21.7283 	WARNING 	Keypress was given unknown key code (176)
+21.8613 	WARNING 	Got keycode {} but that code isn't yet known
+21.8613 	WARNING 	Keypress was given unknown key code (176)
+21.9779 	WARNING 	Got keycode {} but that code isn't yet known
+21.9780 	WARNING 	Keypress was given unknown key code (176)
+22.1443 	WARNING 	Got keycode {} but that code isn't yet known
+22.1443 	WARNING 	Keypress was given unknown key code (176)
+22.2798 	EXP 	New trial (rep=0, index=7): OrderedDict([('desired_db', 65)])
+22.2847 	DATA 	Keypress: space
+22.2925 	EXP 	text_2: autoDraw = False
+22.2925 	EXP 	text: autoDraw = False
+22.2925 	EXP 	text: text = 65
+22.2925 	EXP 	text_2: autoDraw = True
+22.2925 	EXP 	text: autoDraw = True
+22.4631 	DATA 	Keypress: space
+22.4808 	EXP 	New trial (rep=0, index=8): OrderedDict([('desired_db', 70)])
+22.4922 	EXP 	text_2: autoDraw = False
+22.4922 	EXP 	text: autoDraw = False
+22.4922 	EXP 	text: text = 70
+22.4922 	EXP 	text_2: autoDraw = True
+22.4922 	EXP 	text: autoDraw = True
+22.6297 	EXP 	New trial (rep=0, index=9): OrderedDict([('desired_db', 75)])
+22.6344 	DATA 	Keypress: space
+22.6420 	EXP 	text_2: autoDraw = False
+22.6420 	EXP 	text: autoDraw = False
+22.6420 	EXP 	text: text = 75
+22.6420 	EXP 	text_2: autoDraw = True
+22.6420 	EXP 	text: autoDraw = True
+22.8298 	EXP 	New trial (rep=0, index=10): OrderedDict([('desired_db', 80)])
+22.8367 	DATA 	Keypress: space
+22.8419 	EXP 	text_2: autoDraw = False
+22.8419 	EXP 	text: autoDraw = False
+22.8419 	EXP 	text: text = 80
+22.8419 	EXP 	text_2: autoDraw = True
+22.8419 	EXP 	text: autoDraw = True
+23.0793 	EXP 	New trial (rep=0, index=11): OrderedDict([('desired_db', 85)])
+23.0836 	DATA 	Keypress: space
+23.0917 	EXP 	text_2: autoDraw = False
+23.0917 	EXP 	text: autoDraw = False
+23.0917 	EXP 	text: text = 85
+23.0917 	EXP 	text_2: autoDraw = True
+23.0917 	EXP 	text: autoDraw = True
+23.4956 	EXP 	New trial (rep=0, index=12): OrderedDict([('desired_db', 90)])
+23.5026 	DATA 	Keypress: space
+23.5079 	EXP 	text_2: autoDraw = False
+23.5079 	EXP 	text: autoDraw = False
+23.5079 	EXP 	text: text = 90
+23.5079 	EXP 	text_2: autoDraw = True
+23.5079 	EXP 	text: autoDraw = True
+23.6786 	EXP 	New trial (rep=0, index=13): OrderedDict([('desired_db', 95)])
+23.6836 	DATA 	Keypress: space
+23.6910 	EXP 	text_2: autoDraw = False
+23.6910 	EXP 	text: autoDraw = False
+23.6910 	EXP 	text: text = 95
+23.6910 	EXP 	text_2: autoDraw = True
+23.6910 	EXP 	text: autoDraw = True
+23.8285 	EXP 	New trial (rep=0, index=14): OrderedDict([('desired_db', 100)])
+23.8343 	DATA 	Keypress: space
+23.8408 	EXP 	text_2: autoDraw = False
+23.8408 	EXP 	text: autoDraw = False
+23.8408 	EXP 	text: text = 100
+23.8408 	EXP 	text_2: autoDraw = True
+23.8408 	EXP 	text: autoDraw = True
+23.9951 	DATA 	Keypress: space
+24.0241 	EXP 	text_2: autoDraw = False
+24.0241 	EXP 	text: autoDraw = False
+24.1249 	EXP 	window1: mouseVisible = True

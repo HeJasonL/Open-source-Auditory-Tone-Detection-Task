@@ -1,0 +1,41 @@
+5.2869 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+25.2434 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+25.2438 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000015F78034160>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000015F780979E8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.2439 	EXP 	window1: recordFrameIntervals = False
+25.4165 	EXP 	window1: recordFrameIntervals = True
+25.4705 	WARNING 	t of last frame was 27.07ms (=1/36)
+25.5369 	WARNING 	t of last frame was 26.77ms (=1/37)
+25.6034 	WARNING 	t of last frame was 27.09ms (=1/36)
+25.6697 	WARNING 	t of last frame was 26.80ms (=1/37)
+25.7364 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+27.0839 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+27.3185 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='press space to start\n', units='height', win=Window(...), wrapWidth=1)
+27.3409 	EXP 	Sound sound_1 set volume 1.000
+27.3515 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+27.3679 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text="'Does your db SPL meter read 113 db SPL?'", units='height', win=Window(...), wrapWidth=1)
+27.3954 	EXP 	text: autoDraw = True
+27.3954 	EXP 	text: autoDraw = False
+39.0793 	DATA 	Keypress: lalt
+49.0844 	DATA 	Mouse: Left button down, pos=(552,497)
+49.2962 	DATA 	Mouse:  Left button up, pos=(552,497)
+49.8431 	DATA 	Keypress: u
+50.5484 	DATA 	Keypress: space
+50.5621 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (5).
+50.5766 	EXP 	text: autoDraw = False
+50.5766 	EXP 	text_2: text = 0.5
+50.5766 	EXP 	text_2: autoDraw = True
+50.5766 	EXP 	text_3: autoDraw = True
+52.0814 	WARNING 	Got keycode {} but that code isn't yet known
+52.0815 	WARNING 	Keypress was given unknown key code (174)
+52.2813 	WARNING 	Got keycode {} but that code isn't yet known
+52.2813 	WARNING 	Keypress was given unknown key code (174)
+52.4439 	WARNING 	Got keycode {} but that code isn't yet known
+52.4439 	WARNING 	Keypress was given unknown key code (174)
+62.0868 	DATA 	Keypress: escape
+62.3596 	EXP 	window1: mouseVisible = True

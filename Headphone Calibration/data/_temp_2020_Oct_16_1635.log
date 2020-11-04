@@ -1,0 +1,21 @@
+4.7820 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+17.4002 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.4006 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E00DEAD978>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E00DF24240>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.4007 	EXP 	window1: recordFrameIntervals = False
+17.5603 	EXP 	window1: recordFrameIntervals = True
+17.6534 	WARNING 	t of last frame was 26.75ms (=1/37)
+17.7199 	WARNING 	t of last frame was 26.53ms (=1/37)
+17.7864 	WARNING 	t of last frame was 26.49ms (=1/37)
+17.8533 	WARNING 	t of last frame was 26.62ms (=1/37)
+17.9200 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.2275 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+19.3650 	EXP 	Sound sound_1 set volume 1.000
+19.3736 	EXP 	Created sequence: random, trialTypes=1, nReps=1000, seed=None
+19.3772 	EXP 	New trial (rep=0, index=0): None
+19.4900 	EXP 	window1: mouseVisible = True

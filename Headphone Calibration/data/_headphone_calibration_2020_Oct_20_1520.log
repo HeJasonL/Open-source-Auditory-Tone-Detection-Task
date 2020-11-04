@@ -1,0 +1,137 @@
+1.1398 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.4474 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002089263DF98>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000208926AB860>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4474 	EXP 	window1: recordFrameIntervals = False
+7.6135 	EXP 	window1: recordFrameIntervals = True
+7.7968 	EXP 	window1: recordFrameIntervals = False
+8.1494 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1948 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2131 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2836 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5564 	EXP 	Sound sound_1 set volume 1.000
+8.5884 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Helvetica', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6048 	EXP 	Created level_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='level_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.6054 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+8.6371 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6711 	EXP 	text: autoDraw = True
+9.3186 	DATA 	Keypress: space
+9.3286 	EXP 	text: autoDraw = False
+9.3286 	EXP 	text_2: autoDraw = True
+9.4689 	DATA 	Keypress: space
+9.4781 	EXP 	text_2: autoDraw = False
+9.4781 	EXP 	text_3: autoDraw = True
+9.6025 	DATA 	Keypress: space
+9.6121 	EXP 	text_3: autoDraw = False
+9.6121 	EXP 	text_4: autoDraw = True
+9.7493 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (10).
+9.7630 	DATA 	Keypress: space
+9.7650 	EXP 	text_4: autoDraw = False
+9.7650 	EXP 	level_text: color = 'white (named)'
+9.7650 	EXP 	level_text: text = 0.1
+9.7650 	EXP 	question_text: autoDraw = True
+9.7650 	EXP 	level_text: autoDraw = True
+10.0836 	DATA 	Keypress: space
+10.9381 	DATA 	Keypress: up
+10.9400 	EXP 	question_text: autoDraw = False
+10.9400 	EXP 	level_text: autoDraw = False
+10.9400 	EXP 	level_text: color = 'white (named)'
+10.9400 	EXP 	level_text: text = 0.19952623149688797
+10.9400 	EXP 	question_text: autoDraw = True
+10.9400 	EXP 	level_text: autoDraw = True
+11.0486 	DATA 	Keypress: up
+11.0769 	EXP 	question_text: autoDraw = False
+11.0769 	EXP 	level_text: autoDraw = False
+11.0769 	EXP 	level_text: color = 'white (named)'
+11.0769 	EXP 	level_text: text = 0.39810717055349726
+11.0769 	EXP 	question_text: autoDraw = True
+11.0769 	EXP 	level_text: autoDraw = True
+11.1879 	DATA 	Keypress: up
+11.1934 	EXP 	question_text: autoDraw = False
+11.1934 	EXP 	level_text: autoDraw = False
+11.1934 	EXP 	level_text: color = 'white (named)'
+11.1934 	EXP 	level_text: text = 0.7943282347242815
+11.1934 	EXP 	question_text: autoDraw = True
+11.1934 	EXP 	level_text: autoDraw = True
+11.3364 	DATA 	Keypress: up
+11.3429 	EXP 	question_text: autoDraw = False
+11.3429 	EXP 	level_text: autoDraw = False
+11.3429 	EXP 	level_text: color = 'white (named)'
+11.3429 	EXP 	level_text: text = 1
+11.3429 	EXP 	question_text: autoDraw = True
+11.3429 	EXP 	level_text: autoDraw = True
+11.4809 	DATA 	Keypress: up
+11.5094 	EXP 	question_text: autoDraw = False
+11.5094 	EXP 	level_text: autoDraw = False
+11.5094 	EXP 	level_text: color = 'white (named)'
+11.5094 	EXP 	level_text: text = 1
+11.5094 	EXP 	question_text: autoDraw = True
+11.5094 	EXP 	level_text: autoDraw = True
+11.6202 	DATA 	Keypress: up
+11.6261 	EXP 	question_text: autoDraw = False
+11.6261 	EXP 	level_text: autoDraw = False
+11.6261 	EXP 	level_text: color = 'white (named)'
+11.6261 	EXP 	level_text: text = 1
+11.6261 	EXP 	question_text: autoDraw = True
+11.6261 	EXP 	level_text: autoDraw = True
+11.8204 	DATA 	Keypress: down
+11.8261 	EXP 	question_text: autoDraw = False
+11.8261 	EXP 	level_text: autoDraw = False
+11.8261 	EXP 	level_text: color = 'white (named)'
+11.8261 	EXP 	level_text: text = 0.5011872336272724
+11.8261 	EXP 	question_text: autoDraw = True
+11.8261 	EXP 	level_text: autoDraw = True
+11.9662 	DATA 	Keypress: down
+11.9927 	EXP 	question_text: autoDraw = False
+11.9927 	EXP 	level_text: autoDraw = False
+11.9927 	EXP 	level_text: color = 'white (named)'
+11.9927 	EXP 	level_text: text = 0.25118864315095807
+11.9927 	EXP 	question_text: autoDraw = True
+11.9927 	EXP 	level_text: autoDraw = True
+12.1062 	DATA 	Keypress: down
+12.1092 	EXP 	question_text: autoDraw = False
+12.1092 	EXP 	level_text: autoDraw = False
+12.1092 	EXP 	level_text: color = 'white (named)'
+12.1092 	EXP 	level_text: text = 0.12589254117941676
+12.1092 	EXP 	question_text: autoDraw = True
+12.1092 	EXP 	level_text: autoDraw = True
+12.2715 	DATA 	Keypress: down
+12.2756 	EXP 	question_text: autoDraw = False
+12.2756 	EXP 	level_text: autoDraw = False
+12.2756 	EXP 	level_text: color = 'white (named)'
+12.2756 	EXP 	level_text: text = 0.06309573444801934
+12.2756 	EXP 	question_text: autoDraw = True
+12.2756 	EXP 	level_text: autoDraw = True
+12.4070 	DATA 	Keypress: down
+12.4093 	EXP 	question_text: autoDraw = False
+12.4093 	EXP 	level_text: autoDraw = False
+12.4093 	EXP 	level_text: color = 'LightGreen (named)'
+12.4093 	EXP 	level_text: text = 0.031622776601683805
+12.4093 	EXP 	question_text: autoDraw = True
+12.4093 	EXP 	level_text: autoDraw = True
+12.5492 	DATA 	Keypress: down
+12.5789 	EXP 	question_text: autoDraw = False
+12.5789 	EXP 	level_text: autoDraw = False
+12.5789 	EXP 	level_text: color = 'LightGreen (named)'
+12.5789 	EXP 	level_text: text = 0.01584893192461114
+12.5789 	EXP 	question_text: autoDraw = True
+12.5789 	EXP 	level_text: autoDraw = True
+12.6994 	DATA 	Keypress: down
+12.7253 	EXP 	question_text: autoDraw = False
+12.7253 	EXP 	level_text: autoDraw = False
+12.7253 	EXP 	level_text: color = 'LightGreen (named)'
+12.7253 	EXP 	level_text: text = 0.007943282347242819
+12.7253 	EXP 	question_text: autoDraw = True
+12.7253 	EXP 	level_text: autoDraw = True
+12.8301 	DATA 	Keypress: down
+12.8609 	EXP 	question_text: autoDraw = False
+12.8609 	EXP 	level_text: autoDraw = False
+12.8609 	EXP 	level_text: color = 'LightGreen (named)'
+12.8609 	EXP 	level_text: text = 0.003981071705534974
+12.8609 	EXP 	question_text: autoDraw = True
+12.8609 	EXP 	level_text: autoDraw = True
+12.9493 	DATA 	Keypress: c
+12.9581 	EXP 	question_text: autoDraw = False
+12.9581 	EXP 	level_text: autoDraw = False
+12.9581 	EXP 	text_5: autoDraw = True
+12.9581 	EXP 	text_6: autoDraw = True
+14.4110 	DATA 	Keypress: escape
+14.7558 	EXP 	window1: mouseVisible = True

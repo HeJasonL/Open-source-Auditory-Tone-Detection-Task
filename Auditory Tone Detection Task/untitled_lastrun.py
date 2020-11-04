@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.4),
-    on Fri Oct 30 15:54:02 2020
+    on November 02, 2020, at 15:56
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -51,7 +51,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath="/Users/jasonhe/Documents/Documents - Jason's iCloud/Work/GitHub/Open-source Auditory Tone Detection (OSATD) Task/Auditory Tone Detection Task/untitled_lastrun.py",
+    originPath='C:\\Users\\W2032175\\Documents\\GitHub\\Open-source-Auditory-Tone-Detection-Task\\Auditory Tone Detection Task\\untitled_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -82,6 +82,9 @@ defaultKeyboard = keyboard.Keyboard()
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
+sound_1 = sound.Sound('1000', secs=-1, stereo=True, hamming=True,
+    name='sound_1')
+sound_1.setVolume(1)
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -89,9 +92,12 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 
 # ------Prepare to start Routine "trial"-------
 continueRoutine = True
+routineTimer.add(100.000000)
 # update component parameters for each repeat
+sound_1.setSound('1000', secs=100, hamming=True)
+sound_1.setVolume(1, log=False)
 # keep track of which components have finished
-trialComponents = []
+trialComponents = [sound_1]
 for thisComponent in trialComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -106,13 +112,28 @@ trialClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
 
 # -------Run Routine "trial"-------
-while continueRoutine:
+while continueRoutine and routineTimer.getTime() > 0:
     # get current time
     t = trialClock.getTime()
     tThisFlip = win.getFutureFlipTime(clock=trialClock)
     tThisFlipGlobal = win.getFutureFlipTime(clock=None)
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
+    # start/stop sound_1
+    if sound_1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        sound_1.frameNStart = frameN  # exact frame index
+        sound_1.tStart = t  # local t and not account for scr refresh
+        sound_1.tStartRefresh = tThisFlipGlobal  # on global time
+        sound_1.play(when=win)  # sync with win flip
+    if sound_1.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > sound_1.tStartRefresh + 100-frameTolerance:
+            # keep track of stop time/frame for later
+            sound_1.tStop = t  # not accounting for scr refresh
+            sound_1.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(sound_1, 'tStopRefresh')  # time at next scr refresh
+            sound_1.stop()
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -135,8 +156,9 @@ while continueRoutine:
 for thisComponent in trialComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-# the Routine "trial" was not non-slip safe, so reset the non-slip timer
-routineTimer.reset()
+sound_1.stop()  # ensure sound has stopped at end of routine
+thisExp.addData('sound_1.started', sound_1.tStartRefresh)
+thisExp.addData('sound_1.stopped', sound_1.tStopRefresh)
 
 # Flip one final time so any remaining win.callOnFlip() 
 # and win.timeOnFlip() tasks get executed before quitting

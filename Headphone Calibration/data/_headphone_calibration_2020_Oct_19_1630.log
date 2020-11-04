@@ -1,0 +1,1274 @@
+2.9880 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.1983 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000194AD984240>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000194AD9D8AC8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1983 	EXP 	window1: recordFrameIntervals = False
+12.3643 	EXP 	window1: recordFrameIntervals = True
+12.5481 	EXP 	window1: recordFrameIntervals = False
+12.7958 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0. , 0.5]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8204 	EXP 	Sound sound_1 set volume 1.000
+12.8377 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([255., 255., 255.]), text="'Does your db SPL meter read 113 db SPL?'", units='height', win=Window(...), wrapWidth=1)
+12.8429 	EXP 	Created level_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='level_text', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.8737 	EXP 	text: autoDraw = True
+13.3865 	DATA 	Mouse: Left button down, pos=(755,465)
+13.4870 	DATA 	Mouse:  Left button up, pos=(755,465)
+13.6025 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (11).
+13.6101 	DATA 	Keypress: space
+13.6157 	EXP 	text: autoDraw = False
+13.6157 	EXP 	level_text: text = 0.1
+13.6157 	EXP 	question_text: autoDraw = True
+13.6157 	EXP 	level_text: autoDraw = True
+14.1493 	DATA 	Keypress: up
+14.1524 	EXP 	question_text: autoDraw = False
+14.1524 	EXP 	level_text: autoDraw = False
+14.1524 	EXP 	level_text: text = 0.6309573444801934
+14.1524 	EXP 	question_text: autoDraw = True
+14.1524 	EXP 	level_text: autoDraw = True
+14.3233 	DATA 	Keypress: up
+14.3328 	EXP 	question_text: autoDraw = False
+14.3328 	EXP 	level_text: autoDraw = False
+14.3328 	EXP 	level_text: text = 1
+14.3328 	EXP 	question_text: autoDraw = True
+14.3328 	EXP 	level_text: autoDraw = True
+14.4549 	DATA 	Keypress: up
+14.4829 	EXP 	question_text: autoDraw = False
+14.4829 	EXP 	level_text: autoDraw = False
+14.4829 	EXP 	level_text: text = 1
+14.4829 	EXP 	question_text: autoDraw = True
+14.4829 	EXP 	level_text: autoDraw = True
+14.6246 	DATA 	Keypress: up
+14.6334 	EXP 	question_text: autoDraw = False
+14.6334 	EXP 	level_text: autoDraw = False
+14.6334 	EXP 	level_text: text = 1
+14.6334 	EXP 	question_text: autoDraw = True
+14.6334 	EXP 	level_text: autoDraw = True
+14.7740 	DATA 	Keypress: up
+14.7837 	EXP 	question_text: autoDraw = False
+14.7837 	EXP 	level_text: autoDraw = False
+14.7837 	EXP 	level_text: text = 1
+14.7837 	EXP 	question_text: autoDraw = True
+14.7837 	EXP 	level_text: autoDraw = True
+14.9088 	DATA 	Keypress: up
+14.9170 	EXP 	question_text: autoDraw = False
+14.9170 	EXP 	level_text: autoDraw = False
+14.9170 	EXP 	level_text: text = 1
+14.9170 	EXP 	question_text: autoDraw = True
+14.9170 	EXP 	level_text: autoDraw = True
+15.0567 	DATA 	Keypress: up
+15.0839 	EXP 	question_text: autoDraw = False
+15.0839 	EXP 	level_text: autoDraw = False
+15.0839 	EXP 	level_text: text = 1
+15.0839 	EXP 	question_text: autoDraw = True
+15.0839 	EXP 	level_text: autoDraw = True
+15.2249 	DATA 	Keypress: up
+15.2338 	EXP 	question_text: autoDraw = False
+15.2338 	EXP 	level_text: autoDraw = False
+15.2338 	EXP 	level_text: text = 1
+15.2338 	EXP 	question_text: autoDraw = True
+15.2338 	EXP 	level_text: autoDraw = True
+15.3759 	DATA 	Keypress: up
+15.3838 	EXP 	question_text: autoDraw = False
+15.3838 	EXP 	level_text: autoDraw = False
+15.3838 	EXP 	level_text: text = 1
+15.3838 	EXP 	question_text: autoDraw = True
+15.3838 	EXP 	level_text: autoDraw = True
+15.5589 	DATA 	Keypress: up
+15.5675 	EXP 	question_text: autoDraw = False
+15.5675 	EXP 	level_text: autoDraw = False
+15.5675 	EXP 	level_text: text = 1
+15.5675 	EXP 	question_text: autoDraw = True
+15.5675 	EXP 	level_text: autoDraw = True
+16.3736 	DATA 	Keypress: down
+16.4017 	EXP 	question_text: autoDraw = False
+16.4017 	EXP 	level_text: autoDraw = False
+16.4017 	EXP 	level_text: text = 0.15848931924611132
+16.4017 	EXP 	question_text: autoDraw = True
+16.4017 	EXP 	level_text: autoDraw = True
+16.5390 	DATA 	Keypress: down
+16.5683 	EXP 	question_text: autoDraw = False
+16.5683 	EXP 	level_text: autoDraw = False
+16.5683 	EXP 	level_text: text = 0.02511886431509579
+16.5683 	EXP 	question_text: autoDraw = True
+16.5683 	EXP 	level_text: autoDraw = True
+16.6946 	DATA 	Keypress: down
+16.7023 	EXP 	question_text: autoDraw = False
+16.7023 	EXP 	level_text: autoDraw = False
+16.7023 	EXP 	level_text: text = 0.00398107170553497
+16.7023 	EXP 	question_text: autoDraw = True
+16.7023 	EXP 	level_text: autoDraw = True
+16.8935 	DATA 	Keypress: down
+16.9022 	EXP 	question_text: autoDraw = False
+16.9022 	EXP 	level_text: autoDraw = False
+16.9022 	EXP 	level_text: text = 0.0006309573444801928
+16.9022 	EXP 	question_text: autoDraw = True
+16.9022 	EXP 	level_text: autoDraw = True
+17.0788 	DATA 	Keypress: up
+17.0856 	EXP 	question_text: autoDraw = False
+17.0856 	EXP 	level_text: autoDraw = False
+17.0856 	EXP 	level_text: text = 0.002511886431509578
+17.0856 	EXP 	question_text: autoDraw = True
+17.0856 	EXP 	level_text: autoDraw = True
+17.2123 	DATA 	Keypress: up
+17.2192 	EXP 	question_text: autoDraw = False
+17.2192 	EXP 	level_text: autoDraw = False
+17.2192 	EXP 	level_text: text = 0.009999999999999992
+17.2192 	EXP 	question_text: autoDraw = True
+17.2192 	EXP 	level_text: autoDraw = True
+17.3627 	DATA 	Keypress: up
+17.3693 	EXP 	question_text: autoDraw = False
+17.3693 	EXP 	level_text: autoDraw = False
+17.3693 	EXP 	level_text: text = 0.039810717055349686
+17.3693 	EXP 	question_text: autoDraw = True
+17.3693 	EXP 	level_text: autoDraw = True
+17.4956 	DATA 	Keypress: up
+17.5034 	EXP 	question_text: autoDraw = False
+17.5034 	EXP 	level_text: autoDraw = False
+17.5034 	EXP 	level_text: text = 0.15848931924611118
+17.5034 	EXP 	question_text: autoDraw = True
+17.5034 	EXP 	level_text: autoDraw = True
+17.6410 	DATA 	Keypress: up
+17.6699 	EXP 	question_text: autoDraw = False
+17.6699 	EXP 	level_text: autoDraw = False
+17.6699 	EXP 	level_text: text = 0.6309573444801925
+17.6699 	EXP 	question_text: autoDraw = True
+17.6699 	EXP 	level_text: autoDraw = True
+17.7775 	DATA 	Keypress: up
+17.7860 	EXP 	question_text: autoDraw = False
+17.7860 	EXP 	level_text: autoDraw = False
+17.7860 	EXP 	level_text: text = 1
+17.7860 	EXP 	question_text: autoDraw = True
+17.7860 	EXP 	level_text: autoDraw = True
+17.9252 	DATA 	Keypress: up
+17.9533 	EXP 	question_text: autoDraw = False
+17.9533 	EXP 	level_text: autoDraw = False
+17.9533 	EXP 	level_text: text = 1
+17.9533 	EXP 	question_text: autoDraw = True
+17.9533 	EXP 	level_text: autoDraw = True
+18.0783 	DATA 	Keypress: up
+18.0865 	EXP 	question_text: autoDraw = False
+18.0865 	EXP 	level_text: autoDraw = False
+18.0865 	EXP 	level_text: text = 1
+18.0865 	EXP 	question_text: autoDraw = True
+18.0865 	EXP 	level_text: autoDraw = True
+18.2293 	DATA 	Keypress: up
+18.2370 	EXP 	question_text: autoDraw = False
+18.2370 	EXP 	level_text: autoDraw = False
+18.2370 	EXP 	level_text: text = 1
+18.2370 	EXP 	question_text: autoDraw = True
+18.2370 	EXP 	level_text: autoDraw = True
+18.3431 	DATA 	Keypress: up
+18.3702 	EXP 	question_text: autoDraw = False
+18.3702 	EXP 	level_text: autoDraw = False
+18.3702 	EXP 	level_text: text = 1
+18.3702 	EXP 	question_text: autoDraw = True
+18.3702 	EXP 	level_text: autoDraw = True
+18.5476 	DATA 	Keypress: down
+18.5538 	EXP 	question_text: autoDraw = False
+18.5538 	EXP 	level_text: autoDraw = False
+18.5538 	EXP 	level_text: text = 0.251188643150958
+18.5538 	EXP 	question_text: autoDraw = True
+18.5538 	EXP 	level_text: autoDraw = True
+18.6753 	DATA 	Keypress: down
+18.7039 	EXP 	question_text: autoDraw = False
+18.7039 	EXP 	level_text: autoDraw = False
+18.7039 	EXP 	level_text: text = 0.06309573444801933
+18.7039 	EXP 	question_text: autoDraw = True
+18.7039 	EXP 	level_text: autoDraw = True
+18.8308 	DATA 	Keypress: down
+18.8373 	EXP 	question_text: autoDraw = False
+18.8373 	EXP 	level_text: autoDraw = False
+18.8373 	EXP 	level_text: text = 0.015848931924611138
+18.8373 	EXP 	question_text: autoDraw = True
+18.8373 	EXP 	level_text: autoDraw = True
+18.9647 	DATA 	Keypress: down
+18.9714 	EXP 	question_text: autoDraw = False
+18.9714 	EXP 	level_text: autoDraw = False
+18.9714 	EXP 	level_text: text = 0.003981071705534973
+18.9714 	EXP 	question_text: autoDraw = True
+18.9714 	EXP 	level_text: autoDraw = True
+19.1305 	DATA 	Keypress: up
+19.1378 	EXP 	question_text: autoDraw = False
+19.1378 	EXP 	level_text: autoDraw = False
+19.1378 	EXP 	level_text: text = 0.010000000000000002
+19.1378 	EXP 	question_text: autoDraw = True
+19.1378 	EXP 	level_text: autoDraw = True
+19.2596 	DATA 	Keypress: up
+19.2878 	EXP 	question_text: autoDraw = False
+19.2878 	EXP 	level_text: autoDraw = False
+19.2878 	EXP 	level_text: text = 0.025118864315095805
+19.2878 	EXP 	question_text: autoDraw = True
+19.2878 	EXP 	level_text: autoDraw = True
+19.4146 	DATA 	Keypress: up
+19.4213 	EXP 	question_text: autoDraw = False
+19.4213 	EXP 	level_text: autoDraw = False
+19.4213 	EXP 	level_text: text = 0.06309573444801933
+19.4213 	EXP 	question_text: autoDraw = True
+19.4213 	EXP 	level_text: autoDraw = True
+19.5645 	DATA 	Keypress: up
+19.5713 	EXP 	question_text: autoDraw = False
+19.5713 	EXP 	level_text: autoDraw = False
+19.5713 	EXP 	level_text: text = 0.15848931924611137
+19.5713 	EXP 	question_text: autoDraw = True
+19.5713 	EXP 	level_text: autoDraw = True
+19.7149 	DATA 	Keypress: up
+19.7218 	EXP 	question_text: autoDraw = False
+19.7218 	EXP 	level_text: autoDraw = False
+19.7218 	EXP 	level_text: text = 0.3981071705534973
+19.7218 	EXP 	question_text: autoDraw = True
+19.7218 	EXP 	level_text: autoDraw = True
+19.8634 	DATA 	Keypress: up
+19.8718 	EXP 	question_text: autoDraw = False
+19.8718 	EXP 	level_text: autoDraw = False
+19.8718 	EXP 	level_text: text = 1
+19.8718 	EXP 	question_text: autoDraw = True
+19.8718 	EXP 	level_text: autoDraw = True
+20.0302 	DATA 	Keypress: up
+20.0387 	EXP 	question_text: autoDraw = False
+20.0387 	EXP 	level_text: autoDraw = False
+20.0387 	EXP 	level_text: text = 1
+20.0387 	EXP 	question_text: autoDraw = True
+20.0387 	EXP 	level_text: autoDraw = True
+20.1799 	DATA 	Keypress: up
+20.1887 	EXP 	question_text: autoDraw = False
+20.1887 	EXP 	level_text: autoDraw = False
+20.1887 	EXP 	level_text: text = 1
+20.1887 	EXP 	question_text: autoDraw = True
+20.1887 	EXP 	level_text: autoDraw = True
+20.3272 	DATA 	Keypress: up
+20.3558 	EXP 	question_text: autoDraw = False
+20.3558 	EXP 	level_text: autoDraw = False
+20.3558 	EXP 	level_text: text = 1
+20.3558 	EXP 	question_text: autoDraw = True
+20.3558 	EXP 	level_text: autoDraw = True
+20.4972 	DATA 	Keypress: up
+20.5057 	EXP 	question_text: autoDraw = False
+20.5057 	EXP 	level_text: autoDraw = False
+20.5057 	EXP 	level_text: text = 1
+20.5057 	EXP 	question_text: autoDraw = True
+20.5057 	EXP 	level_text: autoDraw = True
+20.6468 	DATA 	Keypress: up
+20.6561 	EXP 	question_text: autoDraw = False
+20.6561 	EXP 	level_text: autoDraw = False
+20.6561 	EXP 	level_text: text = 1
+20.6561 	EXP 	question_text: autoDraw = True
+20.6561 	EXP 	level_text: autoDraw = True
+20.7804 	DATA 	Keypress: up
+20.7896 	EXP 	question_text: autoDraw = False
+20.7896 	EXP 	level_text: autoDraw = False
+20.7896 	EXP 	level_text: text = 1
+20.7896 	EXP 	question_text: autoDraw = True
+20.7896 	EXP 	level_text: autoDraw = True
+20.9312 	DATA 	Keypress: up
+20.9393 	EXP 	question_text: autoDraw = False
+20.9393 	EXP 	level_text: autoDraw = False
+20.9393 	EXP 	level_text: text = 1
+20.9393 	EXP 	question_text: autoDraw = True
+20.9393 	EXP 	level_text: autoDraw = True
+21.0782 	DATA 	Keypress: up
+21.1062 	EXP 	question_text: autoDraw = False
+21.1062 	EXP 	level_text: autoDraw = False
+21.1062 	EXP 	level_text: text = 1
+21.1062 	EXP 	question_text: autoDraw = True
+21.1062 	EXP 	level_text: autoDraw = True
+21.2282 	DATA 	Keypress: up
+21.2564 	EXP 	question_text: autoDraw = False
+21.2564 	EXP 	level_text: autoDraw = False
+21.2564 	EXP 	level_text: text = 1
+21.2564 	EXP 	question_text: autoDraw = True
+21.2564 	EXP 	level_text: autoDraw = True
+21.3980 	DATA 	Keypress: up
+21.4068 	EXP 	question_text: autoDraw = False
+21.4068 	EXP 	level_text: autoDraw = False
+21.4068 	EXP 	level_text: text = 1
+21.4068 	EXP 	question_text: autoDraw = True
+21.4068 	EXP 	level_text: autoDraw = True
+21.5487 	DATA 	Keypress: up
+21.5569 	EXP 	question_text: autoDraw = False
+21.5569 	EXP 	level_text: autoDraw = False
+21.5569 	EXP 	level_text: text = 1
+21.5569 	EXP 	question_text: autoDraw = True
+21.5569 	EXP 	level_text: autoDraw = True
+22.1997 	DATA 	Keypress: up
+22.2075 	EXP 	question_text: autoDraw = False
+22.2075 	EXP 	level_text: autoDraw = False
+22.2075 	EXP 	level_text: text = 1
+22.2075 	EXP 	question_text: autoDraw = True
+22.2075 	EXP 	level_text: autoDraw = True
+22.3461 	DATA 	Keypress: up
+22.3742 	EXP 	question_text: autoDraw = False
+22.3742 	EXP 	level_text: autoDraw = False
+22.3742 	EXP 	level_text: text = 1
+22.3742 	EXP 	question_text: autoDraw = True
+22.3742 	EXP 	level_text: autoDraw = True
+22.4997 	DATA 	Keypress: up
+22.5077 	EXP 	question_text: autoDraw = False
+22.5077 	EXP 	level_text: autoDraw = False
+22.5077 	EXP 	level_text: text = 1
+22.5077 	EXP 	question_text: autoDraw = True
+22.5077 	EXP 	level_text: autoDraw = True
+22.6489 	DATA 	Keypress: up
+22.6578 	EXP 	question_text: autoDraw = False
+22.6578 	EXP 	level_text: autoDraw = False
+22.6578 	EXP 	level_text: text = 1
+22.6578 	EXP 	question_text: autoDraw = True
+22.6578 	EXP 	level_text: autoDraw = True
+22.8157 	DATA 	Keypress: up
+22.8249 	EXP 	question_text: autoDraw = False
+22.8249 	EXP 	level_text: autoDraw = False
+22.8249 	EXP 	level_text: text = 1
+22.8249 	EXP 	question_text: autoDraw = True
+22.8249 	EXP 	level_text: autoDraw = True
+22.9836 	DATA 	Keypress: up
+22.9914 	EXP 	question_text: autoDraw = False
+22.9914 	EXP 	level_text: autoDraw = False
+22.9914 	EXP 	level_text: text = 1
+22.9914 	EXP 	question_text: autoDraw = True
+22.9914 	EXP 	level_text: autoDraw = True
+23.1352 	DATA 	Keypress: up
+23.1418 	EXP 	question_text: autoDraw = False
+23.1418 	EXP 	level_text: autoDraw = False
+23.1418 	EXP 	level_text: text = 1
+23.1418 	EXP 	question_text: autoDraw = True
+23.1418 	EXP 	level_text: autoDraw = True
+23.3010 	DATA 	Keypress: up
+23.3084 	EXP 	question_text: autoDraw = False
+23.3084 	EXP 	level_text: autoDraw = False
+23.3084 	EXP 	level_text: text = 1
+23.3084 	EXP 	question_text: autoDraw = True
+23.3084 	EXP 	level_text: autoDraw = True
+23.4493 	DATA 	Keypress: up
+23.4586 	EXP 	question_text: autoDraw = False
+23.4586 	EXP 	level_text: autoDraw = False
+23.4586 	EXP 	level_text: text = 1
+23.4586 	EXP 	question_text: autoDraw = True
+23.4586 	EXP 	level_text: autoDraw = True
+23.6180 	DATA 	Keypress: up
+23.6253 	EXP 	question_text: autoDraw = False
+23.6253 	EXP 	level_text: autoDraw = False
+23.6253 	EXP 	level_text: text = 1
+23.6253 	EXP 	question_text: autoDraw = True
+23.6253 	EXP 	level_text: autoDraw = True
+24.5459 	WARNING 	Got keycode {} but that code isn't yet known
+24.5459 	WARNING 	Keypress was given unknown key code (176)
+24.5503 	DATA 	Keypress: 3
+25.1460 	WARNING 	Got keycode {} but that code isn't yet known
+25.1460 	WARNING 	Keypress was given unknown key code (174)
+27.5897 	DATA 	Keypress: down
+27.5964 	EXP 	question_text: autoDraw = False
+27.5964 	EXP 	level_text: autoDraw = False
+27.5964 	EXP 	level_text: text = 0.39810717055349726
+27.5964 	EXP 	question_text: autoDraw = True
+27.5964 	EXP 	level_text: autoDraw = True
+31.4599 	DATA 	Keypress: down
+31.4667 	EXP 	question_text: autoDraw = False
+31.4667 	EXP 	level_text: autoDraw = False
+31.4667 	EXP 	level_text: text = 0.15848931924611134
+31.4667 	EXP 	question_text: autoDraw = True
+31.4667 	EXP 	level_text: autoDraw = True
+31.6202 	DATA 	Keypress: down
+31.6501 	EXP 	question_text: autoDraw = False
+31.6501 	EXP 	level_text: autoDraw = False
+31.6501 	EXP 	level_text: text = 0.06309573444801932
+31.6501 	EXP 	question_text: autoDraw = True
+31.6501 	EXP 	level_text: autoDraw = True
+31.7761 	DATA 	Keypress: down
+31.7838 	EXP 	question_text: autoDraw = False
+31.7838 	EXP 	level_text: autoDraw = False
+31.7838 	EXP 	level_text: text = 0.025118864315095798
+31.7838 	EXP 	question_text: autoDraw = True
+31.7838 	EXP 	level_text: autoDraw = True
+41.8050 	DATA 	Keypress: up
+41.8103 	EXP 	question_text: autoDraw = False
+41.8103 	EXP 	level_text: autoDraw = False
+41.8103 	EXP 	level_text: text = 0.03162277660168379
+41.8103 	EXP 	question_text: autoDraw = True
+41.8103 	EXP 	level_text: autoDraw = True
+41.9878 	DATA 	Keypress: up
+41.9939 	EXP 	question_text: autoDraw = False
+41.9939 	EXP 	level_text: autoDraw = False
+41.9939 	EXP 	level_text: text = 0.03981071705534973
+41.9939 	EXP 	question_text: autoDraw = True
+41.9939 	EXP 	level_text: autoDraw = True
+42.1368 	DATA 	Keypress: up
+42.1437 	EXP 	question_text: autoDraw = False
+42.1437 	EXP 	level_text: autoDraw = False
+42.1437 	EXP 	level_text: text = 0.050118723362727234
+42.1437 	EXP 	question_text: autoDraw = True
+42.1437 	EXP 	level_text: autoDraw = True
+42.2817 	DATA 	Keypress: up
+42.3108 	EXP 	question_text: autoDraw = False
+42.3108 	EXP 	level_text: autoDraw = False
+42.3108 	EXP 	level_text: text = 0.06309573444801933
+42.3108 	EXP 	question_text: autoDraw = True
+42.3108 	EXP 	level_text: autoDraw = True
+42.4210 	DATA 	Keypress: up
+42.4275 	EXP 	question_text: autoDraw = False
+42.4275 	EXP 	level_text: autoDraw = False
+42.4275 	EXP 	level_text: text = 0.07943282347242817
+42.4275 	EXP 	question_text: autoDraw = True
+42.4275 	EXP 	level_text: autoDraw = True
+42.5492 	DATA 	Keypress: up
+42.5777 	EXP 	question_text: autoDraw = False
+42.5777 	EXP 	level_text: autoDraw = False
+42.5777 	EXP 	level_text: text = 0.10000000000000002
+42.5777 	EXP 	question_text: autoDraw = True
+42.5777 	EXP 	level_text: autoDraw = True
+42.7536 	DATA 	Keypress: up
+42.7613 	EXP 	question_text: autoDraw = False
+42.7613 	EXP 	level_text: autoDraw = False
+42.7613 	EXP 	level_text: text = 0.12589254117941676
+42.7613 	EXP 	question_text: autoDraw = True
+42.7613 	EXP 	level_text: autoDraw = True
+42.9545 	DATA 	Keypress: up
+42.9615 	EXP 	question_text: autoDraw = False
+42.9615 	EXP 	level_text: autoDraw = False
+42.9615 	EXP 	level_text: text = 0.1584893192461114
+42.9615 	EXP 	question_text: autoDraw = True
+42.9615 	EXP 	level_text: autoDraw = True
+43.1212 	DATA 	Keypress: up
+43.1282 	EXP 	question_text: autoDraw = False
+43.1282 	EXP 	level_text: autoDraw = False
+43.1282 	EXP 	level_text: text = 0.19952623149688803
+43.1282 	EXP 	question_text: autoDraw = True
+43.1282 	EXP 	level_text: autoDraw = True
+43.2731 	DATA 	Keypress: up
+43.2785 	EXP 	question_text: autoDraw = False
+43.2785 	EXP 	level_text: autoDraw = False
+43.2785 	EXP 	level_text: text = 0.2511886431509581
+43.2785 	EXP 	question_text: autoDraw = True
+43.2785 	EXP 	level_text: autoDraw = True
+44.8568 	DATA 	Keypress: up
+44.8631 	EXP 	question_text: autoDraw = False
+44.8631 	EXP 	level_text: autoDraw = False
+44.8631 	EXP 	level_text: text = 0.3162277660168381
+44.8631 	EXP 	question_text: autoDraw = True
+44.8631 	EXP 	level_text: autoDraw = True
+45.0231 	DATA 	Keypress: up
+45.0301 	EXP 	question_text: autoDraw = False
+45.0301 	EXP 	level_text: autoDraw = False
+45.0301 	EXP 	level_text: text = 0.3981071705534975
+45.0301 	EXP 	question_text: autoDraw = True
+45.0301 	EXP 	level_text: autoDraw = True
+45.1572 	DATA 	Keypress: up
+45.1635 	EXP 	question_text: autoDraw = False
+45.1635 	EXP 	level_text: autoDraw = False
+45.1635 	EXP 	level_text: text = 0.5011872336272726
+45.1635 	EXP 	question_text: autoDraw = True
+45.1635 	EXP 	level_text: autoDraw = True
+45.3068 	DATA 	Keypress: up
+45.3139 	EXP 	question_text: autoDraw = False
+45.3139 	EXP 	level_text: autoDraw = False
+45.3139 	EXP 	level_text: text = 0.6309573444801937
+45.3139 	EXP 	question_text: autoDraw = True
+45.3139 	EXP 	level_text: autoDraw = True
+45.4568 	DATA 	Keypress: up
+45.4641 	EXP 	question_text: autoDraw = False
+45.4641 	EXP 	level_text: autoDraw = False
+45.4641 	EXP 	level_text: text = 0.7943282347242822
+45.4641 	EXP 	question_text: autoDraw = True
+45.4641 	EXP 	level_text: autoDraw = True
+45.5883 	DATA 	Keypress: up
+45.5975 	EXP 	question_text: autoDraw = False
+45.5975 	EXP 	level_text: autoDraw = False
+45.5975 	EXP 	level_text: text = 1
+45.5975 	EXP 	question_text: autoDraw = True
+45.5975 	EXP 	level_text: autoDraw = True
+45.7403 	DATA 	Keypress: up
+45.7475 	EXP 	question_text: autoDraw = False
+45.7475 	EXP 	level_text: autoDraw = False
+45.7475 	EXP 	level_text: text = 1
+45.7475 	EXP 	question_text: autoDraw = True
+45.7475 	EXP 	level_text: autoDraw = True
+45.8888 	DATA 	Keypress: up
+45.8978 	EXP 	question_text: autoDraw = False
+45.8978 	EXP 	level_text: autoDraw = False
+45.8978 	EXP 	level_text: text = 1
+45.8978 	EXP 	question_text: autoDraw = True
+45.8978 	EXP 	level_text: autoDraw = True
+46.0564 	DATA 	Keypress: up
+46.0644 	EXP 	question_text: autoDraw = False
+46.0644 	EXP 	level_text: autoDraw = False
+46.0644 	EXP 	level_text: text = 1
+46.0644 	EXP 	question_text: autoDraw = True
+46.0644 	EXP 	level_text: autoDraw = True
+46.5240 	DATA 	Keypress: up
+46.5318 	EXP 	question_text: autoDraw = False
+46.5318 	EXP 	level_text: autoDraw = False
+46.5318 	EXP 	level_text: text = 1
+46.5318 	EXP 	question_text: autoDraw = True
+46.5318 	EXP 	level_text: autoDraw = True
+46.7552 	DATA 	Keypress: up
+46.7654 	EXP 	question_text: autoDraw = False
+46.7654 	EXP 	level_text: autoDraw = False
+46.7654 	EXP 	level_text: text = 1
+46.7654 	EXP 	question_text: autoDraw = True
+46.7654 	EXP 	level_text: autoDraw = True
+49.0773 	DATA 	Keypress: down
+49.0843 	EXP 	question_text: autoDraw = False
+49.0843 	EXP 	level_text: autoDraw = False
+49.0843 	EXP 	level_text: text = 0.7943282347242815
+49.0843 	EXP 	question_text: autoDraw = True
+49.0843 	EXP 	level_text: autoDraw = True
+49.2281 	DATA 	Keypress: down
+49.2343 	EXP 	question_text: autoDraw = False
+49.2343 	EXP 	level_text: autoDraw = False
+49.2343 	EXP 	level_text: text = 0.6309573444801932
+49.2343 	EXP 	question_text: autoDraw = True
+49.2343 	EXP 	level_text: autoDraw = True
+49.3775 	DATA 	Keypress: down
+49.3844 	EXP 	question_text: autoDraw = False
+49.3844 	EXP 	level_text: autoDraw = False
+49.3844 	EXP 	level_text: text = 0.5011872336272722
+49.3844 	EXP 	question_text: autoDraw = True
+49.3844 	EXP 	level_text: autoDraw = True
+49.5446 	DATA 	Keypress: down
+49.5514 	EXP 	question_text: autoDraw = False
+49.5514 	EXP 	level_text: autoDraw = False
+49.5514 	EXP 	level_text: text = 0.3981071705534972
+49.5514 	EXP 	question_text: autoDraw = True
+49.5514 	EXP 	level_text: autoDraw = True
+49.6786 	DATA 	Keypress: down
+49.6848 	EXP 	question_text: autoDraw = False
+49.6848 	EXP 	level_text: autoDraw = False
+49.6848 	EXP 	level_text: text = 0.3162277660168379
+49.6848 	EXP 	question_text: autoDraw = True
+49.6848 	EXP 	level_text: autoDraw = True
+49.8235 	DATA 	Keypress: down
+49.8519 	EXP 	question_text: autoDraw = False
+49.8519 	EXP 	level_text: autoDraw = False
+49.8519 	EXP 	level_text: text = 0.25118864315095796
+49.8519 	EXP 	question_text: autoDraw = True
+49.8519 	EXP 	level_text: autoDraw = True
+49.9789 	DATA 	Keypress: down
+49.9850 	EXP 	question_text: autoDraw = False
+49.9850 	EXP 	level_text: autoDraw = False
+49.9850 	EXP 	level_text: text = 0.19952623149688792
+49.9850 	EXP 	question_text: autoDraw = True
+49.9850 	EXP 	level_text: autoDraw = True
+50.1454 	DATA 	Keypress: down
+50.1523 	EXP 	question_text: autoDraw = False
+50.1523 	EXP 	level_text: autoDraw = False
+50.1523 	EXP 	level_text: text = 0.15848931924611132
+50.1523 	EXP 	question_text: autoDraw = True
+50.1523 	EXP 	level_text: autoDraw = True
+50.8132 	DATA 	Keypress: down
+50.8195 	EXP 	question_text: autoDraw = False
+50.8195 	EXP 	level_text: autoDraw = False
+50.8195 	EXP 	level_text: text = 0.1258925411794167
+50.8195 	EXP 	question_text: autoDraw = True
+50.8195 	EXP 	level_text: autoDraw = True
+51.6639 	DATA 	Keypress: down
+51.6702 	EXP 	question_text: autoDraw = False
+51.6702 	EXP 	level_text: autoDraw = False
+51.6702 	EXP 	level_text: text = 0.09999999999999998
+51.6702 	EXP 	question_text: autoDraw = True
+51.6702 	EXP 	level_text: autoDraw = True
+51.8645 	DATA 	Keypress: down
+51.8701 	EXP 	question_text: autoDraw = False
+51.8701 	EXP 	level_text: autoDraw = False
+51.8701 	EXP 	level_text: text = 0.07943282347242812
+51.8701 	EXP 	question_text: autoDraw = True
+51.8701 	EXP 	level_text: autoDraw = True
+52.0464 	DATA 	Keypress: down
+52.0537 	EXP 	question_text: autoDraw = False
+52.0537 	EXP 	level_text: autoDraw = False
+52.0537 	EXP 	level_text: text = 0.0630957344480193
+52.0537 	EXP 	question_text: autoDraw = True
+52.0537 	EXP 	level_text: autoDraw = True
+52.2817 	DATA 	Keypress: down
+52.2876 	EXP 	question_text: autoDraw = False
+52.2876 	EXP 	level_text: autoDraw = False
+52.2876 	EXP 	level_text: text = 0.050118723362727206
+52.2876 	EXP 	question_text: autoDraw = True
+52.2876 	EXP 	level_text: autoDraw = True
+53.2985 	DATA 	Keypress: down
+53.3050 	EXP 	question_text: autoDraw = False
+53.3050 	EXP 	level_text: autoDraw = False
+53.3050 	EXP 	level_text: text = 0.039810717055349706
+53.3050 	EXP 	question_text: autoDraw = True
+53.3050 	EXP 	level_text: autoDraw = True
+53.4934 	DATA 	Keypress: down
+53.5220 	EXP 	question_text: autoDraw = False
+53.5220 	EXP 	level_text: autoDraw = False
+53.5220 	EXP 	level_text: text = 0.03162277660168378
+53.5220 	EXP 	question_text: autoDraw = True
+53.5220 	EXP 	level_text: autoDraw = True
+53.6827 	DATA 	Keypress: down
+53.6887 	EXP 	question_text: autoDraw = False
+53.6887 	EXP 	level_text: autoDraw = False
+53.6887 	EXP 	level_text: text = 0.025118864315095787
+53.6887 	EXP 	question_text: autoDraw = True
+53.6887 	EXP 	level_text: autoDraw = True
+53.8317 	DATA 	Keypress: down
+53.8390 	EXP 	question_text: autoDraw = False
+53.8390 	EXP 	level_text: autoDraw = False
+53.8390 	EXP 	level_text: text = 0.019952623149688785
+53.8390 	EXP 	question_text: autoDraw = True
+53.8390 	EXP 	level_text: autoDraw = True
+53.9983 	DATA 	Keypress: down
+54.0057 	EXP 	question_text: autoDraw = False
+54.0057 	EXP 	level_text: autoDraw = False
+54.0057 	EXP 	level_text: text = 0.015848931924611124
+54.0057 	EXP 	question_text: autoDraw = True
+54.0057 	EXP 	level_text: autoDraw = True
+54.1502 	DATA 	Keypress: down
+54.1560 	EXP 	question_text: autoDraw = False
+54.1560 	EXP 	level_text: autoDraw = False
+54.1560 	EXP 	level_text: text = 0.012589254117941663
+54.1560 	EXP 	question_text: autoDraw = True
+54.1560 	EXP 	level_text: autoDraw = True
+54.2999 	DATA 	Keypress: down
+54.3061 	EXP 	question_text: autoDraw = False
+54.3061 	EXP 	level_text: autoDraw = False
+54.3061 	EXP 	level_text: text = 0.009999999999999992
+54.3061 	EXP 	question_text: autoDraw = True
+54.3061 	EXP 	level_text: autoDraw = True
+54.4440 	DATA 	Keypress: down
+54.4728 	EXP 	question_text: autoDraw = False
+54.4728 	EXP 	level_text: autoDraw = False
+54.4728 	EXP 	level_text: text = 0.007943282347242809
+54.4728 	EXP 	question_text: autoDraw = True
+54.4728 	EXP 	level_text: autoDraw = True
+54.6159 	DATA 	Keypress: down
+54.6233 	EXP 	question_text: autoDraw = False
+54.6233 	EXP 	level_text: autoDraw = False
+54.6233 	EXP 	level_text: text = 0.006309573444801927
+54.6233 	EXP 	question_text: autoDraw = True
+54.6233 	EXP 	level_text: autoDraw = True
+54.7503 	DATA 	Keypress: down
+54.7563 	EXP 	question_text: autoDraw = False
+54.7563 	EXP 	level_text: autoDraw = False
+54.7563 	EXP 	level_text: text = 0.005011872336272718
+54.7563 	EXP 	question_text: autoDraw = True
+54.7563 	EXP 	level_text: autoDraw = True
+54.8959 	DATA 	Keypress: down
+54.9235 	EXP 	question_text: autoDraw = False
+54.9235 	EXP 	level_text: autoDraw = False
+54.9235 	EXP 	level_text: text = 0.003981071705534968
+54.9235 	EXP 	question_text: autoDraw = True
+54.9235 	EXP 	level_text: autoDraw = True
+55.0667 	DATA 	Keypress: down
+55.0737 	EXP 	question_text: autoDraw = False
+55.0737 	EXP 	level_text: autoDraw = False
+55.0737 	EXP 	level_text: text = 0.003162277660168376
+55.0737 	EXP 	question_text: autoDraw = True
+55.0737 	EXP 	level_text: autoDraw = True
+55.6014 	DATA 	Keypress: up
+55.6075 	EXP 	question_text: autoDraw = False
+55.6075 	EXP 	level_text: autoDraw = False
+55.6075 	EXP 	level_text: text = 0.0035481338923357506
+55.6075 	EXP 	question_text: autoDraw = True
+55.6075 	EXP 	level_text: autoDraw = True
+56.4791 	DATA 	Keypress: up
+56.5082 	EXP 	question_text: autoDraw = False
+56.5082 	EXP 	level_text: autoDraw = False
+56.5082 	EXP 	level_text: text = 0.003981071705534967
+56.5082 	EXP 	question_text: autoDraw = True
+56.5082 	EXP 	level_text: autoDraw = True
+57.2532 	DATA 	Keypress: up
+57.2589 	EXP 	question_text: autoDraw = False
+57.2589 	EXP 	level_text: autoDraw = False
+57.2589 	EXP 	level_text: text = 0.004466835921509625
+57.2589 	EXP 	question_text: autoDraw = True
+57.2589 	EXP 	level_text: autoDraw = True
+58.5877 	DATA 	Keypress: down
+58.5934 	EXP 	question_text: autoDraw = False
+58.5934 	EXP 	level_text: autoDraw = False
+58.5934 	EXP 	level_text: text = 0.003981071705534967
+58.5934 	EXP 	question_text: autoDraw = True
+58.5934 	EXP 	level_text: autoDraw = True
+59.4884 	DATA 	Keypress: up
+59.4947 	EXP 	question_text: autoDraw = False
+59.4947 	EXP 	level_text: autoDraw = False
+59.4947 	EXP 	level_text: text = 0.004073802778041122
+59.4947 	EXP 	question_text: autoDraw = True
+59.4947 	EXP 	level_text: autoDraw = True
+60.4050 	DATA 	Keypress: up
+60.4123 	EXP 	question_text: autoDraw = False
+60.4123 	EXP 	level_text: autoDraw = False
+60.4123 	EXP 	level_text: text = 0.004168693834703348
+60.4123 	EXP 	question_text: autoDraw = True
+60.4123 	EXP 	level_text: autoDraw = True
+61.4900 	DATA 	Keypress: up
+61.4966 	EXP 	question_text: autoDraw = False
+61.4966 	EXP 	level_text: autoDraw = False
+61.4966 	EXP 	level_text: text = 0.004265795188015921
+61.4966 	EXP 	question_text: autoDraw = True
+61.4966 	EXP 	level_text: autoDraw = True
+63.2581 	DATA 	Keypress: up
+63.2651 	EXP 	question_text: autoDraw = False
+63.2651 	EXP 	level_text: autoDraw = False
+63.2651 	EXP 	level_text: text = 0.004365158322401653
+63.2651 	EXP 	question_text: autoDraw = True
+63.2651 	EXP 	level_text: autoDraw = True
+68.1639 	DATA 	Keypress: up
+68.1699 	EXP 	question_text: autoDraw = False
+68.1699 	EXP 	level_text: autoDraw = False
+68.1699 	EXP 	level_text: text = 0.004466835921509624
+68.1699 	EXP 	question_text: autoDraw = True
+68.1699 	EXP 	level_text: autoDraw = True
+68.5468 	DATA 	Keypress: up
+68.5536 	EXP 	question_text: autoDraw = False
+68.5536 	EXP 	level_text: autoDraw = False
+68.5536 	EXP 	level_text: text = 0.0045708818961487435
+68.5536 	EXP 	question_text: autoDraw = True
+68.5536 	EXP 	level_text: autoDraw = True
+68.8471 	DATA 	Keypress: up
+68.8538 	EXP 	question_text: autoDraw = False
+68.8538 	EXP 	level_text: autoDraw = False
+68.8538 	EXP 	level_text: text = 0.004677351412871975
+68.8538 	EXP 	question_text: autoDraw = True
+68.8538 	EXP 	level_text: autoDraw = True
+69.1473 	DATA 	Keypress: up
+69.1543 	EXP 	question_text: autoDraw = False
+69.1543 	EXP 	level_text: autoDraw = False
+69.1543 	EXP 	level_text: text = 0.004786300923226376
+69.1543 	EXP 	question_text: autoDraw = True
+69.1543 	EXP 	level_text: autoDraw = True
+69.3934 	DATA 	Keypress: up
+69.4213 	EXP 	question_text: autoDraw = False
+69.4213 	EXP 	level_text: autoDraw = False
+69.4213 	EXP 	level_text: text = 0.004897788193684454
+69.4213 	EXP 	question_text: autoDraw = True
+69.4213 	EXP 	level_text: autoDraw = True
+69.6662 	DATA 	Keypress: up
+69.6715 	EXP 	question_text: autoDraw = False
+69.6715 	EXP 	level_text: autoDraw = False
+69.6715 	EXP 	level_text: text = 0.005011872336272714
+69.6715 	EXP 	question_text: autoDraw = True
+69.6715 	EXP 	level_text: autoDraw = True
+69.9809 	DATA 	Keypress: up
+69.9882 	EXP 	question_text: autoDraw = False
+69.9882 	EXP 	level_text: autoDraw = False
+69.9882 	EXP 	level_text: text = 0.005128613839913639
+69.9882 	EXP 	question_text: autoDraw = True
+69.9882 	EXP 	level_text: autoDraw = True
+70.1301 	DATA 	Keypress: up
+70.1385 	EXP 	question_text: autoDraw = False
+70.1385 	EXP 	level_text: autoDraw = False
+70.1385 	EXP 	level_text: text = 0.005248074602497716
+70.1385 	EXP 	question_text: autoDraw = True
+70.1385 	EXP 	level_text: autoDraw = True
+70.2987 	DATA 	Keypress: up
+70.3052 	EXP 	question_text: autoDraw = False
+70.3052 	EXP 	level_text: autoDraw = False
+70.3052 	EXP 	level_text: text = 0.0053703179637025165
+70.3052 	EXP 	question_text: autoDraw = True
+70.3052 	EXP 	level_text: autoDraw = True
+70.4334 	DATA 	Keypress: up
+70.4389 	EXP 	question_text: autoDraw = False
+70.4389 	EXP 	level_text: autoDraw = False
+70.4389 	EXP 	level_text: text = 0.005495408738576234
+70.4389 	EXP 	question_text: autoDraw = True
+70.4389 	EXP 	level_text: autoDraw = True
+70.5998 	DATA 	Keypress: up
+70.6055 	EXP 	question_text: autoDraw = False
+70.6055 	EXP 	level_text: autoDraw = False
+70.6055 	EXP 	level_text: text = 0.005623413251903479
+70.6055 	EXP 	question_text: autoDraw = True
+70.6055 	EXP 	level_text: autoDraw = True
+70.7503 	DATA 	Keypress: up
+70.7560 	EXP 	question_text: autoDraw = False
+70.7560 	EXP 	level_text: autoDraw = False
+70.7560 	EXP 	level_text: text = 0.005754399373371557
+70.7560 	EXP 	question_text: autoDraw = True
+70.7560 	EXP 	level_text: autoDraw = True
+71.1000 	DATA 	Keypress: up
+71.1061 	EXP 	question_text: autoDraw = False
+71.1061 	EXP 	level_text: autoDraw = False
+71.1061 	EXP 	level_text: text = 0.005888436553555877
+71.1061 	EXP 	question_text: autoDraw = True
+71.1061 	EXP 	level_text: autoDraw = True
+71.3656 	DATA 	Keypress: up
+71.3732 	EXP 	question_text: autoDraw = False
+71.3732 	EXP 	level_text: autoDraw = False
+71.3732 	EXP 	level_text: text = 0.006025595860743564
+71.3732 	EXP 	question_text: autoDraw = True
+71.3732 	EXP 	level_text: autoDraw = True
+71.7349 	DATA 	Keypress: up
+71.7402 	EXP 	question_text: autoDraw = False
+71.7402 	EXP 	level_text: autoDraw = False
+71.7402 	EXP 	level_text: text = 0.0061659500186148075
+71.7402 	EXP 	question_text: autoDraw = True
+71.7402 	EXP 	level_text: autoDraw = True
+72.0668 	DATA 	Keypress: up
+72.0737 	EXP 	question_text: autoDraw = False
+72.0737 	EXP 	level_text: autoDraw = False
+72.0737 	EXP 	level_text: text = 0.006309573444801918
+72.0737 	EXP 	question_text: autoDraw = True
+72.0737 	EXP 	level_text: autoDraw = True
+90.3482 	DATA 	Keypress: up
+90.3752 	EXP 	question_text: autoDraw = False
+90.3752 	EXP 	level_text: autoDraw = False
+90.3752 	EXP 	level_text: text = 0.00645654229034654
+90.3752 	EXP 	question_text: autoDraw = True
+90.3752 	EXP 	level_text: autoDraw = True
+90.5638 	DATA 	Keypress: up
+90.5921 	EXP 	question_text: autoDraw = False
+90.5921 	EXP 	level_text: autoDraw = False
+90.5921 	EXP 	level_text: text = 0.006606934480075944
+90.5921 	EXP 	question_text: autoDraw = True
+90.5921 	EXP 	level_text: autoDraw = True
+90.7354 	DATA 	Keypress: up
+90.7424 	EXP 	question_text: autoDraw = False
+90.7424 	EXP 	level_text: autoDraw = False
+90.7424 	EXP 	level_text: text = 0.006760829753919801
+90.7424 	EXP 	question_text: autoDraw = True
+90.7424 	EXP 	level_text: autoDraw = True
+90.9193 	DATA 	Keypress: up
+90.9260 	EXP 	question_text: autoDraw = False
+90.9260 	EXP 	level_text: autoDraw = False
+90.9260 	EXP 	level_text: text = 0.006918309709189348
+90.9260 	EXP 	question_text: autoDraw = True
+90.9260 	EXP 	level_text: autoDraw = True
+91.4028 	DATA 	Keypress: up
+91.4097 	EXP 	question_text: autoDraw = False
+91.4097 	EXP 	level_text: autoDraw = False
+91.4097 	EXP 	level_text: text = 0.007079457843841361
+91.4097 	EXP 	question_text: autoDraw = True
+91.4097 	EXP 	level_text: autoDraw = True
+91.5539 	DATA 	Keypress: up
+91.5600 	EXP 	question_text: autoDraw = False
+91.5600 	EXP 	level_text: autoDraw = False
+91.5600 	EXP 	level_text: text = 0.007244359600749882
+91.5600 	EXP 	question_text: autoDraw = True
+91.5600 	EXP 	level_text: autoDraw = True
+91.7049 	DATA 	Keypress: up
+91.7101 	EXP 	question_text: autoDraw = False
+91.7101 	EXP 	level_text: autoDraw = False
+91.7101 	EXP 	level_text: text = 0.007413102413009156
+91.7101 	EXP 	question_text: autoDraw = True
+91.7101 	EXP 	level_text: autoDraw = True
+91.8318 	DATA 	Keypress: up
+91.8601 	EXP 	question_text: autoDraw = False
+91.8601 	EXP 	level_text: autoDraw = False
+91.8601 	EXP 	level_text: text = 0.007585775750291818
+91.8601 	EXP 	question_text: autoDraw = True
+91.8601 	EXP 	level_text: autoDraw = True
+91.9862 	DATA 	Keypress: up
+91.9936 	EXP 	question_text: autoDraw = False
+91.9936 	EXP 	level_text: autoDraw = False
+91.9936 	EXP 	level_text: text = 0.0077624711662868965
+91.9936 	EXP 	question_text: autoDraw = True
+91.9936 	EXP 	level_text: autoDraw = True
+92.1198 	DATA 	Keypress: up
+92.1271 	EXP 	question_text: autoDraw = False
+92.1271 	EXP 	level_text: autoDraw = False
+92.1271 	EXP 	level_text: text = 0.007943282347242793
+92.1271 	EXP 	question_text: autoDraw = True
+92.1271 	EXP 	level_text: autoDraw = True
+93.8233 	DATA 	Keypress: up
+93.8288 	EXP 	question_text: autoDraw = False
+93.8288 	EXP 	level_text: autoDraw = False
+93.8288 	EXP 	level_text: text = 0.00812830516164097
+93.8288 	EXP 	question_text: autoDraw = True
+93.8288 	EXP 	level_text: autoDraw = True
+93.9720 	DATA 	Keypress: up
+93.9788 	EXP 	question_text: autoDraw = False
+93.9788 	EXP 	level_text: autoDraw = False
+93.9788 	EXP 	level_text: text = 0.008317637711026686
+93.9788 	EXP 	question_text: autoDraw = True
+93.9788 	EXP 	level_text: autoDraw = True
+94.1163 	DATA 	Keypress: up
+94.1460 	EXP 	question_text: autoDraw = False
+94.1460 	EXP 	level_text: autoDraw = False
+94.1460 	EXP 	level_text: text = 0.00851138038202374
+94.1460 	EXP 	question_text: autoDraw = True
+94.1460 	EXP 	level_text: autoDraw = True
+94.2720 	DATA 	Keypress: up
+94.2795 	EXP 	question_text: autoDraw = False
+94.2795 	EXP 	level_text: autoDraw = False
+94.2795 	EXP 	level_text: text = 0.00870963589956078
+94.2795 	EXP 	question_text: autoDraw = True
+94.2795 	EXP 	level_text: autoDraw = True
+94.4236 	DATA 	Keypress: up
+94.4295 	EXP 	question_text: autoDraw = False
+94.4295 	EXP 	level_text: autoDraw = False
+94.4295 	EXP 	level_text: text = 0.008912509381337428
+94.4295 	EXP 	question_text: autoDraw = True
+94.4295 	EXP 	level_text: autoDraw = True
+94.5355 	DATA 	Keypress: up
+94.5632 	EXP 	question_text: autoDraw = False
+94.5632 	EXP 	level_text: autoDraw = False
+94.5632 	EXP 	level_text: text = 0.009120108393559069
+94.5632 	EXP 	question_text: autoDraw = True
+94.5632 	EXP 	level_text: autoDraw = True
+94.6894 	DATA 	Keypress: up
+94.6962 	EXP 	question_text: autoDraw = False
+94.6962 	EXP 	level_text: autoDraw = False
+94.6962 	EXP 	level_text: text = 0.00933254300796988
+94.6962 	EXP 	question_text: autoDraw = True
+94.6962 	EXP 	level_text: autoDraw = True
+94.8406 	DATA 	Keypress: up
+94.8464 	EXP 	question_text: autoDraw = False
+94.8464 	EXP 	level_text: autoDraw = False
+94.8464 	EXP 	level_text: text = 0.009549925860214328
+94.8464 	EXP 	question_text: autoDraw = True
+94.8464 	EXP 	level_text: autoDraw = True
+94.9849 	DATA 	Keypress: up
+95.0133 	EXP 	question_text: autoDraw = False
+95.0133 	EXP 	level_text: autoDraw = False
+95.0133 	EXP 	level_text: text = 0.009772372209558074
+95.0133 	EXP 	question_text: autoDraw = True
+95.0133 	EXP 	level_text: autoDraw = True
+95.1390 	DATA 	Keypress: up
+95.1466 	EXP 	question_text: autoDraw = False
+95.1466 	EXP 	level_text: autoDraw = False
+95.1466 	EXP 	level_text: text = 0.009999999999999966
+95.1466 	EXP 	question_text: autoDraw = True
+95.1466 	EXP 	level_text: autoDraw = True
+95.2900 	DATA 	Keypress: up
+95.2971 	EXP 	question_text: autoDraw = False
+95.2971 	EXP 	level_text: autoDraw = False
+95.2971 	EXP 	level_text: text = 0.010232929922807506
+95.2971 	EXP 	question_text: autoDraw = True
+95.2971 	EXP 	level_text: autoDraw = True
+95.4351 	DATA 	Keypress: up
+95.4637 	EXP 	question_text: autoDraw = False
+95.4637 	EXP 	level_text: autoDraw = False
+95.4637 	EXP 	level_text: text = 0.01047128548050896
+95.4637 	EXP 	question_text: autoDraw = True
+95.4637 	EXP 	level_text: autoDraw = True
+95.5844 	DATA 	Keypress: up
+95.6139 	EXP 	question_text: autoDraw = False
+95.6139 	EXP 	level_text: autoDraw = False
+95.6139 	EXP 	level_text: text = 0.010715193052376027
+95.6139 	EXP 	question_text: autoDraw = True
+95.6139 	EXP 	level_text: autoDraw = True
+95.7570 	DATA 	Keypress: up
+95.7641 	EXP 	question_text: autoDraw = False
+95.7641 	EXP 	level_text: autoDraw = False
+95.7641 	EXP 	level_text: text = 0.01096478196143181
+95.7641 	EXP 	question_text: autoDraw = True
+95.7641 	EXP 	level_text: autoDraw = True
+95.9067 	DATA 	Keypress: up
+95.9141 	EXP 	question_text: autoDraw = False
+95.9141 	EXP 	level_text: autoDraw = False
+95.9141 	EXP 	level_text: text = 0.011220184543019594
+95.9141 	EXP 	question_text: autoDraw = True
+95.9141 	EXP 	level_text: autoDraw = True
+96.0584 	DATA 	Keypress: up
+96.0642 	EXP 	question_text: autoDraw = False
+96.0642 	EXP 	level_text: autoDraw = False
+96.0642 	EXP 	level_text: text = 0.011481536214968786
+96.0642 	EXP 	question_text: autoDraw = True
+96.0642 	EXP 	level_text: autoDraw = True
+96.2251 	DATA 	Keypress: up
+96.2315 	EXP 	question_text: autoDraw = False
+96.2315 	EXP 	level_text: autoDraw = False
+96.2315 	EXP 	level_text: text = 0.011748975549395253
+96.2315 	EXP 	question_text: autoDraw = True
+96.2315 	EXP 	level_text: autoDraw = True
+96.3747 	DATA 	Keypress: up
+96.3814 	EXP 	question_text: autoDraw = False
+96.3814 	EXP 	level_text: autoDraw = False
+96.3814 	EXP 	level_text: text = 0.012022644346174085
+96.3814 	EXP 	question_text: autoDraw = True
+96.3814 	EXP 	level_text: autoDraw = True
+96.5193 	DATA 	Keypress: up
+96.5482 	EXP 	question_text: autoDraw = False
+96.5482 	EXP 	level_text: autoDraw = False
+96.5482 	EXP 	level_text: text = 0.01230268770812377
+96.5482 	EXP 	question_text: autoDraw = True
+96.5482 	EXP 	level_text: autoDraw = True
+96.6541 	DATA 	Keypress: up
+96.6818 	EXP 	question_text: autoDraw = False
+96.6818 	EXP 	level_text: autoDraw = False
+96.6818 	EXP 	level_text: text = 0.012589254117941625
+96.6818 	EXP 	question_text: autoDraw = True
+96.6818 	EXP 	level_text: autoDraw = True
+96.8263 	DATA 	Keypress: up
+96.8321 	EXP 	question_text: autoDraw = False
+96.8321 	EXP 	level_text: autoDraw = False
+96.8321 	EXP 	level_text: text = 0.01288249551693129
+96.8321 	EXP 	question_text: autoDraw = True
+96.8321 	EXP 	level_text: autoDraw = True
+96.9759 	DATA 	Keypress: up
+96.9819 	EXP 	question_text: autoDraw = False
+96.9819 	EXP 	level_text: autoDraw = False
+96.9819 	EXP 	level_text: text = 0.013182567385564021
+96.9819 	EXP 	question_text: autoDraw = True
+96.9819 	EXP 	level_text: autoDraw = True
+97.1265 	DATA 	Keypress: up
+97.1323 	EXP 	question_text: autoDraw = False
+97.1323 	EXP 	level_text: autoDraw = False
+97.1323 	EXP 	level_text: text = 0.013489628825916485
+97.1323 	EXP 	question_text: autoDraw = True
+97.1323 	EXP 	level_text: autoDraw = True
+97.2710 	DATA 	Keypress: up
+97.2989 	EXP 	question_text: autoDraw = False
+97.2989 	EXP 	level_text: autoDraw = False
+97.2989 	EXP 	level_text: text = 0.013803842646028795
+97.2989 	EXP 	question_text: autoDraw = True
+97.2989 	EXP 	level_text: autoDraw = True
+97.4259 	DATA 	Keypress: up
+97.4325 	EXP 	question_text: autoDraw = False
+97.4325 	EXP 	level_text: autoDraw = False
+97.4325 	EXP 	level_text: text = 0.014125375446227488
+97.4325 	EXP 	question_text: autoDraw = True
+97.4325 	EXP 	level_text: autoDraw = True
+97.5754 	DATA 	Keypress: up
+97.5827 	EXP 	question_text: autoDraw = False
+97.5827 	EXP 	level_text: autoDraw = False
+97.5827 	EXP 	level_text: text = 0.014454397707459219
+97.5827 	EXP 	question_text: autoDraw = True
+97.5827 	EXP 	level_text: autoDraw = True
+97.7261 	DATA 	Keypress: up
+97.7330 	EXP 	question_text: autoDraw = False
+97.7330 	EXP 	level_text: autoDraw = False
+97.7330 	EXP 	level_text: text = 0.014791083881682016
+97.7330 	EXP 	question_text: autoDraw = True
+97.7330 	EXP 	level_text: autoDraw = True
+97.8703 	DATA 	Keypress: up
+97.8994 	EXP 	question_text: autoDraw = False
+97.8994 	EXP 	level_text: autoDraw = False
+97.8994 	EXP 	level_text: text = 0.01513561248436202
+97.8994 	EXP 	question_text: autoDraw = True
+97.8994 	EXP 	level_text: autoDraw = True
+98.0263 	DATA 	Keypress: up
+98.0331 	EXP 	question_text: autoDraw = False
+98.0331 	EXP 	level_text: autoDraw = False
+98.0331 	EXP 	level_text: text = 0.01548816618912475
+98.0331 	EXP 	question_text: autoDraw = True
+98.0331 	EXP 	level_text: autoDraw = True
+98.6113 	DATA 	Keypress: up
+98.6168 	EXP 	question_text: autoDraw = False
+98.6168 	EXP 	level_text: autoDraw = False
+98.6168 	EXP 	level_text: text = 0.01584893192461107
+98.6168 	EXP 	question_text: autoDraw = True
+98.6168 	EXP 	level_text: autoDraw = True
+98.7383 	DATA 	Keypress: up
+98.7670 	EXP 	question_text: autoDraw = False
+98.7670 	EXP 	level_text: autoDraw = False
+98.7670 	EXP 	level_text: text = 0.016218100973589233
+98.7670 	EXP 	question_text: autoDraw = True
+98.7670 	EXP 	level_text: autoDraw = True
+98.8941 	DATA 	Keypress: up
+98.9007 	EXP 	question_text: autoDraw = False
+98.9007 	EXP 	level_text: autoDraw = False
+98.9007 	EXP 	level_text: text = 0.016595869074375536
+98.9007 	EXP 	question_text: autoDraw = True
+98.9007 	EXP 	level_text: autoDraw = True
+99.0119 	DATA 	Keypress: up
+99.0174 	EXP 	question_text: autoDraw = False
+99.0174 	EXP 	level_text: autoDraw = False
+99.0174 	EXP 	level_text: text = 0.01698243652461737
+99.0174 	EXP 	question_text: autoDraw = True
+99.0174 	EXP 	level_text: autoDraw = True
+99.1439 	DATA 	Keypress: up
+99.1508 	EXP 	question_text: autoDraw = False
+99.1508 	EXP 	level_text: autoDraw = False
+99.1508 	EXP 	level_text: text = 0.01737800828749368
+99.1508 	EXP 	question_text: autoDraw = True
+99.1508 	EXP 	level_text: autoDraw = True
+99.2724 	DATA 	Keypress: up
+99.3009 	EXP 	question_text: autoDraw = False
+99.3009 	EXP 	level_text: autoDraw = False
+99.3009 	EXP 	level_text: text = 0.01778279410038915
+99.3009 	EXP 	question_text: autoDraw = True
+99.3009 	EXP 	level_text: autoDraw = True
+99.4280 	DATA 	Keypress: up
+99.4342 	EXP 	question_text: autoDraw = False
+99.4342 	EXP 	level_text: autoDraw = False
+99.4342 	EXP 	level_text: text = 0.018197008586099753
+99.4342 	EXP 	question_text: autoDraw = True
+99.4342 	EXP 	level_text: autoDraw = True
+99.5777 	DATA 	Keypress: up
+99.5848 	EXP 	question_text: autoDraw = False
+99.5848 	EXP 	level_text: autoDraw = False
+99.5848 	EXP 	level_text: text = 0.01862087136662859
+99.5848 	EXP 	question_text: autoDraw = True
+99.5848 	EXP 	level_text: autoDraw = True
+99.7067 	DATA 	Keypress: up
+99.7345 	EXP 	question_text: autoDraw = False
+99.7345 	EXP 	level_text: autoDraw = False
+99.7345 	EXP 	level_text: text = 0.019054607179632383
+99.7345 	EXP 	question_text: autoDraw = True
+99.7345 	EXP 	level_text: autoDraw = True
+99.8554 	DATA 	Keypress: up
+99.8849 	EXP 	question_text: autoDraw = False
+99.8849 	EXP 	level_text: autoDraw = False
+99.8849 	EXP 	level_text: text = 0.01949844599758036
+99.8849 	EXP 	question_text: autoDraw = True
+99.8849 	EXP 	level_text: autoDraw = True
+100.0292 	DATA 	Keypress: up
+100.0352 	EXP 	question_text: autoDraw = False
+100.0352 	EXP 	level_text: autoDraw = False
+100.0352 	EXP 	level_text: text = 0.0199526231496887
+100.0352 	EXP 	question_text: autoDraw = True
+100.0352 	EXP 	level_text: autoDraw = True
+100.1779 	DATA 	Keypress: up
+100.1851 	EXP 	question_text: autoDraw = False
+100.1851 	EXP 	level_text: autoDraw = False
+100.1851 	EXP 	level_text: text = 0.020417379446695198
+100.1851 	EXP 	question_text: autoDraw = True
+100.1851 	EXP 	level_text: autoDraw = True
+100.3062 	DATA 	Keypress: up
+100.3351 	EXP 	question_text: autoDraw = False
+100.3351 	EXP 	level_text: autoDraw = False
+100.3351 	EXP 	level_text: text = 0.020892961308540296
+100.3351 	EXP 	question_text: autoDraw = True
+100.3351 	EXP 	level_text: autoDraw = True
+100.4624 	DATA 	Keypress: up
+100.4689 	EXP 	question_text: autoDraw = False
+100.4689 	EXP 	level_text: autoDraw = False
+100.4689 	EXP 	level_text: text = 0.021379620895022218
+100.4689 	EXP 	question_text: autoDraw = True
+100.4689 	EXP 	level_text: autoDraw = True
+100.6140 	DATA 	Keypress: up
+100.6191 	EXP 	question_text: autoDraw = False
+100.6191 	EXP 	level_text: autoDraw = False
+100.6191 	EXP 	level_text: text = 0.02187761623949542
+100.6191 	EXP 	question_text: autoDraw = True
+100.6191 	EXP 	level_text: autoDraw = True
+100.7633 	DATA 	Keypress: up
+100.7691 	EXP 	question_text: autoDraw = False
+100.7691 	EXP 	level_text: autoDraw = False
+100.7691 	EXP 	level_text: text = 0.022387211385683288
+100.7691 	EXP 	question_text: autoDraw = True
+100.7691 	EXP 	level_text: autoDraw = True
+100.9085 	DATA 	Keypress: up
+100.9359 	EXP 	question_text: autoDraw = False
+100.9359 	EXP 	level_text: autoDraw = False
+100.9359 	EXP 	level_text: text = 0.02290867652767762
+100.9359 	EXP 	question_text: autoDraw = True
+100.9359 	EXP 	level_text: autoDraw = True
+101.0803 	DATA 	Keypress: up
+101.0861 	EXP 	question_text: autoDraw = False
+101.0861 	EXP 	level_text: autoDraw = False
+101.0861 	EXP 	level_text: text = 0.02344228815319911
+101.0861 	EXP 	question_text: autoDraw = True
+101.0861 	EXP 	level_text: autoDraw = True
+101.2250 	DATA 	Keypress: up
+101.2530 	EXP 	question_text: autoDraw = False
+101.2530 	EXP 	level_text: autoDraw = False
+101.2530 	EXP 	level_text: text = 0.02398832919019479
+101.2530 	EXP 	question_text: autoDraw = True
+101.2530 	EXP 	level_text: autoDraw = True
+101.3961 	DATA 	Keypress: up
+101.4031 	EXP 	question_text: autoDraw = False
+101.4031 	EXP 	level_text: autoDraw = False
+101.4031 	EXP 	level_text: text = 0.024547089156850187
+101.4031 	EXP 	question_text: autoDraw = True
+101.4031 	EXP 	level_text: autoDraw = True
+101.5467 	DATA 	Keypress: up
+101.5532 	EXP 	question_text: autoDraw = False
+101.5532 	EXP 	level_text: autoDraw = False
+101.5532 	EXP 	level_text: text = 0.02511886431509568
+101.5532 	EXP 	question_text: autoDraw = True
+101.5532 	EXP 	level_text: autoDraw = True
+101.6965 	DATA 	Keypress: up
+101.7034 	EXP 	question_text: autoDraw = False
+101.7034 	EXP 	level_text: autoDraw = False
+101.7034 	EXP 	level_text: text = 0.025703957827688514
+101.7034 	EXP 	question_text: autoDraw = True
+101.7034 	EXP 	level_text: autoDraw = True
+101.8471 	DATA 	Keypress: up
+101.8536 	EXP 	question_text: autoDraw = False
+101.8536 	EXP 	level_text: autoDraw = False
+101.8536 	EXP 	level_text: text = 0.026302679918953693
+101.8536 	EXP 	question_text: autoDraw = True
+101.8536 	EXP 	level_text: autoDraw = True
+102.0134 	DATA 	Keypress: up
+102.0205 	EXP 	question_text: autoDraw = False
+102.0205 	EXP 	level_text: autoDraw = False
+102.0205 	EXP 	level_text: text = 0.026915348039269028
+102.0205 	EXP 	question_text: autoDraw = True
+102.0205 	EXP 	level_text: autoDraw = True
+102.1642 	DATA 	Keypress: up
+102.1706 	EXP 	question_text: autoDraw = False
+102.1706 	EXP 	level_text: autoDraw = False
+102.1706 	EXP 	level_text: text = 0.027542287033381532
+102.1706 	EXP 	question_text: autoDraw = True
+102.1706 	EXP 	level_text: autoDraw = True
+102.3139 	DATA 	Keypress: up
+102.3204 	EXP 	question_text: autoDraw = False
+102.3204 	EXP 	level_text: autoDraw = False
+102.3204 	EXP 	level_text: text = 0.0281838293126444
+102.3204 	EXP 	question_text: autoDraw = True
+102.3204 	EXP 	level_text: autoDraw = True
+102.8649 	DATA 	Keypress: down
+102.8717 	EXP 	question_text: autoDraw = False
+102.8717 	EXP 	level_text: autoDraw = False
+102.8717 	EXP 	level_text: text = 0.027542287033381532
+102.8717 	EXP 	question_text: autoDraw = True
+102.8717 	EXP 	level_text: autoDraw = True
+103.0492 	DATA 	Keypress: down
+103.0548 	EXP 	question_text: autoDraw = False
+103.0548 	EXP 	level_text: autoDraw = False
+103.0548 	EXP 	level_text: text = 0.026915348039269028
+103.0548 	EXP 	question_text: autoDraw = True
+103.0548 	EXP 	level_text: autoDraw = True
+103.2169 	DATA 	Keypress: down
+103.2220 	EXP 	question_text: autoDraw = False
+103.2220 	EXP 	level_text: autoDraw = False
+103.2220 	EXP 	level_text: text = 0.026302679918953693
+103.2220 	EXP 	question_text: autoDraw = True
+103.2220 	EXP 	level_text: autoDraw = True
+103.3823 	DATA 	Keypress: down
+103.3881 	EXP 	question_text: autoDraw = False
+103.3881 	EXP 	level_text: autoDraw = False
+103.3881 	EXP 	level_text: text = 0.025703957827688514
+103.3881 	EXP 	question_text: autoDraw = True
+103.3881 	EXP 	level_text: autoDraw = True
+103.5319 	DATA 	Keypress: down
+103.5385 	EXP 	question_text: autoDraw = False
+103.5385 	EXP 	level_text: autoDraw = False
+103.5385 	EXP 	level_text: text = 0.02511886431509568
+103.5385 	EXP 	question_text: autoDraw = True
+103.5385 	EXP 	level_text: autoDraw = True
+103.6991 	DATA 	Keypress: down
+103.7054 	EXP 	question_text: autoDraw = False
+103.7054 	EXP 	level_text: autoDraw = False
+103.7054 	EXP 	level_text: text = 0.024547089156850187
+103.7054 	EXP 	question_text: autoDraw = True
+103.7054 	EXP 	level_text: autoDraw = True
+103.8653 	DATA 	Keypress: down
+103.8722 	EXP 	question_text: autoDraw = False
+103.8722 	EXP 	level_text: autoDraw = False
+103.8722 	EXP 	level_text: text = 0.02398832919019479
+103.8722 	EXP 	question_text: autoDraw = True
+103.8722 	EXP 	level_text: autoDraw = True
+104.4997 	DATA 	Keypress: up
+104.5062 	EXP 	question_text: autoDraw = False
+104.5062 	EXP 	level_text: autoDraw = False
+104.5062 	EXP 	level_text: text = 0.024547089156850187
+104.5062 	EXP 	question_text: autoDraw = True
+104.5062 	EXP 	level_text: autoDraw = True
+104.6488 	DATA 	Keypress: up
+104.6563 	EXP 	question_text: autoDraw = False
+104.6563 	EXP 	level_text: autoDraw = False
+104.6563 	EXP 	level_text: text = 0.02511886431509568
+104.6563 	EXP 	question_text: autoDraw = True
+104.6563 	EXP 	level_text: autoDraw = True
+104.8172 	DATA 	Keypress: up
+104.8230 	EXP 	question_text: autoDraw = False
+104.8230 	EXP 	level_text: autoDraw = False
+104.8230 	EXP 	level_text: text = 0.025703957827688514
+104.8230 	EXP 	question_text: autoDraw = True
+104.8230 	EXP 	level_text: autoDraw = True
+104.9607 	DATA 	Keypress: up
+104.9901 	EXP 	question_text: autoDraw = False
+104.9901 	EXP 	level_text: autoDraw = False
+104.9901 	EXP 	level_text: text = 0.026302679918953693
+104.9901 	EXP 	question_text: autoDraw = True
+104.9901 	EXP 	level_text: autoDraw = True
+105.1177 	DATA 	Keypress: up
+105.1235 	EXP 	question_text: autoDraw = False
+105.1235 	EXP 	level_text: autoDraw = False
+105.1235 	EXP 	level_text: text = 0.026915348039269028
+105.1235 	EXP 	question_text: autoDraw = True
+105.1235 	EXP 	level_text: autoDraw = True
+105.2667 	DATA 	Keypress: up
+105.2734 	EXP 	question_text: autoDraw = False
+105.2734 	EXP 	level_text: autoDraw = False
+105.2734 	EXP 	level_text: text = 0.027542287033381532
+105.2734 	EXP 	question_text: autoDraw = True
+105.2734 	EXP 	level_text: autoDraw = True
+105.4131 	DATA 	Keypress: up
+105.4406 	EXP 	question_text: autoDraw = False
+105.4406 	EXP 	level_text: autoDraw = False
+105.4406 	EXP 	level_text: text = 0.0281838293126444
+105.4406 	EXP 	question_text: autoDraw = True
+105.4406 	EXP 	level_text: autoDraw = True
+105.9293 	DATA 	Keypress: escape
+106.7799 	DATA 	Keypress: escape
+107.0596 	EXP 	window1: mouseVisible = True

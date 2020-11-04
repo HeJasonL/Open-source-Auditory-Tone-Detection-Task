@@ -1,0 +1,78 @@
+2.6538 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+28.3843 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+28.3845 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E9BDC21160>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E9BDC779E8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+28.3846 	EXP 	window1: recordFrameIntervals = False
+28.5576 	EXP 	window1: recordFrameIntervals = True
+28.6241 	WARNING 	t of last frame was 26.49ms (=1/37)
+28.6908 	WARNING 	t of last frame was 26.85ms (=1/37)
+28.7576 	WARNING 	t of last frame was 26.70ms (=1/37)
+28.8243 	WARNING 	t of last frame was 26.97ms (=1/37)
+28.8910 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+30.2114 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+30.4545 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='press space to start\n', units='height', win=Window(...), wrapWidth=1)
+30.4783 	EXP 	Sound sound_1 set volume 1.000
+30.4887 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.5434 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text="'Does your db SPL meter read 113 db SPL?'", units='height', win=Window(...), wrapWidth=1)
+30.5671 	DATA 	Mouse: Left button down, pos=(852,343)
+30.5672 	DATA 	Mouse:  Left button up, pos=(852,343)
+30.5694 	EXP 	text: autoDraw = True
+30.5694 	EXP 	text: autoDraw = False
+30.6313 	DATA 	Keypress: space
+30.6427 	WARNING 	Increasing number of minimum required reversals to the number of step sizes, (5).
+30.6586 	EXP 	text: autoDraw = False
+30.6586 	EXP 	text_2: text = 0.5
+30.6586 	EXP 	text_2: autoDraw = True
+30.6586 	EXP 	text_3: autoDraw = True
+31.6650 	EXP 	text_3: autoDraw = False
+33.0971 	DATA 	Keypress: u
+33.1327 	EXP 	text_2: autoDraw = False
+33.1327 	EXP 	text_3: autoDraw = False
+33.1327 	EXP 	text_2: text = 1
+33.1327 	EXP 	text_2: autoDraw = True
+33.1327 	EXP 	text_3: autoDraw = True
+34.1327 	EXP 	text_3: autoDraw = False
+35.3526 	DATA 	Keypress: d
+35.3559 	EXP 	text_2: autoDraw = False
+35.3559 	EXP 	text_3: autoDraw = False
+35.3559 	EXP 	text_2: text = 0.15848931924611132
+35.3559 	EXP 	text_2: autoDraw = True
+35.3559 	EXP 	text_3: autoDraw = True
+35.7438 	DATA 	Keypress: d
+35.7488 	EXP 	text_2: autoDraw = False
+35.7488 	EXP 	text_3: autoDraw = False
+35.7488 	EXP 	text_2: text = 0.02511886431509579
+35.7488 	EXP 	text_2: autoDraw = True
+35.7488 	EXP 	text_3: autoDraw = True
+36.6753 	DATA 	Keypress: u
+36.6805 	EXP 	text_2: autoDraw = False
+36.6805 	EXP 	text_3: autoDraw = False
+36.6805 	EXP 	text_2: text = 0.0630957344480193
+36.6805 	EXP 	text_2: autoDraw = True
+36.6805 	EXP 	text_3: autoDraw = True
+37.0104 	DATA 	Keypress: u
+37.0152 	EXP 	text_2: autoDraw = False
+37.0152 	EXP 	text_3: autoDraw = False
+37.0152 	EXP 	text_2: text = 0.1584893192461113
+37.0152 	EXP 	text_2: autoDraw = True
+37.0152 	EXP 	text_3: autoDraw = True
+38.0276 	EXP 	text_3: autoDraw = False
+38.2906 	DATA 	Keypress: d
+38.2954 	EXP 	text_2: autoDraw = False
+38.2954 	EXP 	text_3: autoDraw = False
+38.2954 	EXP 	text_2: text = 0.0630957344480193
+38.2954 	EXP 	text_2: autoDraw = True
+38.2954 	EXP 	text_3: autoDraw = True
+38.7315 	DATA 	Keypress: d
+38.7478 	EXP 	text_2: autoDraw = False
+38.7478 	EXP 	text_3: autoDraw = False
+38.7478 	EXP 	text_2: text = 0.02511886431509579
+38.7478 	EXP 	text_2: autoDraw = True
+38.7478 	EXP 	text_3: autoDraw = True
+39.4208 	DATA 	Keypress: escape
+39.6664 	EXP 	window1: mouseVisible = True

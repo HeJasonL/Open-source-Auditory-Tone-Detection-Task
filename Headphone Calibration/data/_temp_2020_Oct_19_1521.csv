@@ -1,0 +1,4 @@
+﻿trials.thisTrialN,trials.stepSize,trials.intensity,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text.started,text.stopped,text_2.started,text_2.stopped,sound_1.started,sound_1.stopped,trials.response,key_resp.rt,key_resp.started,key_resp.stopped,question_text.started,question_text.stopped,level_text.started,level_text.stopped,participant,input,session,date,expName,psychopyVersion,frameRate,
+,,,space,0.7942174000199884,16.896960800047964,None,,,,,,,,,,,,,,,,0.2,001,2020_Oct_19_1521,temp,2020.1.3,None,
+0,0.8,0.1,,,,,16.896960800047964,None,16.896960800047964,None,17.70815836667704,None,0,2.013595200027339,17.70808609999949,None,17.70808609999949,None,17.70808609999949,None,,0.2,001,2020_Oct_19_1521,temp,2020.1.3,None,
+1,0.8,0.6309573444801934,,,,,,,,,19.748914466709053,None,0,1.9676309000351466,19.751151800039224,None,19.751151800039224,None,19.751151800039224,None,,0.2,001,2020_Oct_19_1521,temp,2020.1.3,None,
