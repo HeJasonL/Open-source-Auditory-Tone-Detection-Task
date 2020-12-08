@@ -5,4 +5,5 @@
 data/
 .DS_Store
 *_lastrun.py
-
+temp.py
+temp.psyexp
