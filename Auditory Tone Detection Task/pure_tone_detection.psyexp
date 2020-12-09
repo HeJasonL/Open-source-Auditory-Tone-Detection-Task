@@ -178,7 +178,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="ISI" valType="str"/>
+        <Param name="text" updates="constant" val="$ISI_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -437,7 +437,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="10" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="In which interval did you hear the tone?&amp;#10;1 OR 2?" valType="str"/>
+        <Param name="text" updates="constant" val="$PROBE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -466,8 +466,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="feedback = &quot;defaultFeedback&quot;" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="if ((decisionKey.keys[0] === corrAns.toString())) {&amp;#10;    feedback = &quot;Correct&quot;;&amp;#10;}&amp;#10;if ((decisionKey.keys[0] !== corrAns.toString())) {&amp;#10;    feedback = &quot;Incorrect&quot;;&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="if decisionKey.keys[0] == str(corrAns):&amp;#10;   feedback = &quot;Correct&quot; &amp;#10;&amp;#10;if decisionKey.keys[0] != str(corrAns):&amp;#10;   feedback = &quot;Incorrect&quot; &amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((decisionKey.keys[0] === corrAns.toString())) {&amp;#10;    feedback = CORRECT_TXT;&amp;#10;}&amp;#10;if ((decisionKey.keys[0] !== corrAns.toString())) {&amp;#10;    feedback = INCORRECT_TXT;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if decisionKey.keys[0] == str(corrAns):&amp;#10;   feedback = CORRECT_TXT&amp;#10;&amp;#10;if decisionKey.keys[0] != str(corrAns):&amp;#10;   feedback = INCORRECT_TXT&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -567,7 +567,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Welcome to the Tone Detection task&amp;#10;&amp;#10;Press SPACE to begin" valType="str"/>
+        <Param name="text" updates="constant" val="$WELCOME_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -605,6 +605,23 @@
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="welcome_code" valType="code"/>
+      </CodeComponent>
+      <CodeComponent name="translation_code">
+        <Param name="Before Experiment" updates="constant" val="### START DEFINE MESSAGES TO PARTICIPANT ###&amp;#10;# messages are defined in order of appearance in&amp;#10;# the experiment&amp;#10;&amp;#10;# note that '\n' means 'newline', so use&amp;#10;# a \n every time you want the immediately following&amp;#10;# character to start on a new line&amp;#10;&amp;#10;WELCOME_TXT = (&amp;#10;    &quot;Welcome to the Tone Detection task\n\n&quot;&amp;#10;    &quot;Press SPACE to begin&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT1 = (&amp;#10;    &quot;When you begin the task, you will be presented &quot;&amp;#10;    &quot;with two light bulbs on each side of the screen.&quot;&amp;#10;)&amp;#10;&amp;#10;CONTINUE_TXT = (&amp;#10;    &quot;PRESS SPACE to continue&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT2 = (&amp;#10;    &quot;In each trial, the light bulbs will blink&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT3 = (&amp;#10;    &quot;The left light bulb or 'light bulb 1' will always blink first&quot;&amp;#10;)&amp;#10;&amp;#10;CONTINUE_BULB1_TXT = (&amp;#10;    &quot;Press SPACE to see light bulb 1 blink&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT4 = (&amp;#10;    &quot;After a brief pause, the second light bulb &quot; &amp;#10;    &quot;'light bulb 2' will also blink&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT5 = (&amp;#10;    &quot;In each trial, ONE of the light bulbs will also make a noise&quot;&amp;#10;)&amp;#10;&amp;#10;CONTINUE_HEARSOUND_TXT = (&amp;#10;    &quot;press SPACEBAR to hear this sound&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT6 = (&amp;#10;    &quot;Remember, although BOTH light bulbs will blink, &quot;&amp;#10;    &quot;only ONE light bulb will make a noise! &quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT7 = (&amp;#10;    &quot;It is your job to decide which light bulb made &quot;&amp;#10;    &quot;the noise by responding your the number pad.&quot;&amp;#10;)&amp;#10;&amp;#10;INSTRUCT_TXT8 = (&amp;#10;    &quot;IF you think that 'light bulb 1' made the noise, press '1'\n&quot;&amp;#10;    &quot;OR IF you think 'light bulb 2' made the noise, press '2'&quot;&amp;#10;)&amp;#10;&amp;#10;BEGIN_PRACTICE_TXT = (&amp;#10;    &quot;press 'p' to begin the practice trials!&quot;&amp;#10;)&amp;#10;&amp;#10;# message displayed during inter-stimulus interval&amp;#10;# (put empty string, &quot;&quot;, if you don't want any message&amp;#10;# to be displayed during ISI)&amp;#10;ISI_TXT = (&amp;#10;    &quot;ISI&quot;&amp;#10;)&amp;#10;&amp;#10;# feedback messages displayed depending on participant&amp;#10;# response&amp;#10;CORRECT_TXT = (&amp;#10;    &quot;Correct&quot;&amp;#10;)&amp;#10;INCORRECT_TXT = (&amp;#10;    &quot;Incorrect&quot;&amp;#10;)&amp;#10;&amp;#10;PROBE_TXT = (&amp;#10;    &quot;In which interval did you hear the tone?\n&quot;&amp;#10;    &quot;1 OR 2?&quot;&amp;#10;)&amp;#10;&amp;#10;PRACTICE_COMPLETE_TXT = (&amp;#10;    &quot;You have now completed the practice trials!\n&quot;&amp;#10;    &quot;If you understand the task, press 'c' to continue.\n&quot;&amp;#10;    &quot;If you do not understand the task, please ask for some help!&quot;&amp;#10;)&amp;#10;&amp;#10;BEGIN_TEST_TXT = (&amp;#10;    &quot;Upon pressing 'b', you will begin the testing session.\n\n&quot;&amp;#10;    &quot;Remember, in the testing session trials, the sound the &quot;&amp;#10;    &quot;light bulb makes will be shorter than the sounds made in the practice trials.\n\n&quot;&amp;#10;    &quot;The trials will also be a little faster, so stay alert!\n\n&quot;&amp;#10;    &quot;Press 'b' to begin&quot;&amp;#10;)&amp;#10;&amp;#10;END_TXT = (&amp;#10;    &quot;Thank you for completing the task!\n\n&quot;&amp;#10;    &quot;Press ‘e’ to exit&quot;&amp;#10;)&amp;#10;&amp;#10;### END DEFINE MESSAGES TO PARTICIPANT ###" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="WELCOME_TXT = &quot;Welcome to the Tone Detection task\n\nPress SPACE to begin&quot;;&amp;#10;INSTRUCT_TXT1 = &quot;When you begin the task, you will be presented with two light bulbs on each side of the screen.&quot;;&amp;#10;CONTINUE_TXT = &quot;PRESS SPACE to continue&quot;;&amp;#10;INSTRUCT_TXT2 = &quot;In each trial, the light bulbs will blink&quot;;&amp;#10;INSTRUCT_TXT3 = &quot;The left light bulb or 'light bulb 1' will always blink first&quot;;&amp;#10;CONTINUE_BULB1_TXT = &quot;Press SPACE to see light bulb 1 blink&quot;;&amp;#10;INSTRUCT_TXT4 = &quot;After a brief pause, the second light bulb 'light bulb 2' will also blink&quot;;&amp;#10;INSTRUCT_TXT5 = &quot;In each trial, ONE of the light bulbs will also make a noise&quot;;&amp;#10;CONTINUE_HEARSOUND_TXT = &quot;press SPACEBAR to hear this sound&quot;;&amp;#10;INSTRUCT_TXT6 = &quot;Remember, although BOTH light bulbs will blink, only ONE light bulb will make a noise! &quot;;&amp;#10;INSTRUCT_TXT7 = &quot;It is your job to decide which light bulb made the noise by responding your the number pad.&quot;;&amp;#10;INSTRUCT_TXT8 = &quot;IF you think that 'light bulb 1' made the noise, press '1'\nOR IF you think 'light bulb 2' made the noise, press '2'&quot;;&amp;#10;BEGIN_PRACTICE_TXT = &quot;press 'p' to begin the practice trials!&quot;;&amp;#10;ISI_TXT = &quot;ISI&quot;;&amp;#10;CORRECT_TXT = &quot;Correct&quot;;&amp;#10;INCORRECT_TXT = &quot;Incorrect&quot;;&amp;#10;PROBE_TXT = &quot;In which interval did you hear the tone?\n1 OR 2?&quot;;&amp;#10;PRACTICE_COMPLETE_TXT = &quot;You have now completed the practice trials!\nIf you understand the task, press 'c' to continue.\nIf you do not understand the task, please ask for some help!&quot;;&amp;#10;BEGIN_TEST_TXT = &quot;Upon pressing 'b', you will begin the testing session.\n\nRemember, in the testing session trials, the sound the light bulb makes will be shorter than the sounds made in the practice trials.\n\nThe trials will also be a little faster, so stay alert!\n\nPress 'b' to begin&quot;;&amp;#10;END_TXT = &quot;Thank you for completing the task!\n\nPress \u2018e\u2019 to exit&quot;;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="translation_code" valType="code"/>
       </CodeComponent>
     </Routine>
     <Routine name="practice"/>
@@ -679,7 +696,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="When you begin  the task, you will be presented with two light bulbs on each side of the screen. &amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT1&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -703,7 +720,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="PRESS SPACE to continue" valType="str"/>
+        <Param name="text" updates="constant" val="$CONTINUE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -797,7 +814,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="In each trial, the light bulbs will blink" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT2" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -821,7 +838,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="PRESS SPACE to continue" valType="str"/>
+        <Param name="text" updates="constant" val="$CONTINUE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -915,7 +932,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="The left light bulb or 'light bulb 1' will always blink first" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT3" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -939,7 +956,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Press SPACE to see light bulb 1 blink" valType="str"/>
+        <Param name="text" updates="constant" val="$CONTINUE_BULB1_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1110,7 +1127,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="After a brief pause, the second light bulb 'light bulb 2' will also blink" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT4" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1134,7 +1151,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Press SPACE to continue" valType="str"/>
+        <Param name="text" updates="constant" val="$CONTINUE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1178,7 +1195,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="In each trial, ONE of the light bulbs will also make a noise&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT5&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1202,7 +1219,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="press SPACEBAR to hear this sound" valType="str"/>
+        <Param name="text" updates="constant" val="$CONTINUE_HEARSOUND_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1330,7 +1347,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Remember, although BOTH light bulbs will blink, only ONE light bulb will make a noise! &amp;#10;&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT6&amp;#10;&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1354,7 +1371,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="It is your job to decide which light bulb made the noise by responding your the number pad.&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT7&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1378,7 +1395,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="&amp;#10;IF you think that 'light bulb 1' made the noise, press '1'&amp;#10;OR IF you think 'light bulb 2' made the noise, press '2'&amp;#10;&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$INSTRUCT_TXT8&amp;#10;&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1402,7 +1419,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="press 'p' to begin the practice trials!" valType="str"/>
+        <Param name="text" updates="constant" val="$BEGIN_PRACTICE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1705,7 +1722,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="10" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="In which interval did you hear the tone?&amp;#10;1 OR 2?" valType="str"/>
+        <Param name="text" updates="constant" val="$PROBE_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1734,8 +1751,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="feedback = &quot;defaultFeedback&quot;" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="if ((decisionKey_2.keys[0] === corrAns.toString())) {&amp;#10;    feedback = &quot;Correct&quot;;&amp;#10;}&amp;#10;if ((decisionKey_2.keys[0] !== corrAns.toString())) {&amp;#10;    feedback = &quot;Incorrect&quot;;&amp;#10;}&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="if decisionKey_2.keys[0] == str(corrAns):&amp;#10;   feedback = &quot;Correct&quot; &amp;#10;&amp;#10;if decisionKey_2.keys[0] != str(corrAns):&amp;#10;   feedback = &quot;Incorrect&quot; &amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="if ((decisionKey_2.keys[0] === corrAns.toString())) {&amp;#10;    feedback = CORRECT_TXT;&amp;#10;}&amp;#10;if ((decisionKey_2.keys[0] !== corrAns.toString())) {&amp;#10;    feedback = INCORRECT_TXT;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if decisionKey_2.keys[0] == str(corrAns):&amp;#10;   feedback = CORRECT_TXT&amp;#10;&amp;#10;if decisionKey_2.keys[0] != str(corrAns):&amp;#10;   feedback = INCORRECT_TXT&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -1792,7 +1809,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="ISI" valType="str"/>
+        <Param name="text" updates="constant" val="$ISI_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1991,7 +2008,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="You have now completed the practice trials!&amp;#10;&amp;#10;If you understand the task, press 'c' to continue. &amp;#10;&amp;#10;If you do not understand the task, please ask for some help!&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="$PRACTICE_COMPLETE_TXT&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -2035,7 +2052,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Upon pressing 'b', you will begin the testing session. &amp;#10;&amp;#10;Remember, in the testing session trials, the sound the light bulb makes will be shorter than the sounds made in the practice trials. &amp;#10;&amp;#10;The trials will also be a little faster, so stay alert!&amp;#10;&amp;#10;Press 'b' to begin" valType="str"/>
+        <Param name="text" updates="constant" val="$BEGIN_TEST_TXT" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -2079,7 +2096,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Thank you for completing the task! &amp;#10;&amp;#10;Press ‘e’ to exit " valType="extendedStr"/>
+        <Param name="text" updates="constant" val="$END_TXT" valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
