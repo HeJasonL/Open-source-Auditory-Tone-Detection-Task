@@ -1,0 +1,16 @@
+Auditory Gating Task Translation Instructions
+======================================================
+
+Finding where participant messages are defined
+------------------------------------------------------
+All messages displayed to the participant during the experiment are defined/specified in a single code snippet. To find it, open up the 'pure_tone_detection.psyexp' file with PsychoPy Builder. Go to the very first routine ('welcome'). Open up the code snippet named 'translation_code'. Go to the 'Before Experiment' tab. Here you will see a number of messages defined. 
+
+The variable names (the names to the left of the equals signs, like WELCOME_TXT) **must** stay the same, do not change them. The messages themselves are what you want to change. As soon as you've made changes in this code snippet, the experiment will use the messages you've specified.
+
+Putting together your own translation
+------------------------------------------------------
+1. To get started, make a copy of one of the translation documents already in this folder, like the english translation, and give it a fitting name (eg 'estonian_translation.txt'). 
+
+2. Go through your document and translate all messages, using the same formatting as in the original (ie enclosing messages in quotation marks and using \n characters for starting new lines). Once you're done, save the document. 
+
+3. Open up the 'Before Experiment' tab of the 'translation_code' snippet (see above) and delete all the text it contains. Finally, highlight all the text in your translation document, then copy and paste over to the snippet 'Before Experiment' tab. Click 'OK' in the code snippet's dialog box and save the experiment in PsychoPy. Now you should be all done!

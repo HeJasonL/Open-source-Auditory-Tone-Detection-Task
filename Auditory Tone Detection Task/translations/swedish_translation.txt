@@ -1,0 +1,107 @@
+### START DEFINE MESSAGES TO PARTICIPANT ###
+# messages are defined in order of appearance in
+# the experiment
+
+# note that '\n' means 'newline', so use
+# a \n every time you want the immediately following
+# character to start on a new line
+
+WELCOME_TXT = (
+    "Välkommen till tonuppfattningstestet\n\n"
+    "Tryck SPACE för att börja"
+)
+
+INSTRUCT_TXT1 = (
+    "När du påbörjar testet kommer du att visas "
+    "två lampor på varsin sida av skärmen."
+)
+
+CONTINUE_TXT = (
+    "Tryck SPACE för att fortsätta"
+)
+
+INSTRUCT_TXT2 = (
+    "Under varje testomgång kommer lamporna att blinka"
+)
+
+INSTRUCT_TXT3 = (
+    "Den vänstra lampan, eller 'lampa 1', kommer alltid att blinka först"
+)
+
+CONTINUE_BULB1_TXT = (
+    "Tryck SPACE för att se lampa 1 blinka"
+)
+
+INSTRUCT_TXT4 = (
+    "Efter en kort paus kommer den högra lampan "
+    "att också blinka"
+)
+
+INSTRUCT_TXT5 = (
+    "Under varje testomgång kommer EN av lamporna också att göra ett ljud"
+)
+
+CONTINUE_HEARSOUND_TXT = (
+    "Tryck SPACE för att höra detta ljudet"
+)
+
+INSTRUCT_TXT6 = (
+    "Kom ihåg att fastän BÅDA lamporna kommer att blinka, "
+    "så kommer bara EN lampa att göra ett ljud!"
+)
+
+INSTRUCT_TXT7 = (
+    "Det är din uppgift att avgöra vilken lampa "
+    "som gjorde ljudet genom att svara med sifferknapparna."
+)
+
+INSTRUCT_TXT8 = (
+    "OM du tror att 'lampa 1' gjorde ljudet, tryck '1'\n"
+    "ELLER OM du tror att 'lampa 2' gjorde ljudet, tryck '2'"
+)
+
+BEGIN_PRACTICE_TXT = (
+    "Tryck 'p' för att starta övningsrundor"
+)
+
+# message displayed during inter-stimulus interval
+# (put empty string, "", if you don't want any message
+# to be displayed during ISI)
+ISI_TXT = (
+    "PAUS"
+)
+
+# feedback messages displayed depending on participant
+# response
+CORRECT_TXT = (
+    "Rätt"
+)
+INCORRECT_TXT = (
+    "Fel"
+)
+
+PROBE_TXT = (
+    "Under vilket intervall hörde du tonen?\n"
+    "1 ELLER 2?"
+)
+
+PRACTICE_COMPLETE_TXT = (
+    "Du har nu avslutat övningsrundorna!\n"
+    "Om du förstår uppgiften, tryck 'c' för att fortsätta.\n"
+    "Om du inte förstår uppgiften, vänligen be om hjälp!"
+)
+
+BEGIN_TEST_TXT = (
+    "När du trycker på 'b' så kommer testet att påbörjas.\n\n"
+    "Kom ihåg att under själva testet så kommer ljudet som "
+    "lamporna gör att vara kortare än ljuden i övningsrundorna.\n\n"
+    "Rundorna kommer också att vara lite snabbare, så håll dig på alerten!\n\n"
+    "Tryck 'b' för att börja"
+)
+
+END_TXT = (
+    "Tack för att du slutförde testet!\n\n"
+    "Tryck 'e' för att avsluta."
+)
+
+### END DEFINE MESSAGES TO PARTICIPANT ###
