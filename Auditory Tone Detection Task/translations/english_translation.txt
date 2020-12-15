@@ -1,0 +1,107 @@
+### START DEFINE MESSAGES TO PARTICIPANT ###
+# messages are defined in order of appearance in
+# the experiment
+
+# note that '\n' means 'newline', so use
+# a \n every time you want the immediately following
+# character to start on a new line
+
+WELCOME_TXT = (
+    "Welcome to the Tone Detection task\n\n"
+    "Press SPACE to begin"
+)
+
+INSTRUCT_TXT1 = (
+    "When you begin the task, you will be presented "
+    "with two light bulbs on each side of the screen."
+)
+
+CONTINUE_TXT = (
+    "PRESS SPACE to continue"
+)
+
+INSTRUCT_TXT2 = (
+    "In each trial, the light bulbs will blink"
+)
+
+INSTRUCT_TXT3 = (
+    "The left light bulb or 'light bulb 1' will always blink first"
+)
+
+CONTINUE_BULB1_TXT = (
+    "Press SPACE to see light bulb 1 blink"
+)
+
+INSTRUCT_TXT4 = (
+    "After a brief pause, the second light bulb " 
+    "'light bulb 2' will also blink"
+)
+
+INSTRUCT_TXT5 = (
+    "In each trial, ONE of the light bulbs will also make a noise"
+)
+
+CONTINUE_HEARSOUND_TXT = (
+    "press SPACEBAR to hear this sound"
+)
+
+INSTRUCT_TXT6 = (
+    "Remember, although BOTH light bulbs will blink, "
+    "only ONE light bulb will make a noise! "
+)
+
+INSTRUCT_TXT7 = (
+    "It is your job to decide which light bulb made "
+    "the noise by responding your the number pad."
+)
+
+INSTRUCT_TXT8 = (
+    "IF you think that 'light bulb 1' made the noise, press '1'\n"
+    "OR IF you think 'light bulb 2' made the noise, press '2'"
+)
+
+BEGIN_PRACTICE_TXT = (
+    "press 'p' to begin the practice trials!"
+)
+
+# message displayed during inter-stimulus interval
+# (put empty string, "", if you don't want any message
+# to be displayed during ISI)
+ISI_TXT = (
+    "ISI"
+)
+
+# feedback messages displayed depending on participant
+# response
+CORRECT_TXT = (
+    "Correct"
+)
+INCORRECT_TXT = (
+    "Incorrect"
+)
+
+PROBE_TXT = (
+    "In which interval did you hear the tone?\n"
+    "1 OR 2?"
+)
+
+PRACTICE_COMPLETE_TXT = (
+    "You have now completed the practice trials!\n"
+    "If you understand the task, press 'c' to continue.\n"
+    "If you do not understand the task, please ask for some help!"
+)
+
+BEGIN_TEST_TXT = (
+    "Upon pressing 'b', you will begin the testing session.\n\n"
+    "Remember, in the testing session trials, the sound the "
+    "light bulb makes will be shorter than the sounds made in the practice trials.\n\n"
+    "The trials will also be a little faster, so stay alert!\n\n"
+    "Press 'b' to begin"
+)
+
+END_TXT = (
+    "Thank you for completing the task!\n\n"
+    "Press ‘e’ to exit"
+)
+
+### END DEFINE MESSAGES TO PARTICIPANT ###
