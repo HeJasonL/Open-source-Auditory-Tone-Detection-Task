@@ -1,0 +1,129 @@
+### START DEFINE MESSAGES TO PARTICIPANT ###
+	# messages are defined in order of appearance in
+	# the experiment
+	
+
+	# note that '\n' means 'newline', so use
+	# a \n every time you want the immediately following
+	# character to start on a new line
+	
+
+	WELCOME_TXT = (
+	    "Welkom bij de toon-detectie taak!\n\n"
+	    "Druk SPATIE om door te gaan"
+	)
+	
+
+	INSTRUCT_TXT1 = (
+	    "Wanneer je de taak begint, dan zie je "
+	    "twee lampjes aan beide kanten van het scherm.
+	)
+	
+
+	CONTINUE_TXT = (
+	    " Druk SPATIE om door te gaan "
+	)
+	
+
+	INSTRUCT_TXT2 = (
+	    "In iedere trial zullen de lampjes knipperen"
+	)
+	
+
+	INSTRUCT_TXT3 = (
+	    "Het linker lampje, of “light bulb 1” knippert altijd eerst"
+	)
+	
+
+	CONTINUE_BULB1_TXT = (
+	    " Druk SPATIE om ligh bulb 1 (licht 1) te zien knipperen "
+	)
+	
+
+	INSTRUCT_TXT4 = (
+	    "Na een korte pauze zal het rechter lampje " 
+	    "'light bulb 2' ook knipperen"
+	)
+	
+
+	INSTRUCT_TXT5 = (
+	    "In iedere trial zal je een toon horen terwijl EEN van de lampjes knippert."
+	)
+	
+
+	CONTINUE_HEARSOUND_TXT = (
+	    " Druk SPATIE om deze toon te horen "
+	)
+	
+
+	INSTRUCT_TXT6 = (
+	    "Onthoud, alhoewel beide lampjes zullen knipperen"
+	    "je hoort de toon maar tijdens EEN knipper"
+	)
+	
+
+	INSTRUCT_TXT7 = (
+	    "Je moet kiezen tijdens welke lamp de toon "
+	    "speelde door te reageren met het number pad"
+	)
+	
+
+	INSTRUCT_TXT8 = (
+	    "ALS je denkt dat de toon speelde tijdens lamp 1 (links), druk '1'\n"
+	    "OF ALS je denkt dat de toon speelde tijdens lamp 2 (rechts), druk dan ‘2’"
+	)
+	
+
+	BEGIN_PRACTICE_TXT = (
+	    "Druk ‘p’ om eerst te oefenen!"
+	)
+	
+
+	# message displayed during inter-stimulus interval
+	# (put empty string, "", if you don't want any message
+	# to be displayed during ISI)
+	ISI_TXT = (
+	    "ISI"
+	)
+	
+
+	# feedback messages displayed depending on participant
+	# response
+	CORRECT_TXT = (
+	    "Correct"
+	)
+	INCORRECT_TXT = (
+	    "Incorrect"
+	)
+	
+
+	PROBE_TXT = (
+	    "Tijdens welke lamp hoorde je de toon?\n"
+	    "1 OF 2?"
+	)
+	
+
+	PRACTICE_COMPLETE_TXT = (
+	    "Je bent nu klaar met oefenen!\n"
+	    "Als je de taak begrijpt, druk dan ‘c’ om door te gaan!\n"
+	    "Als je taak niet begrijpt, vraag dan nu om hulp!"
+	)
+	
+
+	BEGIN_TEST_TXT = (
+	    "De taak begint wanneer je op ‘b’ drukt.\n\n"
+	    "Onthoud, in de echte taak zijn de tonen tijdens de lampjes "
+	    "korter dan tijdens de oefening.\n\n"
+	    "De trials gaan ook iets je sneller, dus blijf alert!\n\n"
+	    "Druk 'b' om te beginnen"
+	)
+	
+
+	END_TXT = (
+	    "Dankjewel voor het meedoen met deze taak!\n\n"
+	    "Druk ‘e’ om te stoppen"
+	)
+	
+
+	### END DEFINE MESSAGES TO PARTICIPANT ###
+
