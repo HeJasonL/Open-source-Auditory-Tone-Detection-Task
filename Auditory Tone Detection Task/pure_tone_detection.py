@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.8),
-    on Thu Feb  4 11:13:15 2021
+    on Wed Apr  7 10:04:20 2021
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -27,6 +27,13 @@ import os  # handy system and path functions
 import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
+
+instructions = data.importConditions(
+                'translations/translations.xlsx'
+                )
+print(instructions)
+
+
 
 ### START DEFINE MESSAGES TO PARTICIPANT ###
 # messages are defined in order of appearance in
