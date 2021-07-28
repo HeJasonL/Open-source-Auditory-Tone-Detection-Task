@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2020.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2020.2.8">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
@@ -107,8 +107,8 @@
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Experiment" updates="constant" val="level = expInfo['level']" valType="extendedCode"/>
         <Param name="Begin JS Experiment" updates="constant" val="level = expInfo[&quot;level&quot;];&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="level = Number.parseFloat(level);&amp;#10;desired_db = Number.parseInt(desired_db);&amp;#10;psychopy_input_value = ((level / Math.pow(10, (117 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;console.log(&quot;level&quot;, level);&amp;#10;console.log(&quot;desired_db&quot;, desired_db);&amp;#10;console.log(&quot;psychopy_input_value&quot;, psychopy_input_value);&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="&amp;#10;#convert variable types to integer&amp;#10;level = float(level)&amp;#10;desired_db = int(desired_db)&amp;#10;&amp;#10;#estimate psychopy value to produce given dB&amp;#10;#level is the value inserted at the beginning, which should have come from headphone_calibation.psyexp&amp;#10;#desired dB are the list of desired dB output in the calibration.xlsx file&amp;#10;&amp;#10;&amp;#10;psychopy_input_value = ((level)/(10**(117/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;#print&amp;#10;print('level', level)&amp;#10;print('desired_db', desired_db)&amp;#10;print('psychopy_input_value', psychopy_input_value)&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="level = Number.parseFloat(level);&amp;#10;desired_db = Number.parseInt(desired_db);&amp;#10;psychopy_input_value = ((level / Math.pow(10, (113 / 20))) * Math.pow(10, (desired_db / 20)));&amp;#10;console.log(&quot;level&quot;, level);&amp;#10;console.log(&quot;desired_db&quot;, desired_db);&amp;#10;console.log(&quot;psychopy_input_value&quot;, psychopy_input_value);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="&amp;#10;#convert variable types to integer&amp;#10;level = float(level)&amp;#10;desired_db = int(desired_db)&amp;#10;&amp;#10;#estimate psychopy value to produce given dB&amp;#10;#level is the value inserted at the beginning, which should have come from headphone_calibation.psyexp&amp;#10;#desired dB are the list of desired dB output in the calibration.xlsx file&amp;#10;&amp;#10;&amp;#10;psychopy_input_value = ((level)/(10**(113/20))*(10**(desired_db/20)))&amp;#10;&amp;#10;#print&amp;#10;print('level', level)&amp;#10;print('desired_db', desired_db)&amp;#10;print('psychopy_input_value', psychopy_input_value)&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
